@@ -1,0 +1,502 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19045.2486; Version 2009; 64bit' Language: 'ru' Physical Memory: 7805 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+G:/Учеба/C#/Unity задачи/GAMESpaceWorld
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+58184
+Successfully changed project path to: G:/Учеба/C#/Unity задачи/GAMESpaceWorld
+G:/Учеба/C#/Unity задачи/GAMESpaceWorld
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 294.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Учеба/C#/Unity задачи/GAMESpaceWorld/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x156)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005890 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 222.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.494 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.596 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 2.65 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 16.490600 ms (FindLiveObjects: 0.339000 ms CreateObjectMapping: 0.303800 ms MarkObjects: 15.673700 ms  DeleteObjects: 0.170600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/8Bit Music - 062022/4. Track 4.wav
+  artifactKey: Guid(51a4f1157b7ff1449b5e5cf064d584c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/4. Track 4.wav using Guid(51a4f1157b7ff1449b5e5cf064d584c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5b5a7c5fe8c2d14b9b2da6a4a65578') in 0.348395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/8Bit Music - 062022/5. Track 5.wav
+  artifactKey: Guid(06906d718be5b6a4cb2df8732bf39832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/5. Track 5.wav using Guid(06906d718be5b6a4cb2df8732bf39832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf793663eb6752026f986ea543a41ff') in 0.025948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/8Bit Music - 062022
+  artifactKey: Guid(4c46bb3cd97794a47a0f25e50455d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022 using Guid(4c46bb3cd97794a47a0f25e50455d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cba854b6a17f747936d6511f2e3d1b7') in 0.007900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/8Bit Music - 062022/10. Track 10.wav
+  artifactKey: Guid(1f2ad53bacc245642854dbdc8ea71a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/10. Track 10.wav using Guid(1f2ad53bacc245642854dbdc8ea71a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53808404c9d9747f85e9fd186b804b5c') in 0.023354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/8Bit Music - 062022/6. Track 6.wav
+  artifactKey: Guid(89f935015cc98724a862a586326fdf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/6. Track 6.wav using Guid(89f935015cc98724a862a586326fdf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be2c32baf24331014425dd7d8a83e67') in 0.119740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/8Bit Music - 062022/2. Track 2.wav
+  artifactKey: Guid(fc5af015011ea3745b7f78ea1dd1049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/2. Track 2.wav using Guid(fc5af015011ea3745b7f78ea1dd1049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b617901bcb13a3083d3d4b3ded934d') in 0.020703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/8Bit Music - 062022/8. Track 8.wav
+  artifactKey: Guid(bef0cef2ded0f0645ad90c6e5bdd4965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/8. Track 8.wav using Guid(bef0cef2ded0f0645ad90c6e5bdd4965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34d12ddb8358298c30e8f9b47d82fad') in 0.019621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/8Bit Music - 062022/7. Track 7.wav
+  artifactKey: Guid(0ad591428b0c18c4da51fe3bf98dbc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/7. Track 7.wav using Guid(0ad591428b0c18c4da51fe3bf98dbc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e567f58f73ee416ac6fab2b3e485c255') in 0.401562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/8Bit Music - 062022/3. Track 3.wav
+  artifactKey: Guid(559c232a43caebe41870ce54786f604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/3. Track 3.wav using Guid(559c232a43caebe41870ce54786f604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504010877ba60cc536e57869755f063a') in 0.240935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/8Bit Music - 062022/1. Track 1.wav
+  artifactKey: Guid(033766cc31c97904bae4404b8a079544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/1. Track 1.wav using Guid(033766cc31c97904bae4404b8a079544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac4dcaa4d62deeedc899813110e979c') in 0.035168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007573 seconds.
+  path: Assets/8Bit Music - 062022/9. Track 9.wav
+  artifactKey: Guid(35967e8a4dfb1664e9b066939272c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8Bit Music - 062022/9. Track 9.wav using Guid(35967e8a4dfb1664e9b066939272c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255811c907a8fb199cb4a85d9a299ad7') in 0.072674 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.260 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
+System memory in use after: 102.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 4.279300 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.702300 ms MarkObjects: 2.862900 ms  DeleteObjects: 0.102900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 822.548966 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(d05787b6ab6510d4cb1a148f96ff6257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(d05787b6ab6510d4cb1a148f96ff6257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b4d1c3816c4f5ae8e04698407e0ec0') in 0.024754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Fonts/JazzCreateBubble.ttf
+  artifactKey: Guid(58b647c5b2ec4184e9a07a561cdf0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/JazzCreateBubble.ttf using Guid(58b647c5b2ec4184e9a07a561cdf0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56d5ef1dec351818f4bb22d720d98eb') in 0.365995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.510921 seconds.
+  path: Assets/Fonts/_Scene
+  artifactKey: Guid(c3eff68d6f09f5946bdbf19f4f111c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/_Scene using Guid(c3eff68d6f09f5946bdbf19f4f111c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70ab74a1a859c10659857091923c749') in 0.011077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.226266 seconds.
+  path: Assets/Leohpaz
+  artifactKey: Guid(c6b52c1b8960e1a45bde7ab37ae4bf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz using Guid(c6b52c1b8960e1a45bde7ab37ae4bf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32bb2bbabc742e86514d160211b76ad') in 0.012345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.630552 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free
+  artifactKey: Guid(0f45cc009b6076d448032c1a474affa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free using Guid(0f45cc009b6076d448032c1a474affa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ae4022fcb374a77788d0b0fd57249b') in 0.018751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.672582 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX
+  artifactKey: Guid(346b108228ad91c4881c54fac60e294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX using Guid(346b108228ad91c4881c54fac60e294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d37bc1da6c9c21f2b03eec1ddc764b') in 0.007853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/25_Wind_01.wav
+  artifactKey: Guid(c91fcf414acc0344cb03b13996f1bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/25_Wind_01.wav using Guid(c91fcf414acc0344cb03b13996f1bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd109b1348f64ab46920795330b15323d') in 0.095996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/45_Charge_05.wav
+  artifactKey: Guid(d1afd3f4d23c24f418ffc315afb04965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/45_Charge_05.wav using Guid(d1afd3f4d23c24f418ffc315afb04965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1c9081ffcabb37b2aaa6d7708209e6') in 0.060573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/04_Fire_explosion_04_medium.wav
+  artifactKey: Guid(a652877b012108e41871f867ada9f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/04_Fire_explosion_04_medium.wav using Guid(a652877b012108e41871f867ada9f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3970a71f13f5ffc525044002d25f504') in 0.032218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/22_Water_02.wav
+  artifactKey: Guid(1eb7cbaf61d23a64bbd36c0a38b5cb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/22_Water_02.wav using Guid(1eb7cbaf61d23a64bbd36c0a38b5cb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8144a7616ae24e25663bbefaf6fcd65') in 0.073028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/30_Earth_02.wav
+  artifactKey: Guid(b7f8695cf65a4f24eb37544298821146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/30_Earth_02.wav using Guid(b7f8695cf65a4f24eb37544298821146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5905df66cd54eae662d8b963c9f8322') in 0.028471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/13_Ice_explosion_01.wav
+  artifactKey: Guid(1d74880bed4586644a16a79a2d9dc8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/13_Ice_explosion_01.wav using Guid(1d74880bed4586644a16a79a2d9dc8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0508a20cb9d1fbdf2cd5ab4674f8937') in 0.063062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004428 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/46_Poison_01.wav
+  artifactKey: Guid(83829ff414f47a048b5387e4ab33571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/46_Poison_01.wav using Guid(83829ff414f47a048b5387e4ab33571c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e00cabde5c4f7a52880fe2a777cfb5') in 0.056880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/18_Thunder_02.wav
+  artifactKey: Guid(f1cb5d83282f2904a85f73111d068616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Atk_Magic_SFX/18_Thunder_02.wav using Guid(f1cb5d83282f2904a85f73111d068616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824b7fd726e5a700d11bba285c85740b') in 0.081573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.560400 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX
+  artifactKey: Guid(fb37f83a5a3ba9645838dad550849ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX using Guid(fb37f83a5a3ba9645838dad550849ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0639e8c283cd1d89c3530f847b2dac0c') in 0.007147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/39_Absorb_04.wav
+  artifactKey: Guid(7a9de5c4d998126449cf964a6b27a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/39_Absorb_04.wav using Guid(7a9de5c4d998126449cf964a6b27a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b345b7b851c381092bd71b770554f34f') in 0.086101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/21_Debuff_01.wav
+  artifactKey: Guid(acbcb75601b0082458fda8807f67c813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/21_Debuff_01.wav using Guid(acbcb75601b0082458fda8807f67c813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3887c70cbfb825d84d7df037fd00101') in 0.096283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/48_Speed_up_02.wav
+  artifactKey: Guid(6cf9c85b5a3b88c468b21b9d21250adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/48_Speed_up_02.wav using Guid(6cf9c85b5a3b88c468b21b9d21250adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47fcf4105cbc3b07419a7638e9c8e19') in 0.124577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/16_Atk_buff_04.wav
+  artifactKey: Guid(b0e62ed71b1538648b719821f4f63b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/16_Atk_buff_04.wav using Guid(b0e62ed71b1538648b719821f4f63b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dd54ce5a2b7cf5140b7b575edfeb4b') in 0.118988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/02_Heal_02.wav
+  artifactKey: Guid(cfce0cea076109f478783201b2a9f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/02_Heal_02.wav using Guid(cfce0cea076109f478783201b2a9f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bac531316001b83777b3bc418c93d0') in 0.065748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/44_Sleep_01.wav
+  artifactKey: Guid(aa967a280457c054bb646d57611f5bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/44_Sleep_01.wav using Guid(aa967a280457c054bb646d57611f5bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099619c657b657d7ce11ba72388f879d') in 0.066174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/17_Def_buff_01.wav
+  artifactKey: Guid(00e4eb96f4f6cc249a632e4027644cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/17_Def_buff_01.wav using Guid(00e4eb96f4f6cc249a632e4027644cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ebdb1444f30eece69198bf6f1819fc') in 0.066512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/30_Revive_03.wav
+  artifactKey: Guid(d654174ef194bd7479bf4b8d8f753318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/8_Buffs_Heals_SFX/30_Revive_03.wav using Guid(d654174ef194bd7479bf4b8d8f753318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9e17531f7f4497fb665549131c1299') in 0.092429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.681148 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX
+  artifactKey: Guid(1cb5876d2bf7ada4cab9558fb6eaf9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX using Guid(1cb5876d2bf7ada4cab9558fb6eaf9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ff21209090381f7e5df38c5c8b9d46') in 0.027851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/35_Miss_Evade_02.wav
+  artifactKey: Guid(f11db4559b3ffff45b62e9327fc5535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/35_Miss_Evade_02.wav using Guid(f11db4559b3ffff45b62e9327fc5535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce21b250caa50f0b1a9301f2606f1eec') in 0.065709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/51_Flee_02.wav
+  artifactKey: Guid(c458b6714dab015479d507b21fd2cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/51_Flee_02.wav using Guid(c458b6714dab015479d507b21fd2cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77107c98fb20916d6dde13e9ff7b3505') in 0.082641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/08_Bite_04.wav
+  artifactKey: Guid(fd25a15f9797641458336cccfb445343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/08_Bite_04.wav using Guid(fd25a15f9797641458336cccfb445343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354b5c134bae14d21bac769625cacc7d') in 0.069806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002760 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/39_Block_03.wav
+  artifactKey: Guid(b7b5a6156961bac44a67504d42ce6fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/39_Block_03.wav using Guid(b7b5a6156961bac44a67504d42ce6fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e33b06f22566a1a2881e3e361d6f2e') in 0.068729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001211 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/55_Encounter_02.wav
+  artifactKey: Guid(21c4a490b24ba2045bc815f7626a40ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/55_Encounter_02.wav using Guid(21c4a490b24ba2045bc815f7626a40ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae4f8f372bfef6efa41579e8e8a15c8') in 0.030251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001195 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/22_Slash_04.wav
+  artifactKey: Guid(88b1cbe3caa3fee4b8b103b5edd7aba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/22_Slash_04.wav using Guid(88b1cbe3caa3fee4b8b103b5edd7aba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77af8562b99c7e5f78935f6302e08489') in 0.086004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/69_Enemy_death_01.wav
+  artifactKey: Guid(566d2ea6240b489479a6e9fd608c2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/69_Enemy_death_01.wav using Guid(566d2ea6240b489479a6e9fd608c2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34d43246f4a49dce715f6c08b63f048') in 0.033742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/77_flesh_02.wav
+  artifactKey: Guid(2b21ef916f6943c439b71a7c74568878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/77_flesh_02.wav using Guid(2b21ef916f6943c439b71a7c74568878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2da8f7f53e6e2b15bbc3cc30599e94') in 0.068313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/15_Impact_flesh_02.wav
+  artifactKey: Guid(7c47b20bb9874304a809dc5580d403ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/15_Impact_flesh_02.wav using Guid(7c47b20bb9874304a809dc5580d403ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad729e2c8a8da4a759d25dfd9580064') in 0.062157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/03_Claw_03.wav
+  artifactKey: Guid(56703418e3aed4c47a5f6622816b8e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_Battle_SFX/03_Claw_03.wav using Guid(56703418e3aed4c47a5f6622816b8e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10214416d535cd4e747806f335897018') in 0.051837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.811285 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX
+  artifactKey: Guid(c7956f95db5bb7b478a7982bc2eb428c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX using Guid(c7956f95db5bb7b478a7982bc2eb428c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504b06f38e03d2acaa479b5f19dc9ffc') in 0.010002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055878 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/03_Step_grass_03.wav
+  artifactKey: Guid(df7087e4d8a8bb546bc08ce68632903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/03_Step_grass_03.wav using Guid(df7087e4d8a8bb546bc08ce68632903f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef05a4f66f3e6c0cc2e69483fabe94b') in 0.031788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000770 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/26_Swim_Submerged_02.wav
+  artifactKey: Guid(c619008f1efb180488a78e4a966a3e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/26_Swim_Submerged_02.wav using Guid(c619008f1efb180488a78e4a966a3e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cea0b2229aaaac217f40421486f154') in 0.054364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/45_Landing_01.wav
+  artifactKey: Guid(eaae8fe8d600e1f459f34aa5757fa3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/45_Landing_01.wav using Guid(eaae8fe8d600e1f459f34aa5757fa3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273249ef17bc6deff39b67540bfe38c1') in 0.054023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002878 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/42_Cling_climb_03.wav
+  artifactKey: Guid(e1e2d06fe0d78194b9c7c8cc88414d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/42_Cling_climb_03.wav using Guid(e1e2d06fe0d78194b9c7c8cc88414d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2261ea5ab0a5c0de9ae60ce61c6a00') in 0.043774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/12_Step_wood_03.wav
+  artifactKey: Guid(2352822feb4caa14ebdbc0c713289f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/12_Step_wood_03.wav using Guid(2352822feb4caa14ebdbc0c713289f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0abca1c889e2ae7abfca416c5c98f8e') in 0.102283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/52_Dive_02.wav
+  artifactKey: Guid(5c7b6d4002009e842bd2621585546d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/52_Dive_02.wav using Guid(5c7b6d4002009e842bd2621585546d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7022d5012ca3b7208578672633f3541') in 0.069421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/30_Jump_03.wav
+  artifactKey: Guid(4e349dc959014a845b9aa317d1c2b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/30_Jump_03.wav using Guid(4e349dc959014a845b9aa317d1c2b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbfc81e6889674758cf9956ba533713') in 0.096028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/08_Step_rock_02.wav
+  artifactKey: Guid(023ea3ddeaa8dd146b7633a0800e5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/08_Step_rock_02.wav using Guid(023ea3ddeaa8dd146b7633a0800e5a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5e83c1e9d8e5e51d9b0e9f5d4856f3') in 0.146848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000771 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/56_Attack_03.wav
+  artifactKey: Guid(323e15cfe809e114ab92c9f4b25e8bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/56_Attack_03.wav using Guid(323e15cfe809e114ab92c9f4b25e8bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e18ed186738e611ac01212b07f98d8') in 0.057017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/14_Step_water_02.wav
+  artifactKey: Guid(60f9efe3d97bc8f47bea1af7f7093d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/14_Step_water_02.wav using Guid(60f9efe3d97bc8f47bea1af7f7093d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9830ed24386c8ee856c1d0eb345805') in 0.036790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/88_Teleport_02.wav
+  artifactKey: Guid(8ff2a2d7e79f81c40ac447512f879374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/88_Teleport_02.wav using Guid(8ff2a2d7e79f81c40ac447512f879374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dcd298ce4042ea2ee43c989580b568') in 0.073461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/61_Hit_03.wav
+  artifactKey: Guid(8b23b175a78d6b5458322e3a6c9905d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/12_Player_Movement_SFX/61_Hit_03.wav using Guid(8b23b175a78d6b5458322e3a6c9905d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72dc2695b1efcd7277f266e54b681de') in 0.036557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.316440 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX
+  artifactKey: Guid(d833e5bd5f85ee740b426684fc746d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX using Guid(d833e5bd5f85ee740b426684fc746d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253909fc0ea0d674cf7b9a9e99f0044f') in 0.006788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038420 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/001_Hover_01.wav
+  artifactKey: Guid(35cf7766e9e2aa542811e896fde57989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/001_Hover_01.wav using Guid(35cf7766e9e2aa542811e896fde57989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e0a0bfd2c561cd930214efd98565ec') in 0.030050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/013_Confirm_03.wav
+  artifactKey: Guid(c5cb2ac29e89dbf43a9b644caaad45e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/013_Confirm_03.wav using Guid(c5cb2ac29e89dbf43a9b644caaad45e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c09668b39558902e667feac5286af8') in 0.054053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/033_Denied_03.wav
+  artifactKey: Guid(1ed8fb76fc64e4e46847348138782234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/033_Denied_03.wav using Guid(1ed8fb76fc64e4e46847348138782234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040a2a83cdbe4a97fd27e451c53075a0') in 0.067111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/029_Decline_09.wav
+  artifactKey: Guid(7cc057bed53baf34799f52aab3c84800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/029_Decline_09.wav using Guid(7cc057bed53baf34799f52aab3c84800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fdcf26730752847ee42bea5cbdb140') in 0.076149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/051_use_item_01.wav
+  artifactKey: Guid(ba39bf8baf6d13046889b2d64822381a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/051_use_item_01.wav using Guid(ba39bf8baf6d13046889b2d64822381a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1907a6ade2cd2ce709b09cb6df51550') in 0.067493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/079_Buy_sell_01.wav
+  artifactKey: Guid(abdbbfd33a46f4549987385f85c536b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/079_Buy_sell_01.wav using Guid(abdbbfd33a46f4549987385f85c536b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c9311033eb89fb0684f03c9979a40b') in 0.077254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/070_Equip_10.wav
+  artifactKey: Guid(490bfbc72255342408984f60044487de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/070_Equip_10.wav using Guid(490bfbc72255342408984f60044487de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2f7562996d7b3a6150fd72aee152c3') in 0.027434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/092_Pause_04.wav
+  artifactKey: Guid(b83bf8726a7fac349a54389f0c57cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/092_Pause_04.wav using Guid(b83bf8726a7fac349a54389f0c57cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c25e6f1b7d46df6aaecec55e06c5467') in 0.035710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001332 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/071_Unequip_01.wav
+  artifactKey: Guid(78ad99fd0a0a5144280b07bbdba84815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/071_Unequip_01.wav using Guid(78ad99fd0a0a5144280b07bbdba84815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed560c9cc6f095b40ed932288836b5f') in 0.082930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/098_Unpause_04.wav
+  artifactKey: Guid(e58d8bd078f188a4ba314e933b98528b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leohpaz/RPG_Essentials_Free/10_UI_Menu_SFX/098_Unpause_04.wav using Guid(e58d8bd078f188a4ba314e933b98528b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32f1ac63db233c30fb63b22abea8791') in 0.048325 seconds 
