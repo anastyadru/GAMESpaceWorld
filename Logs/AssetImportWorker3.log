@@ -862,3 +862,23 @@ Received Import Request.
   path: Assets/MisoStudioSpaceships/Materials/TankerGlowMat.mat
   artifactKey: Guid(d26756f7b0f26451d94c82a4aee0ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MisoStudioSpaceships/Materials/TankerGlowMat.mat using Guid(d26756f7b0f26451d94c82a4aee0ddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411fd65f4c0a812f38667f3351f254bd') in 0.062135 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.5 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3379.
+Total: 14.501600 ms (FindLiveObjects: 0.604000 ms CreateObjectMapping: 0.511800 ms MarkObjects: 13.286700 ms  DeleteObjects: 0.096100 ms)
+
