@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19045.2486; Version 2009; 64bit' Language: 'ru' Physical Memory: 7805 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+G:/Учеба/C#/Unity задачи/GAMESpaceWorld
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+59004
+Successfully changed project path to: G:/Учеба/C#/Unity задачи/GAMESpaceWorld
+G:/Учеба/C#/Unity задачи/GAMESpaceWorld
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 307.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Учеба/C#/Unity задачи/GAMESpaceWorld/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x156)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   10.18.10.5161
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009332 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 344.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.868 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.767 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3137.
+Total: 7.671500 ms (FindLiveObjects: 0.330600 ms CreateObjectMapping: 0.256100 ms MarkObjects: 6.163700 ms  DeleteObjects: 0.914400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Textures/Environment/Skybox
+  artifactKey: Guid(594895e139cc839439dfb5d6fecd1b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox using Guid(594895e139cc839439dfb5d6fecd1b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6552adbf59269446c34cfe54c32641a') in 0.039037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.229877 seconds.
+  path: Assets/Models
+  artifactKey: Guid(c01738a467d01144ca9dfefa07f2cd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(c01738a467d01144ca9dfefa07f2cd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa00d6f9738452d7807ddfe637a039') in 0.006339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.863725 seconds.
+  path: Assets/Models/Asteroid
+  artifactKey: Guid(02400b34928384642917225d10c13200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Asteroid using Guid(02400b34928384642917225d10c13200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba2cf3a2c534806b3a3cfcd2cbba479') in 0.044720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027956 seconds.
+  path: Assets/Models/Asteroid/Asteroid - Diffuse.png
+  artifactKey: Guid(c52ef66598a5b2b438dfcaffab060455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Asteroid/Asteroid - Diffuse.png using Guid(c52ef66598a5b2b438dfcaffab060455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bf460def45d5c806487bba5f54a065') in 0.291775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Models/Planet/Noise.png
+  artifactKey: Guid(248ac1f576ea4d344afd0c28aa2e231f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/Noise.png using Guid(248ac1f576ea4d344afd0c28aa2e231f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5c554aaa4a14e7254efab23aa79364') in 0.092083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/Models/Planet/Planet.mat
+  artifactKey: Guid(49fead1840d8f3c40b051c259401a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/Planet.mat using Guid(49fead1840d8f3c40b051c259401a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c85092269458ae39225bcca86c28204') in 0.902939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Models/Planet/Atmosphere.mat
+  artifactKey: Guid(b2483d16904c4524e8349c5f6d7302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/Atmosphere.mat using Guid(b2483d16904c4524e8349c5f6d7302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a973025735faecd9bd2c9f26020b6f0') in 0.368141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Models/Spaceship
+  artifactKey: Guid(c10754cfa30e17d43afe7f706e13455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spaceship using Guid(c10754cfa30e17d43afe7f706e13455d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf1e50f2d311ad75e2fb17ae3477ec1') in 0.018189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Models/Planet/Planet.tga
+  artifactKey: Guid(a1b3a78afb899ae4b92db57e7b9d123f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/Planet.tga using Guid(a1b3a78afb899ae4b92db57e7b9d123f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23b2dd28386529803fc17b47d81f8db') in 0.128448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Models/Spaceship/Spaceship_NS.tga
+  artifactKey: Guid(6647aae2378d7dd4ca4844c41fd9d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spaceship/Spaceship_NS.tga using Guid(6647aae2378d7dd4ca4844c41fd9d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af06ebe6b5355bd192600b11d0d8edf6') in 0.032245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Models/Asteroid/Asteroid - Bump.tga
+  artifactKey: Guid(a623ad04b0e4d2346b6ffedd67be0f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Asteroid/Asteroid - Bump.tga using Guid(a623ad04b0e4d2346b6ffedd67be0f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c631b52f3b7003d90e9515b05586192') in 0.019116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Models/Spaceship/Spaceship_DG.tga
+  artifactKey: Guid(592fd6e545034244aa3f4e2143c8e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spaceship/Spaceship_DG.tga using Guid(592fd6e545034244aa3f4e2143c8e9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153f2172b5dcd3b2732760e2c9034a45') in 0.101462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Models/Planet/GeoSphere.FBX
+  artifactKey: Guid(1c82197adb1f70546a8b7124aaf7fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/GeoSphere.FBX using Guid(1c82197adb1f70546a8b7124aaf7fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d7e7a740a5a0437f7ca68c549826a6') in 0.187826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/Models/Asteroid/Asteroid.FBX
+  artifactKey: Guid(42e0e47738a42fc42a99fb8d6aaf3f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Asteroid/Asteroid.FBX using Guid(42e0e47738a42fc42a99fb8d6aaf3f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd292d412309fc7569987883da26a5c01') in 0.033453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Models/Planet
+  artifactKey: Guid(e9fbfcdcab920774dbaf52940d8f37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet using Guid(e9fbfcdcab920774dbaf52940d8f37d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727bdf02b6de958390d1251bbccd8212') in 0.032392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Models/Spaceship/Spaceship - FBX.fbx
+  artifactKey: Guid(e7674e9ed06151745829c8f47cc06893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Spaceship/Spaceship - FBX.fbx using Guid(e7674e9ed06151745829c8f47cc06893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea15ca3c706e84b253c3aa2f4706cced') in 0.045209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.786689 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(4d9ff00d935866048aa0d992ed51a48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(4d9ff00d935866048aa0d992ed51a48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7db1188488370d4b4de5c785ad5283a') in 0.006147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.818771 seconds.
+  path: Assets/Textures/Environment
+  artifactKey: Guid(4844972a826642440857eb3ac5a45102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment using Guid(4844972a826642440857eb3ac5a45102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3413680529f5934a3106c5ad7fd1c701') in 0.011823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644297 seconds.
+  path: Assets/Textures/Environment/Floor
+  artifactKey: Guid(7e53877514c605c4e8cbd9aa2a787ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Floor using Guid(7e53877514c605c4e8cbd9aa2a787ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c512a2bda89907e31f0f18bcf67f240') in 0.016619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Textures/Environment/Floor/sci_fi_002_Diffuse.tga
+  artifactKey: Guid(a2acd5db4b23dcc4d8e37abba17649af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Floor/sci_fi_002_Diffuse.tga using Guid(a2acd5db4b23dcc4d8e37abba17649af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8605521a7d4a5c96f8625ec5a2bad07') in 0.026223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Textures/Environment/Floor/sci_fi_002_Normal.tga
+  artifactKey: Guid(587f00226871d634699b3ed679a02e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Floor/sci_fi_002_Normal.tga using Guid(587f00226871d634699b3ed679a02e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e6062a7ddbbca998c27d247d2ae2a8') in 0.072462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/Textures/Environment/Floor/sci_fi_002_Emissive.tga
+  artifactKey: Guid(a014c1d3d536d744492f5f77ab827480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Floor/sci_fi_002_Emissive.tga using Guid(a014c1d3d536d744492f5f77ab827480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c778394e725f5be6a9e13d9f1f8fbf') in 0.019419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Textures/Environment/Floor/sci_fi_002_Specular.tga
+  artifactKey: Guid(fa6721dc812dae74cbe3fbb47529c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Floor/sci_fi_002_Specular.tga using Guid(fa6721dc812dae74cbe3fbb47529c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93072bd56bfecc87c45c0ec3b278c491') in 0.081663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.438686 seconds.
+  path: Assets/MisoStudioSpaceships/Materials/BlueBull.mat
+  artifactKey: Guid(3a4980970511d8e43b4c6ef967ee240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Materials/BlueBull.mat using Guid(3a4980970511d8e43b4c6ef967ee240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325549324cc8df1f2d28a63c7edf2819') in 0.101772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/MisoStudioSpaceships/Materials/Rocker.mat
+  artifactKey: Guid(fef9e8c91db2931459244b50718f683a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Materials/Rocker.mat using Guid(fef9e8c91db2931459244b50718f683a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc68d9231090f1a400654068c4dcbcc6') in 0.078567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/MisoStudioSpaceships/Materials/IceBlades.mat
+  artifactKey: Guid(c5ed677062ca77d4681c454cd3a07eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Materials/IceBlades.mat using Guid(c5ed677062ca77d4681c454cd3a07eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25541f762e43996dfeaebcddfa09fb48') in 0.043966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029433 seconds.
+  path: Assets/MisoStudioSpaceships/Materials/PrototypeZero.mat
+  artifactKey: Guid(0767c09bc188a644a99d243413553f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Materials/PrototypeZero.mat using Guid(0767c09bc188a644a99d243413553f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6b4b8df9a5017cc6104f3ef42cdda5') in 0.047778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/MisoStudioSpaceships/Materials/Tanker.mat
+  artifactKey: Guid(e7da282422bd57a4c89876c2e46795f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Materials/Tanker.mat using Guid(e7da282422bd57a4c89876c2e46795f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fc65f7a8e1963b31b580b5e180068c') in 0.037591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.879378 seconds.
+  path: Assets/Textures/Environment/Skybox/Blue - Back.png
+  artifactKey: Guid(ad0db25bfc29141449ae18c741fe44ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/Blue - Back.png using Guid(ad0db25bfc29141449ae18c741fe44ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc76c0365030f701f4f0dd9f7423a0f2') in 0.049349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Textures/Environment/Skybox/Blue - Right.png
+  artifactKey: Guid(65522d2b938bcc444bcac0d995db2d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/Blue - Right.png using Guid(65522d2b938bcc444bcac0d995db2d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a4c6520684378a2da0f7ecb6fa6610') in 0.105025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/Textures/Environment/Skybox/Blue - Top.png
+  artifactKey: Guid(14e7cdc1e0467554aacca57b4d8a1750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/Blue - Top.png using Guid(14e7cdc1e0467554aacca57b4d8a1750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d735a7ad9987b1268772e2a335a82fa') in 0.124640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Textures/Environment/Skybox/Blue - Bottom.png
+  artifactKey: Guid(32d0b7b14b377044980a9fbac0628776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/Blue - Bottom.png using Guid(32d0b7b14b377044980a9fbac0628776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a687dc53e82d4ef41688a3e2ada5fbaf') in 0.039674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Textures/Environment/Skybox/Blue - Front.png
+  artifactKey: Guid(5998ab7218bf9464ea8f22898b1cdb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/Blue - Front.png using Guid(5998ab7218bf9464ea8f22898b1cdb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22d3fa1962a18e6c8aa478871b6fba2') in 0.065382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050728 seconds.
+  path: Assets/Textures/Environment/Skybox/Blue - Left.png
+  artifactKey: Guid(3e15376808be51d4382a510a763c3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/Blue - Left.png using Guid(3e15376808be51d4382a510a763c3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1d7a12a4f0858464c66ed9ba69e534') in 0.063947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.033378 seconds.
+  path: Assets/Models/Planet/Atmosphere.mat
+  artifactKey: Guid(b2483d16904c4524e8349c5f6d7302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/Atmosphere.mat using Guid(b2483d16904c4524e8349c5f6d7302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bc161d892b3d48669a5805846c0d62') in 0.156883 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
