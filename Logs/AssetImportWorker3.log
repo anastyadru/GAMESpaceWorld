@@ -173,3 +173,78 @@ Received Import Request.
   path: Assets/Scripts/MainMenu.cs
   artifactKey: Guid(833fd9b2c3895fd43aa133e278f00f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/MainMenu.cs using Guid(833fd9b2c3895fd43aa133e278f00f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e9549213ba4ff5933246868db61742') in 0.014632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1890.094857 seconds.
+  path: Assets/Scripts/SliderController.cs
+  artifactKey: Guid(2a05f20ad8409494e86650b864abefb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SliderController.cs using Guid(2a05f20ad8409494e86650b864abefb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a9582a6dda760869bc48df19700b7b') in 0.058377 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.071111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.543 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3155.
+Total: 267.280500 ms (FindLiveObjects: 0.484000 ms CreateObjectMapping: 0.429000 ms MarkObjects: 265.833300 ms  DeleteObjects: 0.531500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.075 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 5.105500 ms (FindLiveObjects: 0.753300 ms CreateObjectMapping: 0.385600 ms MarkObjects: 3.527900 ms  DeleteObjects: 0.435100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.048561 seconds.
+  path: Assets/Scripts/SliderController.cs
+  artifactKey: Guid(2a05f20ad8409494e86650b864abefb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SliderController.cs using Guid(2a05f20ad8409494e86650b864abefb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b25d758414a5af8d8acf8a684e8fead') in 0.015490 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.530 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3161.
+Total: 6.634400 ms (FindLiveObjects: 1.590800 ms CreateObjectMapping: 0.606100 ms MarkObjects: 3.724600 ms  DeleteObjects: 0.709000 ms)
+
