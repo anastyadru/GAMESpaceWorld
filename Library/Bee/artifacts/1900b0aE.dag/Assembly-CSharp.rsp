@@ -330,9 +330,13 @@
 "Assets/PyroParticles/Prefab/Script/MeteorSwarmScript.cs"
 "Assets/PyroParticles/Prefab/Script/SingleLineAttribute.cs"
 "Assets/Scripts/AudioController.cs"
+"Assets/Scripts/AudioToggler.cs"
+"Assets/Scripts/btnFX.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SliderController.cs"
+"Assets/Scripts/ToggleController.cs"
 -langversion:8.0
 
 /deterministic
