@@ -330,6 +330,7 @@
 "Assets/PyroParticles/Prefab/Script/MeteorSwarmScript.cs"
 "Assets/PyroParticles/Prefab/Script/SingleLineAttribute.cs"
 "Assets/Scripts/AudioController.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:8.0
 
