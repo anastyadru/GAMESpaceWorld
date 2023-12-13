@@ -454,3 +454,81 @@ System memory in use after: 102.3 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3189.
 Total: 14.104400 ms (FindLiveObjects: 1.848000 ms CreateObjectMapping: 0.523800 ms MarkObjects: 8.344100 ms  DeleteObjects: 3.383900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1268.817638 seconds.
+  path: Assets/Scripts/AudioController.cs
+  artifactKey: Guid(b6fd51f903b473146919dfbf140a956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AudioController.cs using Guid(b6fd51f903b473146919dfbf140a956c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d44758e4cc3b69b1083d5d97394fae8') in 0.046005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.556258 seconds.
+  path: Assets/Scripts/AudioToggler.cs
+  artifactKey: Guid(aaf8005aca42b4540856a7fb0a297ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AudioToggler.cs using Guid(aaf8005aca42b4540856a7fb0a297ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaa6a8603f598d96c1b4c6f4671b368') in 0.018426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.132117 seconds.
+  path: Assets/Scripts/PauseMenu.cs
+  artifactKey: Guid(e58a0872c73251446bfb437db604847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PauseMenu.cs using Guid(e58a0872c73251446bfb437db604847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dda2508d27e2770fab13566da7e2163') in 0.028510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.649170 seconds.
+  path: Assets/Scripts/ButtonNext.cs
+  artifactKey: Guid(6e265e44d3026f741858d23ec01af637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonNext.cs using Guid(6e265e44d3026f741858d23ec01af637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e93a132192d849300e516ac99116dd') in 0.076587 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.940 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3193.
+Total: 7.658400 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.233800 ms MarkObjects: 2.960300 ms  DeleteObjects: 4.133500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.472 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 6.807900 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.198500 ms MarkObjects: 5.023300 ms  DeleteObjects: 1.253100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.270808 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cec7aac48d2347e6ebbf568e75b1c31') in 0.017180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.294634 seconds.
+  path: Assets/Scripts/ButtonNext.cs
+  artifactKey: Guid(6e265e44d3026f741858d23ec01af637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonNext.cs using Guid(6e265e44d3026f741858d23ec01af637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955bf1f834a739d08cd59f35c23b1687') in 0.050683 seconds 
