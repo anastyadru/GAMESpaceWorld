@@ -56,6 +56,6 @@ public class PlayerSelect : MonoBehaviour
     public void StartScene()
     {
         PlayerPrefs.SetInt("SelectPlayer", index);
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Game");
     }
 }

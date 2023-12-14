@@ -1090,3 +1090,84 @@ System memory in use after: 106.5 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3300.
 Total: 24.233900 ms (FindLiveObjects: 0.459100 ms CreateObjectMapping: 13.696000 ms MarkObjects: 9.519600 ms  DeleteObjects: 0.555700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 53716.226674 seconds.
+  path: Assets/Heroes.unity
+  artifactKey: Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes.unity using Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d37995506051110622d042f0bbe5509') in 0.332933 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.416 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3303.
+Total: 8.248900 ms (FindLiveObjects: 0.385300 ms CreateObjectMapping: 2.103000 ms MarkObjects: 5.058300 ms  DeleteObjects: 0.698900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.585986 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbd67867ae71617306b82a394b1de70') in 0.080052 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.910 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3306.
+Total: 10.634200 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.286200 ms MarkObjects: 9.433100 ms  DeleteObjects: 0.554900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.972260 seconds.
+  path: Assets/Heroes.unity
+  artifactKey: Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes.unity using Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e215fc519e60a3f8fcaecba6dbd079ef') in 0.060445 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.940 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 106.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3309.
+Total: 6.936600 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 1.192000 ms MarkObjects: 4.928100 ms  DeleteObjects: 0.453300 ms)
+
