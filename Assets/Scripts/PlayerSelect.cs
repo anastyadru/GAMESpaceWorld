@@ -15,7 +15,39 @@ public class PlayerSelect : MonoBehaviour
         {
             characters[i] = transform.GetChild(i).gameObject;
         }
-        
-        foreach 
+
+        foreach (GameObject go in characters)
+        {
+            go.SetActive(false);
+        }
+
+        if (characters[0])
+        {
+            characters[0].SetActive(true);
+        }
+    }
+
+    public void SelectLeft()
+    {
+        characters[index].SetActive(false);
+        index--;
+        if (index < 0)
+        {
+            index = characters.Length - 1;
+        }
+
+        characters[index].SetActive(true);
+    }
+    
+    public void SelectRight()
+    {
+        characters[index].SetActive(false);
+        index++;
+        if (index == characters.Length)
+        {
+            index = 0;
+        }
+
+        characters[index].SetActive(true);
     }
 }
