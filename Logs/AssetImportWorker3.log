@@ -658,3 +658,27 @@ System memory in use after: 102.3 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3214.
 Total: 17.916700 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.362100 ms MarkObjects: 16.662800 ms  DeleteObjects: 0.472800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 29992.872777 seconds.
+  path: Assets/Menu.unity
+  artifactKey: Guid(7d2bb31763e31124e94cb5fce3595455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu.unity using Guid(7d2bb31763e31124e94cb5fce3595455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c5a76ba2d18ea88b210e15afce3ae1') in 0.078165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.771734 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75678b068e5257ca858de14809f317ff') in 0.029627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5488.121687 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(fbb7e45d3c41d5349a475ff2d521756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(fbb7e45d3c41d5349a475ff2d521756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c375b7fa18f58983dd0247793617d1') in 0.006152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.441074 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0592648b364ebae9938bff46316b246e') in 0.033621 seconds 
