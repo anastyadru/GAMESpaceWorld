@@ -682,3 +682,45 @@ Received Import Request.
   path: Assets/Game.unity
   artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0592648b364ebae9938bff46316b246e') in 0.033621 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.885 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3217.
+Total: 4.828600 ms (FindLiveObjects: 0.434000 ms CreateObjectMapping: 0.367100 ms MarkObjects: 3.488300 ms  DeleteObjects: 0.535900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.397 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3220.
+Total: 9.910700 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.247500 ms MarkObjects: 8.738500 ms  DeleteObjects: 0.584400 ms)
+
