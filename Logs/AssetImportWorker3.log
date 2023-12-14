@@ -784,3 +784,162 @@ System memory in use after: 102.4 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3226.
 Total: 5.240600 ms (FindLiveObjects: 0.516700 ms CreateObjectMapping: 0.430400 ms MarkObjects: 3.805200 ms  DeleteObjects: 0.484700 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.186839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.765 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 3.822800 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.231300 ms MarkObjects: 2.840400 ms  DeleteObjects: 0.420100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5594.372584 seconds.
+  path: Assets/MisoStudioSpaceships/Prefabs
+  artifactKey: Guid(2d2e654ddf4a04bd4b76bf4d012bd590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Prefabs using Guid(2d2e654ddf4a04bd4b76bf4d012bd590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b747b52568d53dbef33a99512f80d692') in 0.037834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/MisoStudioSpaceships/Prefabs/BlueBull.prefab
+  artifactKey: Guid(73b09e5094ff94fddac6945d623c08af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Prefabs/BlueBull.prefab using Guid(73b09e5094ff94fddac6945d623c08af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b0ae808d1e3bbd0a802241b6a9b28e') in 0.546372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010351 seconds.
+  path: Assets/MisoStudioSpaceships/Prefabs/Rocker.prefab
+  artifactKey: Guid(ef6ab94c04502497498daa16165ee0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Prefabs/Rocker.prefab using Guid(ef6ab94c04502497498daa16165ee0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10be58989bcb85ceb0c8782398f8d132') in 0.070956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/MisoStudioSpaceships/Prefabs/PrototypeZero.prefab
+  artifactKey: Guid(7049a336c6ee74a32984d27e6d9faeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Prefabs/PrototypeZero.prefab using Guid(7049a336c6ee74a32984d27e6d9faeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39247d7552cafb0fb0530c8f1d8b473') in 0.078037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/MisoStudioSpaceships/Prefabs/Tanker.prefab
+  artifactKey: Guid(c7bd5c71ab13c41359305dc1af814468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Prefabs/Tanker.prefab using Guid(c7bd5c71ab13c41359305dc1af814468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdb1188c5323630082be8b144e126fb') in 0.112732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/MisoStudioSpaceships/Prefabs/IceBlades.prefab
+  artifactKey: Guid(445ae37f24e704de890bbfda1fa7a39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MisoStudioSpaceships/Prefabs/IceBlades.prefab using Guid(445ae37f24e704de890bbfda1fa7a39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2513779a2c61058b5074f251f69d1910') in 0.108928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.663571 seconds.
+  path: Assets/Models/Planet/Atmosphere.mat
+  artifactKey: Guid(b2483d16904c4524e8349c5f6d7302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Planet/Atmosphere.mat using Guid(b2483d16904c4524e8349c5f6d7302d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a973025735faecd9bd2c9f26020b6f0') in 0.137084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.180669 seconds.
+  path: Assets/PyroParticles/Prefab/Materials/FireParticleGlowMaterial.mat
+  artifactKey: Guid(3eb8cc4a6fb112f418bc9ccff02be21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PyroParticles/Prefab/Materials/FireParticleGlowMaterial.mat using Guid(3eb8cc4a6fb112f418bc9ccff02be21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decb3e3e627993c89e11adb81b4465a7') in 0.159157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.328332 seconds.
+  path: Assets/Spaceship/Models
+  artifactKey: Guid(0c4a8792d841e374fbf8d6d275e6ba77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Models using Guid(0c4a8792d841e374fbf8d6d275e6ba77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d80c5b6068c6b87ad0a371065aff4e') in 0.020031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036384 seconds.
+  path: Assets/Spaceship/Models/Viper.fbx
+  artifactKey: Guid(f3b36b357c4760743ad6ab651571197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Models/Viper.fbx using Guid(f3b36b357c4760743ad6ab651571197f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04ee5cd546fff58a4fe57b17c2fca36') in 0.117312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 332.156389 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8b6ba49560bf905101b0d17929cd21') in 0.021729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.088534 seconds.
+  path: Assets/Heroes.unity
+  artifactKey: Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes.unity using Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c294871c917cad60150842029e31f9') in 0.022213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.184877 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb48f982a23cc51207dbed1a09db866f') in 0.015316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.726251 seconds.
+  path: Assets/Heroes.unity
+  artifactKey: Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroes.unity using Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5eb2bcbe75ff82d428182fd5a8f3807') in 0.019983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.365447 seconds.
+  path: Assets/Menu.unity
+  artifactKey: Guid(7d2bb31763e31124e94cb5fce3595455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu.unity using Guid(7d2bb31763e31124e94cb5fce3595455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9717fa02626162e55231fbbc0ff4ec') in 0.019959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2086.494538 seconds.
+  path: Assets/Scripts/PlayerSelect.cs
+  artifactKey: Guid(0d3aeed280e3673468f64d708d4dfd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSelect.cs using Guid(0d3aeed280e3673468f64d708d4dfd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecd6d4d5f6b629eeb6c9dee5c029983') in 0.016947 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.144 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 106.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3276.
+Total: 4.511500 ms (FindLiveObjects: 0.462600 ms CreateObjectMapping: 0.388900 ms MarkObjects: 3.212300 ms  DeleteObjects: 0.444500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.128 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 106.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3279.
+Total: 8.071400 ms (FindLiveObjects: 0.496800 ms CreateObjectMapping: 0.411500 ms MarkObjects: 6.609800 ms  DeleteObjects: 0.549800 ms)
+
