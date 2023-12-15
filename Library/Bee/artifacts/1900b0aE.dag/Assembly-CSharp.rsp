@@ -337,6 +337,7 @@
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerSelect.cs"
+"Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/SliderController.cs"
 "Assets/Scripts/ToggleController.cs"
 -langversion:8.0
