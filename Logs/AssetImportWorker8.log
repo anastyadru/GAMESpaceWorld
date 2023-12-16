@@ -686,3 +686,24 @@ System memory in use after: 102.3 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3229.
 Total: 4.888000 ms (FindLiveObjects: 0.434900 ms CreateObjectMapping: 0.356900 ms MarkObjects: 3.540100 ms  DeleteObjects: 0.552700 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.958 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 4.606000 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.359900 ms MarkObjects: 3.064800 ms  DeleteObjects: 0.760900 ms)
+
