@@ -333,7 +333,7 @@
 "Assets/Scripts/AudioToggler.cs"
 "Assets/Scripts/BlueController.cs"
 "Assets/Scripts/btnFX.cs"
-"Assets/Scripts/BulletMove.cs"
+"Assets/Scripts/BulletController.cs"
 "Assets/Scripts/ButtonNext.cs"
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/MainMenu.cs"
