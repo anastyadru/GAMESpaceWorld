@@ -331,6 +331,7 @@
 "Assets/PyroParticles/Prefab/Script/SingleLineAttribute.cs"
 "Assets/Scripts/AudioController.cs"
 "Assets/Scripts/AudioToggler.cs"
+"Assets/Scripts/BlueController.cs"
 "Assets/Scripts/btnFX.cs"
 "Assets/Scripts/ButtonNext.cs"
 "Assets/Scripts/EnemyController.cs"
