@@ -801,7 +801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013080835110, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.196772
+      value: 22.19678
       objectReference: {fileID: 0}
     - target: {fileID: 4000013080835110, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6325,6 +6325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1917233043}
   shootingInterval: 0.1
+  bulletSpeed: 10
 --- !u!1 &1942360822
 GameObject:
   m_ObjectHideFlags: 0
