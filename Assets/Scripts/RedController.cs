@@ -11,20 +11,15 @@ public class RedController : MonoBehaviour
 
     void Update()
     {
-        // Проверяем, зажата ли левая кнопка мыши
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0)) // Проверяем, зажата ли левая кнопка мыши
         {
-            // Обновляем таймер выстрелов
-            shootingTimer += Time.deltaTime;
-
-            // Если прошло достаточно времени для выстрела
-            if (shootingTimer >= shootingInterval)
+            shootingTimer += Time.deltaTime; // Обновляем таймер выстрелов
+            
+            if (shootingTimer >= shootingInterval) // Если прошло достаточно времени для выстрела
             {
-                // Сбрасываем таймер выстрелов
-                shootingTimer = 0f;
-
-                // Создаем пулю
-                GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+                shootingTimer = 0f; // Сбрасываем таймер выстрелов
+                
+                GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity); // Создаем пулю
             }
         }
     }
