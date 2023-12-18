@@ -2864,3 +2864,84 @@ System memory in use after: 175.0 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4029.
 Total: 20.225900 ms (FindLiveObjects: 0.902000 ms CreateObjectMapping: 0.651600 ms MarkObjects: 18.195200 ms  DeleteObjects: 0.472100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1034.940570 seconds.
+  path: Assets/Scripts/BlueController.cs
+  artifactKey: Guid(5ae2a77d99a0d0046b1ef56c833a160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BlueController.cs using Guid(5ae2a77d99a0d0046b1ef56c833a160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a26a63091743e9106013d1b12e97bd') in 0.805628 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.012 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4032.
+Total: 4.639900 ms (FindLiveObjects: 0.461000 ms CreateObjectMapping: 0.260200 ms MarkObjects: 3.448900 ms  DeleteObjects: 0.467200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1907.887119 seconds.
+  path: Assets/Scripts/BlueController.cs
+  artifactKey: Guid(5ae2a77d99a0d0046b1ef56c833a160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BlueController.cs using Guid(5ae2a77d99a0d0046b1ef56c833a160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1876f602be08f14fb3d61b3085fceac') in 0.024259 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.563 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 3.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4035.
+Total: 4.783600 ms (FindLiveObjects: 0.625500 ms CreateObjectMapping: 0.374300 ms MarkObjects: 3.362500 ms  DeleteObjects: 0.419300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.610413 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f3fb76eda2577ced47813d39522d3') in 0.096677 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.745 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4038.
+Total: 4.982400 ms (FindLiveObjects: 0.544800 ms CreateObjectMapping: 0.405700 ms MarkObjects: 3.423800 ms  DeleteObjects: 0.605400 ms)
+

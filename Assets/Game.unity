@@ -610,6 +610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae2a77d99a0d0046b1ef56c833a160b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1917233043}
+  fireRate: 0.2
 --- !u!1 &93113136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,7 +1500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
       propertyPath: m_RootOrder
