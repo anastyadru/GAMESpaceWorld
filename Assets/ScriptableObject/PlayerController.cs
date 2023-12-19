@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 100f; // Скорость перемещения игрока
+    private float speed = 170f; // Скорость перемещения игрока
 
     void Update()
     {
