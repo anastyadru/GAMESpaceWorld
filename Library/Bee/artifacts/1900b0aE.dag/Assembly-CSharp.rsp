@@ -336,6 +336,7 @@
 "Assets/ScriptableObject/BulletController.cs"
 "Assets/ScriptableObject/ButtonNext.cs"
 "Assets/ScriptableObject/EnemyController.cs"
+"Assets/ScriptableObject/HealthManager.cs"
 "Assets/ScriptableObject/MainMenu.cs"
 "Assets/ScriptableObject/PauseMenu.cs"
 "Assets/ScriptableObject/PlayerController.cs"
