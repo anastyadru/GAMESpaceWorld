@@ -811,10 +811,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7890888089078384051, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000012327391772, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_Name
+      value: BulletPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012327391772, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
+      propertyPath: m_TagString
       value: BulletPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 4000013080835110, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
@@ -1521,6 +1525,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
+      propertyPath: m_TagString
+      value: SpaceshipBlue
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
       propertyPath: m_RootOrder
@@ -2326,7 +2334,7 @@ GameObject:
   - component: {fileID: 709502016}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4240,6 +4248,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
+      propertyPath: m_TagString
+      value: SpaceshipRed
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f3b36b357c4760743ad6ab651571197f, type: 3}
       propertyPath: m_RootOrder
@@ -6762,6 +6774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012964112300, guid: 8306882d88a96b64291460c8d7664f4d, type: 3}
+      propertyPath: m_TagString
+      value: BulletEnemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014267599398, guid: 8306882d88a96b64291460c8d7664f4d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -6850,7 +6866,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969505647}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.060895935
   m_Height: 0.6260015
@@ -7220,6 +7236,10 @@ PrefabInstance:
     - target: {fileID: 100004, guid: 86e8b97b6d8d3465d851b89623a7dee3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 86e8b97b6d8d3465d851b89623a7dee3, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 86e8b97b6d8d3465d851b89623a7dee3, type: 3}
       propertyPath: m_IsActive

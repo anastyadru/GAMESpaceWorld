@@ -521,3 +521,27 @@ System memory in use after: 102.5 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3212.
 Total: 4.162300 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.351600 ms MarkObjects: 2.937900 ms  DeleteObjects: 0.441900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 16696.003165 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.087052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.476576 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(d3893a27d27112d4fa82995dafbb0cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(d3893a27d27112d4fa82995dafbb0cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81db6f40dd04195ec3ec730ba053fa7') in 0.039902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.886093 seconds.
+  path: Assets/Prefabs/BulletPlayer Variant.prefab
+  artifactKey: Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletPlayer Variant.prefab using Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a517f768e2501093027925883a0e833') in 0.859038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.151781 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e155fe475b9d87b50422086fabbb4e') in 0.149903 seconds 
