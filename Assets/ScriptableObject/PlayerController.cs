@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
         
         Vector3 newPosition = transform.position + new Vector3(mouseX * speed * Time.deltaTime, 0, 0); // Вычисляем новую позицию игрока
         
-        newPosition.x = Mathf.Clamp(newPosition.x, -200f, 200f); // Ограничиваем движение игрока по горизонтали
+        newPosition.x = Mathf.Clamp(newPosition.x, -220f, 180f); // Ограничиваем движение игрока по горизонтали
         
         transform.position = newPosition; // Применяем новую позицию игрока
     }
