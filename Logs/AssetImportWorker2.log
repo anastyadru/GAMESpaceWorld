@@ -842,3 +842,214 @@ Received Import Request.
   path: Assets/ScriptableObject/PlayerController.cs
   artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0600537964e5d9d9b574c17ef58ab77') in 0.088176 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.114 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 3.818600 ms (FindLiveObjects: 0.331100 ms CreateObjectMapping: 0.268100 ms MarkObjects: 2.811900 ms  DeleteObjects: 0.404800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.465265 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22e9a07e4e53a147c67a707fff68b0') in 0.121172 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.208 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3265.
+Total: 14.125100 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.412100 ms MarkObjects: 12.670400 ms  DeleteObjects: 0.654400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.819511 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b031eaa0f6b571c3bf9a3f6eb501e1b2') in 0.117838 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.923 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3268.
+Total: 13.261800 ms (FindLiveObjects: 0.551000 ms CreateObjectMapping: 0.502000 ms MarkObjects: 9.862300 ms  DeleteObjects: 2.343100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.549422 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938e13144c719c09c7eaab1694b69897') in 0.280647 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.977 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3271.
+Total: 19.283700 ms (FindLiveObjects: 0.564400 ms CreateObjectMapping: 0.336200 ms MarkObjects: 2.823400 ms  DeleteObjects: 15.556900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 458.976484 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002273 seconds  code(4) message(Build asset version error: assets/scriptableobject/playercontroller.cs in SourceAssetDB has modification time of '2023-12-21T11:33:42.0187779Z' while content on disk has modification time of '2023-12-21T11:33:44.6500132Z')
+  ERROR: Build asset version error: assets/scriptableobject/playercontroller.cs in SourceAssetDB has modification time of '2023-12-21T11:33:42.0187779Z' while content on disk has modification time of '2023-12-21T11:33:44.6500132Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.069 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3274.
+Total: 4.577700 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.236000 ms MarkObjects: 3.594400 ms  DeleteObjects: 0.406600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.652419 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22a01dd2e3285a7195c31326f723e5') in 0.107270 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.675 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 9.984900 ms (FindLiveObjects: 4.875400 ms CreateObjectMapping: 0.369000 ms MarkObjects: 4.319200 ms  DeleteObjects: 0.416700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.800581 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1828ad1a9c17dd1f6b7eb0c322973b43') in 0.138743 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.538 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3280.
+Total: 4.333700 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.253200 ms MarkObjects: 3.310600 ms  DeleteObjects: 0.419800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.830496 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c3a31fd74b52a43b491a5869f9395a') in 0.018153 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.044 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3283.
+Total: 6.154400 ms (FindLiveObjects: 1.215300 ms CreateObjectMapping: 0.422900 ms MarkObjects: 3.787700 ms  DeleteObjects: 0.725400 ms)
+

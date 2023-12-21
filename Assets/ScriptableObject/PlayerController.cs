@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     private float speed = 170f; // Скорость перемещения игрока
     public GameObject lazerShot;
     public Transform lazerGun;
+    private float nextShotTime; // время следующего выстрела
 
     void Update()
     {
@@ -18,6 +19,10 @@ public class PlayerController : MonoBehaviour
         
         transform.position = newPosition; // Применяем новую позицию игрока
 
-        Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+        if (Input.GetButton("Fire2") && Time.time > nextShotTime)
+        {
+            Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+            nextShotTime = Time.time + 0.1f;
+        }
     }
 }
