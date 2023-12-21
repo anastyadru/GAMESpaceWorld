@@ -2273,6 +2273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeaaf841eddecd44ab5b46f499648c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lazerShot: {fileID: 1970310043283395797, guid: f7217460f2b9da545b7a671cd9e2d75f, type: 3}
+  lazerGun: {fileID: 1683373319}
 --- !u!1 &732360972
 GameObject:
   m_ObjectHideFlags: 0
@@ -6713,11 +6715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1596028b95da33498ee8f9ac2452cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  moveSpeed: 2
-  moveDistanceX: 3
-  moveDistanceY: 2
-  shootInterval: 2
 --- !u!1 &2041845012
 GameObject:
   m_ObjectHideFlags: 0

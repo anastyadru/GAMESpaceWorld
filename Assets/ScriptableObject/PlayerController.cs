@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
         newPosition.x = Mathf.Clamp(newPosition.x, -220f, 180f); // Ограничиваем движение игрока по горизонтали
         
         transform.position = newPosition; // Применяем новую позицию игрока
-        
-        
+
+        Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
     }
 }
