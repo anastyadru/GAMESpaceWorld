@@ -33,4 +33,10 @@ public class EnemyController : MonoBehaviour
         float randomX = Random.Range(-5f, 5f); // Генерируем случайное значение по оси X
         targetPosition = transform.position + new Vector3(randomX, 0, 0); // Изначально целевая позиция равна текущей позиции + случайное значение по оси X
     }
+    
+    // Вызывается при столкновении с другим объектом (переменная other)
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject); // уничтожаем врага
+    }
 }
