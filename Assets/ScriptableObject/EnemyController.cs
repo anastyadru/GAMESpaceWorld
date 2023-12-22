@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Mathf;
 
 public class EnemyController : MonoBehaviour
 {
@@ -9,6 +8,10 @@ public class EnemyController : MonoBehaviour
     private float smoothness = 5f; // Плавность движения
 
     private Vector3 targetPosition; // Целевая позиция игрока
+    
+    public GameObject lazerShot1;
+    public Transform lazerGun1;
+    private float nextShotTime; // время следующего выстрела
 
     void Start()
     {
