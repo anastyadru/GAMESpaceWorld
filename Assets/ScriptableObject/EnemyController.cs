@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float moveSpeed = 170f; // Скорость перемещения врага
+    private float speed = 170f; // Скорость перемещения врага
     private Vector3 randomDirection; // Случайное направление движения
+    private float nextDirectionChangeTime; // Время следующего изменения направления
 
-    private void Start()
+    void Start()
     {
-        // Задаем случайное начальное направление движения
-        randomDirection = new Vector3(Random.Range(-150f, 150f), Random.Range(-150f, 150f), 0f).normalized;
+        // Генерируем случайное направление движения
+        randomDirection = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f).normalized;
+        nextDirectionChangeTime = Time.time + Random.Range(1f, 3f); // Устанавливаем время следующего изменения направления
     }
 
-    private void Update()
+    void Update()
     {
-        // Перемещаем врага в заданном направлении
-        transform.Translate(randomDirection * moveSpeed * Time.deltaTime);
+        // Перемещаем враг в заданном направлении
+        transform.position += randomDirection * speed * Time.deltaTime;
 
-        // Если враг достиг границы экрана, меняем направление на случайное
+        // Проверяем достижение границы экрана и меняем направление при необходимости
         if (transform.position.x < -150f || transform.position.x > 150f ||
-            transform.position.y < -150f || transform.position.y > 150f)
+            transform.position.y < -150f || transform.position.y > 150f ||
+            Time.time > nextDirectionChangeTime)
         {
-            randomDirection = new Vector3(Random.Range(-150f, 150f), Random.Range(-150f, 150f), 0f).normalized;
+            // Генерируем новое случайное направление движения
+            randomDirection = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f).normalized;
+            nextDirectionChangeTime = Time.time + Random.Range(1f, 3f); // Устанавливаем время следующего изменения направления
         }
     }
 }
