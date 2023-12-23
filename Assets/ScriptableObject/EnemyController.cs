@@ -44,12 +44,12 @@ public class EnemyController : MonoBehaviour
     void Shoot()
     {
         Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
-        nextShotTime = Time.time + 0.1f;
+        nextShotTime = Time.time + 1f;
     }
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("lazerShot")) // Проверяем тэг объекта, с которым столкнулся враг
+        if (other.CompareTag("PlayerShot")) // Проверяем тэг объекта, с которым столкнулся враг
         {
             Destroy(gameObject); // Уничтожаем врага
             Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
