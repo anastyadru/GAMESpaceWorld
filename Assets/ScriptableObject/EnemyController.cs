@@ -38,5 +38,6 @@ public class EnemyController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject); // уничтожаем врага
+        Destroy(other.gameObject); // уничтожаем то, с чем стоклнулись
     }
 }
