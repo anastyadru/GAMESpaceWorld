@@ -49,10 +49,7 @@ public class EnemyController : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("PlayerShot")) // Проверяем тэг объекта, с которым столкнулся враг
-        {
-            Destroy(gameObject); // Уничтожаем врага
-            Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
-        }
+        Destroy(gameObject); // Уничтожаем врага
+        Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
     }
 }
