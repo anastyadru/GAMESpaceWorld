@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
     
     public GameObject lazerShot1;
     public Transform lazerGun1;
-    private float nextShotTime; // время следующего выстрела
+    private float nextShotTime; // Время следующего выстрела
 
     void Start()
     {
@@ -25,7 +25,12 @@ public class EnemyController : MonoBehaviour
             GenerateNewTargetPosition(); // Генерируем новую целевую позицию
         }
 
-        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime); // Плавно перемещаем игрока к целевой позиции
+        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime); // Плавно перемещаем к целевой позиции
+        
+        if (Time.time > nextShotTime)
+        {
+            Shoot();
+        }
     }
 
     void GenerateNewTargetPosition()
@@ -33,13 +38,21 @@ public class EnemyController : MonoBehaviour
         float randomX = Random.Range(-100f, 100f); // Генерируем случайное значение по оси X
         targetPosition = transform.position + new Vector3(randomX, 0, 0); // Изначально целевая позиция равна текущей позиции + случайное значение по оси X
         
-        targetPosition.x = Mathf.Clamp(targetPosition.x, -500f, -100f); // Ограничиваем движение игрока по горизонтали
+        targetPosition.x = Mathf.Clamp(targetPosition.x, -500f, -100f); // Ограничиваем движение врага по горизонтали
     }
     
-    // Вызывается при столкновении с другим объектом (переменная other)
+    void Shoot()
+    {
+        Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
+        nextShotTime = Time.time + 0.1f;
+    }
+    
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject); // уничтожаем врага
-        Destroy(other.gameObject); // уничтожаем то, с чем стоклнулись
+        if (other.CompareTag("lazerShot")) // Проверяем тэг объекта, с которым столкнулся враг
+        {
+            Destroy(gameObject); // Уничтожаем врага
+            Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
+        }
     }
 }

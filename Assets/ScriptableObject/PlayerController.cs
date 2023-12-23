@@ -7,11 +7,11 @@ public class PlayerController : MonoBehaviour
     private float speed = 170f; // Скорость перемещения игрока
     public GameObject lazerShot;
     public Transform lazerGun;
-    private float nextShotTime; // время следующего выстрела
+    private float nextShotTime; // Время следующего выстрела
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X"); // текущие координаты мыши по горизонтали
+        float mouseX = Input.GetAxis("Mouse X"); // Текущие координаты мыши по горизонтали
         
         Vector3 newPosition = transform.position + new Vector3(mouseX * speed * Time.deltaTime, 0, 0); // Вычисляем новую позицию игрока
         
