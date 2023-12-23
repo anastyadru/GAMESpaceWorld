@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    private float speed = 200f; // Скорость перемещения игрока
-    private float smoothness = 5f; // Плавность движения
+    private float speed = 250f; // Скорость перемещения
+    private float smoothness = 3f; // Плавность движения
 
-    private Vector3 targetPosition; // Целевая позиция игрока
+    private Vector3 targetPosition; // Целевая позиция
     
     public GameObject lazerShot1;
     public Transform lazerGun1;
@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(transform.position, targetPosition) < 0.1f) // Если враг близок к целевой позиции
+        if (Vector3.Distance(transform.position, targetPosition) < 10f) // Если враг близок к целевой позиции
         {
             GenerateNewTargetPosition(); // Генерируем новую целевую позицию
         }
@@ -30,8 +30,10 @@ public class EnemyController : MonoBehaviour
 
     void GenerateNewTargetPosition()
     {
-        float randomX = Random.Range(-5f, 5f); // Генерируем случайное значение по оси X
+        float randomX = Random.Range(-100f, 100f); // Генерируем случайное значение по оси X
         targetPosition = transform.position + new Vector3(randomX, 0, 0); // Изначально целевая позиция равна текущей позиции + случайное значение по оси X
+        
+        targetPosition.x = Mathf.Clamp(targetPosition.x, -500f, -100f); // Ограничиваем движение игрока по горизонтали
     }
     
     // Вызывается при столкновении с другим объектом (переменная other)
