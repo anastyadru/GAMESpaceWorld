@@ -15,11 +15,11 @@ G:/Учеба/C#/Unity задачи/GAMESpaceWorld
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-51311
+50491
 Successfully changed project path to: G:/Учеба/C#/Unity задачи/GAMESpaceWorld
 G:/Учеба/C#/Unity задачи/GAMESpaceWorld
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 482.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 269.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,54 +36,1580 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006091 seconds.
+Registered in 0.005350 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 310.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 188.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.770 seconds
+- Completed reload, in  2.599 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.043857 seconds.
+Registered in 0.006143 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.316 seconds
+- Completed reload, in  2.296 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.58 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.5 MB.
-System memory in use after: 103.9 MB.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.5 MB.
+System memory in use after: 102.9 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3139.
-Total: 7.467000 ms (FindLiveObjects: 0.427000 ms CreateObjectMapping: 0.367500 ms MarkObjects: 6.035800 ms  DeleteObjects: 0.633400 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3155.
+Total: 14.491300 ms (FindLiveObjects: 0.530600 ms CreateObjectMapping: 9.492400 ms MarkObjects: 3.954000 ms  DeleteObjects: 0.510300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Heroes.unity
-  artifactKey: Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heroes.unity using Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42cb12b1230d261237cd906631ce046') in 0.032258 seconds 
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b91fa57b89bbdba35ca8db2f63962b') in 0.808762 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.318 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 3.644100 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.223200 ms MarkObjects: 2.710600 ms  DeleteObjects: 0.380300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.041 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3161.
+Total: 4.045000 ms (FindLiveObjects: 0.328200 ms CreateObjectMapping: 0.266100 ms MarkObjects: 2.904500 ms  DeleteObjects: 0.542500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.832737 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea01e4d6d0a63e6ab3ed682fb8902cb') in 0.016920 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.180 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3164.
+Total: 4.412300 ms (FindLiveObjects: 0.483100 ms CreateObjectMapping: 0.299200 ms MarkObjects: 3.228000 ms  DeleteObjects: 0.399800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.878373 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774787248975086d0632d8ec198d5284') in 0.014513 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.888 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 5.041100 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.239400 ms MarkObjects: 3.928600 ms  DeleteObjects: 0.532800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.120 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 3.729300 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.253600 ms MarkObjects: 2.755000 ms  DeleteObjects: 0.401100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.666810 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f16356259f2fca155d866d9498e4cd0') in 0.010197 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.473 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3173.
+Total: 5.376500 ms (FindLiveObjects: 0.442600 ms CreateObjectMapping: 0.356800 ms MarkObjects: 4.143100 ms  DeleteObjects: 0.430900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.773 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 4.080400 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.350800 ms MarkObjects: 2.982700 ms  DeleteObjects: 0.388800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.412193 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc2befc7b76abb87f308cf4e6ab1c0a') in 0.013388 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.000 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3179.
+Total: 5.725200 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 1.475200 ms MarkObjects: 3.325000 ms  DeleteObjects: 0.606600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.969001 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7bcc01e8d3205796017956671dcb5e') in 0.133744 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.196 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3182.
+Total: 6.586000 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.374600 ms MarkObjects: 5.046900 ms  DeleteObjects: 0.705400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.214 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3185.
+Total: 5.309200 ms (FindLiveObjects: 0.329400 ms CreateObjectMapping: 0.250400 ms MarkObjects: 4.284500 ms  DeleteObjects: 0.441500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.082185 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5263d70b91a7f49c82f454c24b5b7761') in 0.016274 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.110 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 3.963100 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.203700 ms MarkObjects: 3.044400 ms  DeleteObjects: 0.405400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007631 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.403 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 5.042700 ms (FindLiveObjects: 0.577800 ms CreateObjectMapping: 0.783100 ms MarkObjects: 3.252400 ms  DeleteObjects: 0.426600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.731881 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b44933b7c117df474c0aea67dedc3a6') in 0.012962 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.916 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 3.715200 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.203100 ms MarkObjects: 2.813400 ms  DeleteObjects: 0.398500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.501497 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036fd21b4ef01c77e5dcd71ca8553438') in 0.010813 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.931 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3197.
+Total: 4.920200 ms (FindLiveObjects: 0.462900 ms CreateObjectMapping: 0.328500 ms MarkObjects: 3.641300 ms  DeleteObjects: 0.484500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.046892 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bff8668932fbeaa47aa9ab3859b13eb') in 0.014437 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.083 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3200.
+Total: 8.010100 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.212400 ms MarkObjects: 7.025600 ms  DeleteObjects: 0.467700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.174424 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261cd799779f635775ffb8e58c6b754c') in 0.208057 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.572 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 4.973100 ms (FindLiveObjects: 0.368100 ms CreateObjectMapping: 0.385100 ms MarkObjects: 3.649400 ms  DeleteObjects: 0.544800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.207 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 4.817100 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.362400 ms MarkObjects: 3.587700 ms  DeleteObjects: 0.463300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 629.742172 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a4535e792594ad6607dcec719febf4') in 0.009365 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.689 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 4.506500 ms (FindLiveObjects: 0.452200 ms CreateObjectMapping: 0.354800 ms MarkObjects: 3.249500 ms  DeleteObjects: 0.446800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.034507 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eaea11cf82a4772c3df781469f33dc') in 0.106659 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.971 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 3.688900 ms (FindLiveObjects: 0.361500 ms CreateObjectMapping: 0.246800 ms MarkObjects: 2.683400 ms  DeleteObjects: 0.394300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 11.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.214 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 4.409600 ms (FindLiveObjects: 0.431300 ms CreateObjectMapping: 0.311400 ms MarkObjects: 3.235200 ms  DeleteObjects: 0.429000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.274 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 14.094300 ms (FindLiveObjects: 0.791900 ms CreateObjectMapping: 0.328900 ms MarkObjects: 3.196800 ms  DeleteObjects: 9.774500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.572 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 5.016200 ms (FindLiveObjects: 0.447600 ms CreateObjectMapping: 0.398200 ms MarkObjects: 3.730500 ms  DeleteObjects: 0.436400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.325 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3224.
+Total: 5.430400 ms (FindLiveObjects: 0.450000 ms CreateObjectMapping: 0.352100 ms MarkObjects: 4.181400 ms  DeleteObjects: 0.443700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.720 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3227.
+Total: 3.714100 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.215800 ms MarkObjects: 2.757500 ms  DeleteObjects: 0.420800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 3.571655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.407 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3230.
+Total: 5.164100 ms (FindLiveObjects: 0.399800 ms CreateObjectMapping: 0.636400 ms MarkObjects: 3.610200 ms  DeleteObjects: 0.514600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.053 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3233.
+Total: 3.661100 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.203900 ms MarkObjects: 2.747400 ms  DeleteObjects: 0.395100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.368 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3236.
+Total: 4.398000 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.279300 ms MarkObjects: 3.010700 ms  DeleteObjects: 0.474500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.518 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 3.892600 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.254700 ms MarkObjects: 2.884000 ms  DeleteObjects: 0.417200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.352 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 44.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3242.
+Total: 4.189000 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.303500 ms MarkObjects: 3.111900 ms  DeleteObjects: 0.419000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005727 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.268 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3245.
+Total: 4.037100 ms (FindLiveObjects: 0.538200 ms CreateObjectMapping: 0.295700 ms MarkObjects: 2.780000 ms  DeleteObjects: 0.420400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.688 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3248.
+Total: 7.222300 ms (FindLiveObjects: 0.417300 ms CreateObjectMapping: 0.286900 ms MarkObjects: 6.073200 ms  DeleteObjects: 0.441500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4540.479167 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe37e29ce63e6cffe40a626f4b0149d') in 0.524536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.457108 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5c1952c77c612a479e135e07ff2bda') in 0.060746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.977248 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f1042d01a10e8c41d2d3677e7c63d4') in 0.037279 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.621 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3259.
+Total: 15.804000 ms (FindLiveObjects: 0.480900 ms CreateObjectMapping: 0.401300 ms MarkObjects: 13.151400 ms  DeleteObjects: 1.767300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 340.677119 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a2532b58478e819722fe2cb2e44276') in 0.013595 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.287 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 4.118400 ms (FindLiveObjects: 0.363600 ms CreateObjectMapping: 0.213200 ms MarkObjects: 3.118600 ms  DeleteObjects: 0.420200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.910289 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4539266ba7c94569d0c65d342fe4d32e') in 0.012420 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.400 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3265.
+Total: 4.645400 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.309800 ms MarkObjects: 3.558200 ms  DeleteObjects: 0.397100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.599105 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9aac7d89372d34caf59d066270601c1') in 0.013028 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.011 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 109.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3268.
+Total: 19.071000 ms (FindLiveObjects: 8.736300 ms CreateObjectMapping: 0.352000 ms MarkObjects: 9.584300 ms  DeleteObjects: 0.395500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.932 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3279.
+Total: 6.679800 ms (FindLiveObjects: 2.251100 ms CreateObjectMapping: 0.378100 ms MarkObjects: 3.457900 ms  DeleteObjects: 0.589600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3199.090756 seconds.
+  path: Assets/Fireworks
+  artifactKey: Guid(7323ed607a25b504ab442cc0583ccc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks using Guid(7323ed607a25b504ab442cc0583ccc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb2ebf130c70c9da2264428fe480aab') in 0.034058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.388804 seconds.
+  path: Assets/Fireworks/Animations
+  artifactKey: Guid(9308b2d5cb6a57441837bcccb842e433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Animations using Guid(9308b2d5cb6a57441837bcccb842e433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eadd1d53fe87f3b12f0749e0dc1360') in 0.026659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007818 seconds.
+  path: Assets/Fireworks/Battery
+  artifactKey: Guid(479cabf6fca5d324ca261cb7c7fa9bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery using Guid(479cabf6fca5d324ca261cb7c7fa9bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bde85eb4890ac8753b83cec244e8cf5') in 0.022990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.823708 seconds.
+  path: Assets/Fireworks/Battery/Model
+  artifactKey: Guid(a89abdf9b137fa249bce4176b41fc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Model using Guid(a89abdf9b137fa249bce4176b41fc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2b2eee4bd36f005aabc6b12aed341b') in 0.026780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043568 seconds.
+  path: Assets/Fireworks/Battery/Model/Battery.obj
+  artifactKey: Guid(02399d7fb4de87e48b753c2c17944b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Model/Battery.obj using Guid(02399d7fb4de87e48b753c2c17944b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632cc47acb0f9eac5d86384e6fb3a60b') in 0.217214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.693249 seconds.
+  path: Assets/Fireworks/Battery/Material
+  artifactKey: Guid(d02daca18b3830745a74ea9cee187e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material using Guid(d02daca18b3830745a74ea9cee187e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0572966010f3cbe10215a447a32d864') in 0.026836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001150 seconds.
+  path: Assets/Fireworks/Battery/Material/Battery texture.mat
+  artifactKey: Guid(8a2be7321578f9e4bbac96e346289f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/Battery texture.mat using Guid(8a2be7321578f9e4bbac96e346289f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f020db313010844e6d12204a828ab25e') in 0.104851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Fireworks/Battery/Material/Trail.mat
+  artifactKey: Guid(4fea606f277533f4bbbc8cef5616bfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/Trail.mat using Guid(4fea606f277533f4bbbc8cef5616bfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba9e8867abd53886fad7917b931f5c2') in 0.062232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Fireworks/Battery/Material/ExplosionMat.png
+  artifactKey: Guid(0075f41fa28173b43bbda5bd630a6b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/ExplosionMat.png using Guid(0075f41fa28173b43bbda5bd630a6b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3787d29b2dacd5fd02e5c330800cc775') in 0.082467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Fireworks/Battery/Material/Rocket.mat
+  artifactKey: Guid(866b4a26a14db714eb260cd917342d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/Rocket.mat using Guid(866b4a26a14db714eb260cd917342d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c76eb16ba35064e801df4c37dcd45ad') in 0.059897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Fireworks/Battery/Material/RocketSparkles.png
+  artifactKey: Guid(65efa1b07d036f540bb6a42886aaf44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/RocketSparkles.png using Guid(65efa1b07d036f540bb6a42886aaf44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b0e3be48ef1ac05d5b0ab9516d7d24') in 0.035742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Fireworks/Battery/Material/RocketSparkles.mat
+  artifactKey: Guid(38ce9849b078048458aa3201970616a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/RocketSparkles.mat using Guid(38ce9849b078048458aa3201970616a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcd912155c19dea4ab96dd799eed6a9') in 0.045681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Fireworks/Battery/Material/Battery texture.png
+  artifactKey: Guid(d145e83361f836b46b2e8860f9687066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/Battery texture.png using Guid(d145e83361f836b46b2e8860f9687066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9349e3da427fe55c2da27097de3510') in 0.045929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Fireworks/Battery/Material/ExplosionMat.mat
+  artifactKey: Guid(ddcc967f80aa9f24b80d1f8fc8edba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Material/ExplosionMat.mat using Guid(ddcc967f80aa9f24b80d1f8fc8edba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db22d469934208067bfa9966f7f5b4c9') in 0.053768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.176762 seconds.
+  path: Assets/Fireworks/Firecracker 1
+  artifactKey: Guid(c32fb83e0ecd9ee4488ac9845c9e4d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1 using Guid(c32fb83e0ecd9ee4488ac9845c9e4d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d3f80d48319d9603b582bfd06fb439') in 0.027093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.965636 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials
+  artifactKey: Guid(3d83fb0d5c6248a40b4c7c8dfd4ac94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials using Guid(3d83fb0d5c6248a40b4c7c8dfd4ac94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d4bc65165d16379d833bd239b458a3') in 0.018430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019729 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials/Fc1Expl.png
+  artifactKey: Guid(6049084ca2f572245b03e5735236d71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials/Fc1Expl.png using Guid(6049084ca2f572245b03e5735236d71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd3edd043d8e24c0858eab5726cbe1') in 0.036399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials/Firecracker 1 texture.png
+  artifactKey: Guid(41132d8b85193a34bba6241021568dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials/Firecracker 1 texture.png using Guid(41132d8b85193a34bba6241021568dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7e5a68a56c3f2dc73af6e6d791b6f8') in 0.044508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials/Fuse.png
+  artifactKey: Guid(d7a51b8ce9286194ebd7262bbfea574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials/Fuse.png using Guid(d7a51b8ce9286194ebd7262bbfea574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c05add68298de0fb87bbf4faf8e006') in 0.037922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials/Fuse.mat
+  artifactKey: Guid(857ad4cf881e01848b9e0116824810be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials/Fuse.mat using Guid(857ad4cf881e01848b9e0116824810be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11492dc16b946a8fe184e595ce2eb05f') in 0.046389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials/Firecracker1 Explosion.mat
+  artifactKey: Guid(43899b13d8946d048a034f9a36745db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials/Firecracker1 Explosion.mat using Guid(43899b13d8946d048a034f9a36745db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2086c68d2d8442dece35d45ab0ca64a5') in 0.038424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Fireworks/Firecracker 1/Materials/Firecracker 1 texture.mat
+  artifactKey: Guid(7f5601c12cf982f48bbb360253fdf79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Materials/Firecracker 1 texture.mat using Guid(7f5601c12cf982f48bbb360253fdf79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d5d057122057e602dc1e965612de66') in 0.045594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.702936 seconds.
+  path: Assets/Fireworks/Firecracker 3
+  artifactKey: Guid(92342e67d0dea3c4c9e619a633cc3d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 3 using Guid(92342e67d0dea3c4c9e619a633cc3d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ae610859404d45e9f2297f4d193d1d') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550318 seconds.
+  path: Assets/Fireworks/Rocket 1
+  artifactKey: Guid(df95f1dc054a5bc4ea2cf7a8d0ef5564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1 using Guid(df95f1dc054a5bc4ea2cf7a8d0ef5564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7fda44c2ec4a114ce9c6070977db36') in 0.022944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.058880 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials
+  artifactKey: Guid(5ed58c281ad4e394dbaaf6873049ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials using Guid(5ed58c281ad4e394dbaaf6873049ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed27c1d72190c3317270f262761bb367') in 0.022621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials/Fireworksbouquet.png
+  artifactKey: Guid(fc1818401ea089c42a8153cee6c8bd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials/Fireworksbouquet.png using Guid(fc1818401ea089c42a8153cee6c8bd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700395cce47f5d6f42574d003ac30223') in 0.035988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials/Fireworksbouquet.mat
+  artifactKey: Guid(fdd55a228c6eee84b939e5e1c1790f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials/Fireworksbouquet.mat using Guid(fdd55a228c6eee84b939e5e1c1790f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bcdd3b58766733bd41f98e65aad1e9') in 0.041532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials/Fuse.mat
+  artifactKey: Guid(682029ccf4af3b74ebe8a826b4656306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials/Fuse.mat using Guid(682029ccf4af3b74ebe8a826b4656306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a3a429906e3284ffaf347f6c428fcd') in 0.037975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials/Texture.mat
+  artifactKey: Guid(e39f0d3eaae47ad448c2b8c8265a8def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials/Texture.mat using Guid(e39f0d3eaae47ad448c2b8c8265a8def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591abe3ef748c38d5d4e96d42704f525') in 0.067288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials/rocket 1 texture.png
+  artifactKey: Guid(e690a46d4cd10a94092f3cdea27ae9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials/rocket 1 texture.png using Guid(e690a46d4cd10a94092f3cdea27ae9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b4457111930677e3f384387177f998') in 0.052758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Fireworks/Rocket 1/Materials/Fuse.png
+  artifactKey: Guid(effca78134669c24ca577b2d77917d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Materials/Fuse.png using Guid(effca78134669c24ca577b2d77917d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21aba176adb31c31674cc83bae949cf3') in 0.043982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.551712 seconds.
+  path: Assets/Fireworks/Rocket 1/Prefab
+  artifactKey: Guid(e0dd5adb519e23e4895967c6acf49939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Prefab using Guid(e0dd5adb519e23e4895967c6acf49939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8011fb5a008a3b5038a15508fb22c0a3') in 0.013943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046188 seconds.
+  path: Assets/Fireworks/Rocket 1/Prefab/Rocket 1.prefab
+  artifactKey: Guid(98a1fd3bb8bec6f4ba9f2157d347fca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Prefab/Rocket 1.prefab using Guid(98a1fd3bb8bec6f4ba9f2157d347fca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931c89c89ff3c79d4ff46e7a1f407d67') in 0.128926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.099646 seconds.
+  path: Assets/Fireworks/Rocket 1/Script
+  artifactKey: Guid(c0dac89a86ea1b149956c76313cd44e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Script using Guid(c0dac89a86ea1b149956c76313cd44e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1317c7a8ed17bc9708c842fe0b3202c6') in 0.020406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211990 seconds.
+  path: Assets/Fireworks/Rocket 1/Sounds
+  artifactKey: Guid(f31acf95ede1b0942a03ef0d611b31a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Sounds using Guid(f31acf95ede1b0942a03ef0d611b31a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec13bfe0ecf9da4d8df669c8418bf8c') in 0.020242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067852 seconds.
+  path: Assets/Fireworks/Rocket 1/Sounds/Rocket1 Sound.wav
+  artifactKey: Guid(d95590ff76caa6a4f93aa2896a034fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Sounds/Rocket1 Sound.wav using Guid(d95590ff76caa6a4f93aa2896a034fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cbae9a0d275eaafafe3524f0600cbb') in 0.065109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.124872 seconds.
+  path: Assets/Fireworks/Rocket 1/Model
+  artifactKey: Guid(b28e8ba774bc0dd4a8f184405a013a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Model using Guid(b28e8ba774bc0dd4a8f184405a013a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec6b5f397b29ca514bef8a473990d2d') in 0.022945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Fireworks/Rocket 1/Model/Rocket 1.obj
+  artifactKey: Guid(41cb19ddd77ef6745aba8a66c408ce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 1/Model/Rocket 1.obj using Guid(41cb19ddd77ef6745aba8a66c408ce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19b86b81d2fad5109a56fcfac2d7b8') in 0.056910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26100.994961 seconds.
+  path: Assets/Fireworks/Battery/Prefab
+  artifactKey: Guid(2dba3e969c3d709429c31cbeb3aa49ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Prefab using Guid(2dba3e969c3d709429c31cbeb3aa49ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ef2aced95a1aa03ef5560e4546f89f') in 0.065692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Fireworks/Battery/Prefab/Battery.prefab
+  artifactKey: Guid(6c69b53bc916eb34f8fb8f05e6d777ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Prefab/Battery.prefab using Guid(6c69b53bc916eb34f8fb8f05e6d777ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c17cd2490b9266aecb72485015bbbcb') in 0.455085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.021972 seconds.
+  path: Assets/Fireworks/Battery/Sounds
+  artifactKey: Guid(1b45ee20e79901846b9df666b74bfbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Sounds using Guid(1b45ee20e79901846b9df666b74bfbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6ee2e5073dd02b9b56a5b819b13159') in 0.065533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Fireworks/Battery/Sounds/Battery Sound Explosion.wav
+  artifactKey: Guid(3100df4f9005c4a45b3a32aff27dbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Sounds/Battery Sound Explosion.wav using Guid(3100df4f9005c4a45b3a32aff27dbc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f01cda4d887fc3a96ecec44c2ca9e9') in 0.050446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Fireworks/Battery/Sounds/Battery Sound.wav
+  artifactKey: Guid(1762aa1c16f76ee4496c8b7f43fcc821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Battery/Sounds/Battery Sound.wav using Guid(1762aa1c16f76ee4496c8b7f43fcc821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9791a31bc239722040ff89a4046740') in 0.072126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.897947 seconds.
+  path: Assets/Fireworks/Firecracker 1/Model
+  artifactKey: Guid(6c12c175ce4b7d2438fd732fc26045e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Model using Guid(6c12c175ce4b7d2438fd732fc26045e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4092fccfb92e61b82277d61f0827af') in 0.020954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000879 seconds.
+  path: Assets/Fireworks/Firecracker 1/Model/Firecracker 1 Fuse.obj
+  artifactKey: Guid(1259a96eb6ee3a546811ae53ef2b9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Model/Firecracker 1 Fuse.obj using Guid(1259a96eb6ee3a546811ae53ef2b9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e04c08780b33cd7379203b4a3160af') in 0.103345 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000477 seconds.
-  path: Assets/Menu.unity
-  artifactKey: Guid(7d2bb31763e31124e94cb5fce3595455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu.unity using Guid(7d2bb31763e31124e94cb5fce3595455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b1d0e4bb239aa667045698623e41a0') in 0.005336 seconds 
+  path: Assets/Fireworks/Firecracker 1/Model/Firecracker 1.obj
+  artifactKey: Guid(684d715b0b8c4144c847e7f26351fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Model/Firecracker 1.obj using Guid(684d715b0b8c4144c847e7f26351fb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99cbbb8a86c6dcd0ca9693424d36584') in 0.075231 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 329.057144 seconds.
-  path: Assets/Game.unity
-  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36065bc35650e8ba4e3760741c302a3') in 0.019717 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 1.196702 seconds.
+  path: Assets/Fireworks/Firecracker 1/Prefab
+  artifactKey: Guid(07d73bbe2801310479f686cccb0e1cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Prefab using Guid(07d73bbe2801310479f686cccb0e1cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3ce518da0d84e16d45f1c6c36ddbf7') in 0.020300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038600 seconds.
+  path: Assets/Fireworks/Firecracker 1/Prefab/Firecracker 1.prefab
+  artifactKey: Guid(5d711523111ab7e4ca34a94ba2e4e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Prefab/Firecracker 1.prefab using Guid(5d711523111ab7e4ca34a94ba2e4e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c70fc86de797ef4a24d22374027d203') in 0.453391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.180958 seconds.
+  path: Assets/Fireworks/Firecracker 1/Script
+  artifactKey: Guid(1180b790e4713474a839e888804e7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Script using Guid(1180b790e4713474a839e888804e7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897622ff640536860c0eb3460d56ea16') in 0.067961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.208799 seconds.
+  path: Assets/Fireworks/Firecracker 1/Sounds
+  artifactKey: Guid(7caef28bc03ae0140bde79c813331ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Sounds using Guid(7caef28bc03ae0140bde79c813331ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cf4408b1dcabff46e92142dbc7a5c5') in 0.020250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019885 seconds.
+  path: Assets/Fireworks/Firecracker 1/Sounds/Firecracker1 Sound.wav
+  artifactKey: Guid(36b14ef3448acda42acc60dc94a86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Sounds/Firecracker1 Sound.wav using Guid(36b14ef3448acda42acc60dc94a86f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804e7b44745e6a3f6393bd7b04253836') in 0.064344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.226918 seconds.
+  path: Assets/Fireworks/Rocket 3
+  artifactKey: Guid(11fa8db14b3742c4592b80084de41371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 3 using Guid(11fa8db14b3742c4592b80084de41371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495c17c8f39351c3d19f2e5161bc985c') in 0.017570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.537859 seconds.
+  path: Assets/Fireworks/Rocket 5
+  artifactKey: Guid(d8a7dae635e8b7745821e6738de16d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5 using Guid(d8a7dae635e8b7745821e6738de16d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8f12863607aa07f59123eec01690d8') in 0.022807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.031040 seconds.
+  path: Assets/Fireworks/Rocket 5/Materials
+  artifactKey: Guid(2bb6002d0c06dea4c8bfa8bf8c5d5c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Materials using Guid(2bb6002d0c06dea4c8bfa8bf8c5d5c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd17b212f673c9bb2080f621ea1c95fa') in 0.021640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Fireworks/Rocket 5/Materials/ExplosionMat 1.png
+  artifactKey: Guid(ed05d59bebbcd474a94ea11ac7b96e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Materials/ExplosionMat 1.png using Guid(ed05d59bebbcd474a94ea11ac7b96e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001d3a103fcb76e8852af9bd62d97560') in 0.074717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Fireworks/Rocket 5/Materials/rocket 5 texture.png
+  artifactKey: Guid(cef982bdaafb7e241b2072088cd97755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Materials/rocket 5 texture.png using Guid(cef982bdaafb7e241b2072088cd97755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573c54388049ea81d0692df7c7f3ccd4') in 0.181041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Fireworks/Rocket 5/Materials/Explosion.mat
+  artifactKey: Guid(c01d89747814bc649b6db673a2938aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Materials/Explosion.mat using Guid(c01d89747814bc649b6db673a2938aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2775aad0e8028d4963418052d2de3f') in 0.155579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022166 seconds.
+  path: Assets/Fireworks/Rocket 5/Materials/rocket 5 texture.mat
+  artifactKey: Guid(05ff0f53c1ea19b4a9634922ffbdf22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Materials/rocket 5 texture.mat using Guid(05ff0f53c1ea19b4a9634922ffbdf22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dbab6581aea6691815742f37f03a63') in 0.066626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.586580 seconds.
+  path: Assets/Fireworks/Rocket 5/Model
+  artifactKey: Guid(8e9fe770599162d4c8e09ceb423a66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Model using Guid(8e9fe770599162d4c8e09ceb423a66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2ae84b0e152c893d1beedcc69bad55') in 0.020085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046017 seconds.
+  path: Assets/Fireworks/Rocket 5/Model/Rocket 5.obj
+  artifactKey: Guid(d74f7e8880930dd4aa28bb311e806d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Model/Rocket 5.obj using Guid(d74f7e8880930dd4aa28bb311e806d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d213d6d54336a8b9a62aa4619d7247d') in 0.093623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.722416 seconds.
+  path: Assets/Fireworks/Rocket 5/Sounds
+  artifactKey: Guid(614693a3807ed264bb5c234ecb701891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Sounds using Guid(614693a3807ed264bb5c234ecb701891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07d02d581bc23a89ceb2574321a6102') in 0.008337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/Fireworks/Rocket 5/Sounds/Rocket5 Sound.wav
+  artifactKey: Guid(a9109a74a2f35f54abda2ee1a6206a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Sounds/Rocket5 Sound.wav using Guid(a9109a74a2f35f54abda2ee1a6206a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f56d585d0ce598601f941a846e695a') in 0.047842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.009887 seconds.
+  path: Assets/Fireworks/Rocket 5/Script
+  artifactKey: Guid(84d4c7da474837949bb7ca79763780c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Script using Guid(84d4c7da474837949bb7ca79763780c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0539120fa4c8ea3be8f6feb0ed6d2d0') in 0.019711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291448 seconds.
+  path: Assets/Fireworks/Rocket 5/Prefab
+  artifactKey: Guid(ddfd0bc431d8f3746a1f200c745e83be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Prefab using Guid(ddfd0bc431d8f3746a1f200c745e83be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a353862496f0098cf12ff99f31149') in 0.020266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Fireworks/Rocket 5/Prefab/Rocket 5.prefab
+  artifactKey: Guid(941f65fa207e4b642bcba603ef8b91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Prefab/Rocket 5.prefab using Guid(941f65fa207e4b642bcba603ef8b91aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcac0339add3c4d35d453f6a98c214b') in 0.218617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.054242 seconds.
+  path: Assets/Fireworks/Animations/Böller 1 zündschnur.controller
+  artifactKey: Guid(9a3b30f96dfb0b64695aa013cbb47a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Animations/Böller 1 zündschnur.controller using Guid(9a3b30f96dfb0b64695aa013cbb47a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6928bc7a7dffb731f3b2e025f5d559') in 0.033499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.703669 seconds.
+  path: Assets/Fireworks/Firecracker 1/Model/Materials
+  artifactKey: Guid(676b0db8b099b55488a0d115109a382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Model/Materials using Guid(676b0db8b099b55488a0d115109a382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249dc7d307c731de13fc0b1b46f6bbf5') in 0.023641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Fireworks/Firecracker 1/Model/Materials/defaultMat.mat
+  artifactKey: Guid(3b74ac2ef04e3db4282e51193cf5807d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 1/Model/Materials/defaultMat.mat using Guid(3b74ac2ef04e3db4282e51193cf5807d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743413d59db543e22bb69425a68fecca') in 0.042835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 530.651569 seconds.
+  path: Assets/Fireworks/Firecracker 3/Model
+  artifactKey: Guid(c4c3a27de41e9cd409c45016e9006b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 3/Model using Guid(c4c3a27de41e9cd409c45016e9006b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdaf181008f2d995237a7947878d74c') in 0.017809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005195 seconds.
+  path: Assets/Fireworks/Firecracker 3/Model/Böller 3 zündschnur.obj
+  artifactKey: Guid(73fe244299d2f9448a4ba10b9b41ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 3/Model/Böller 3 zündschnur.obj using Guid(73fe244299d2f9448a4ba10b9b41ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61557acf9017da650e28f33cc640d2') in 0.291024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Fireworks/Firecracker 3/Model/Firecracker 3.obj
+  artifactKey: Guid(f338e68d7d14d08459aa8587f5ca8684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 3/Model/Firecracker 3.obj using Guid(f338e68d7d14d08459aa8587f5ca8684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e934fb256201b094c4b240d6bf837486') in 0.162368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.970791 seconds.
+  path: Assets/Fireworks/Firecracker 2
+  artifactKey: Guid(c80c0d2d06427af41a62851dd1a98988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2 using Guid(c80c0d2d06427af41a62851dd1a98988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf241042e9208be71697018b8c5c759') in 0.023659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.756535 seconds.
+  path: Assets/Fireworks/Firecracker 2/Sounds
+  artifactKey: Guid(2c5f7f5234478604a854afc89a0b9468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Sounds using Guid(2c5f7f5234478604a854afc89a0b9468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22dbca4fe0a7c78bd45bf238671fbb6') in 0.024759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/Fireworks/Firecracker 2/Sounds/Firecracker2 Sound.wav
+  artifactKey: Guid(0e94354d9d81d9245b52a06b1112eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Sounds/Firecracker2 Sound.wav using Guid(0e94354d9d81d9245b52a06b1112eabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64d00530e7a1ba18bd6e46c5728cbd2') in 0.214362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.599906 seconds.
+  path: Assets/Fireworks/Firecracker 2/Script
+  artifactKey: Guid(0c3cc1f14802ea6498babddec4fd2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Script using Guid(0c3cc1f14802ea6498babddec4fd2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4848e6d9c8cf099d580f221d360de72') in 0.020716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.426451 seconds.
+  path: Assets/Fireworks/Firecracker 2/Prefab
+  artifactKey: Guid(10969075c3d009f4ab1d032a0e605121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Prefab using Guid(10969075c3d009f4ab1d032a0e605121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd584eef6d6b85d8847dc338424607dbf') in 0.045036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057212 seconds.
+  path: Assets/Fireworks/Firecracker 2/Prefab/Firecracker 2.prefab
+  artifactKey: Guid(948739ea3abe92643838172763edbb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Prefab/Firecracker 2.prefab using Guid(948739ea3abe92643838172763edbb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6778dd08ea5d74b2835c25283eb4a3') in 0.383542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.314752 seconds.
+  path: Assets/Fireworks/Firecracker 2/Model
+  artifactKey: Guid(5d750235cec723640b2cb64d03235687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Model using Guid(5d750235cec723640b2cb64d03235687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713996a67f38aacf692085b95bce9f3') in 0.034392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024408 seconds.
+  path: Assets/Fireworks/Firecracker 2/Model/Firecracker 2.obj
+  artifactKey: Guid(f7f999702920fc549b3bba75cefa4531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Model/Firecracker 2.obj using Guid(f7f999702920fc549b3bba75cefa4531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d74e61ad5436fc8dde0d72e81660f1') in 0.126970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.141658 seconds.
+  path: Assets/Fireworks/Firecracker 2/Materials
+  artifactKey: Guid(d1f68ab985841014ca7a2e8b13ae68a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Materials using Guid(d1f68ab985841014ca7a2e8b13ae68a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6f91a133b1f85390965d461ab8611a') in 0.022379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Fireworks/Firecracker 2/Materials/Firecracker 2 Texture.mat
+  artifactKey: Guid(40c1d3d6fabf67c47bddd75adbd73968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Materials/Firecracker 2 Texture.mat using Guid(40c1d3d6fabf67c47bddd75adbd73968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea5fbfe18c6fe9c5d43d9bee17cb868') in 0.110074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Fireworks/Firecracker 2/Materials/Firecracker 2 texture.png
+  artifactKey: Guid(8baa4212b68b8d741a48b9529c4f19cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Materials/Firecracker 2 texture.png using Guid(8baa4212b68b8d741a48b9529c4f19cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e440b8261ff377f8d87f7633dca22e') in 0.091898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Fireworks/Firecracker 2/Materials/Fuse.mat
+  artifactKey: Guid(eec846b1e7fc2174abca473b0890b56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Materials/Fuse.mat using Guid(eec846b1e7fc2174abca473b0890b56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c441883f8b95930a4a6cbd2801baa6a9') in 0.170074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Fireworks/Firecracker 2/Materials/Fuse.png
+  artifactKey: Guid(fc2ba1d9408bd6a47a22b6a2afe6d604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 2/Materials/Fuse.png using Guid(fc2ba1d9408bd6a47a22b6a2afe6d604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d4c6b455244b764d766e6c19c11011') in 0.102646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.285038 seconds.
+  path: Assets/Fireworks/Rocket 5/Model/Materials
+  artifactKey: Guid(03c4ea25923564f48830e2a631854d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Model/Materials using Guid(03c4ea25923564f48830e2a631854d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2619a19b0ca730f8822745af00f8ee') in 0.020820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014100 seconds.
+  path: Assets/Fireworks/Rocket 5/Model/Materials/defaultMat.mat
+  artifactKey: Guid(5eeca32358d441c468d056fe0b3662fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Rocket 5/Model/Materials/defaultMat.mat using Guid(5eeca32358d441c468d056fe0b3662fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c699354cb2bce021d39295d8b5eed0f6') in 0.051441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 455.626661 seconds.
+  path: Assets/Fireworks/Firecracker 3/Prefab
+  artifactKey: Guid(39da2e0433be2d341961fb93707010d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 3/Prefab using Guid(39da2e0433be2d341961fb93707010d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca852f94c7ebf14eb684f0f9e4efc5c9') in 0.037529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Fireworks/Firecracker 3/Prefab/Firecracker 3.prefab
+  artifactKey: Guid(82a7058a1ac22de4eac3108aa237b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fireworks/Firecracker 3/Prefab/Firecracker 3.prefab using Guid(82a7058a1ac22de4eac3108aa237b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99906f3bf7dcf8da3577a3810d9f2971') in 0.325034 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.045135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.068 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3500.
+Total: 25.326400 ms (FindLiveObjects: 0.537000 ms CreateObjectMapping: 0.320100 ms MarkObjects: 18.166600 ms  DeleteObjects: 6.299000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.043769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.689 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3503.
+Total: 4.902400 ms (FindLiveObjects: 0.434000 ms CreateObjectMapping: 0.318000 ms MarkObjects: 3.681200 ms  DeleteObjects: 0.466100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.322 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 4.205800 ms (FindLiveObjects: 0.375400 ms CreateObjectMapping: 0.380700 ms MarkObjects: 3.036900 ms  DeleteObjects: 0.410400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.354 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 14.910900 ms (FindLiveObjects: 0.586800 ms CreateObjectMapping: 0.692900 ms MarkObjects: 13.196200 ms  DeleteObjects: 0.432100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.691 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 5.649400 ms (FindLiveObjects: 0.481100 ms CreateObjectMapping: 0.358700 ms MarkObjects: 4.351900 ms  DeleteObjects: 0.454900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.205 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 39.595400 ms (FindLiveObjects: 0.542200 ms CreateObjectMapping: 0.452200 ms MarkObjects: 38.159200 ms  DeleteObjects: 0.439200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.060356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.488 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3518.
+Total: 11.942400 ms (FindLiveObjects: 5.424900 ms CreateObjectMapping: 1.165700 ms MarkObjects: 4.915600 ms  DeleteObjects: 0.433300 ms)
+
