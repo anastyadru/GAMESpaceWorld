@@ -143,3 +143,37 @@ System memory in use after: 102.5 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3167.
 Total: 11.009000 ms (FindLiveObjects: 4.293000 ms CreateObjectMapping: 0.630200 ms MarkObjects: 5.669800 ms  DeleteObjects: 0.411600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3161.743379 seconds.
+  path: Assets/ScriptableObject/BulletController.cs
+  artifactKey: Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BulletController.cs using Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004798 seconds  code(4) message(Build asset version error: assets/scriptableobject/bulletcontroller.cs in SourceAssetDB has modification time of '2023-12-21T12:20:24.6592335Z' while content on disk has modification time of '2023-12-24T07:14:35.2971602Z')
+  ERROR: Build asset version error: assets/scriptableobject/bulletcontroller.cs in SourceAssetDB has modification time of '2023-12-21T12:20:24.6592335Z' while content on disk has modification time of '2023-12-24T07:14:35.2971602Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.154994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.122 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 7.415500 ms (FindLiveObjects: 0.579900 ms CreateObjectMapping: 0.450300 ms MarkObjects: 5.865000 ms  DeleteObjects: 0.516000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.138938 seconds.
+  path: Assets/ScriptableObject/BulletController.cs
+  artifactKey: Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BulletController.cs using Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53aaaeb6a8de1eb7042556a2c0478493') in 0.011579 seconds 
