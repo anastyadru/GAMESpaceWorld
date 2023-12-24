@@ -8,6 +8,6 @@ public class BulletController : MonoBehaviour
 
     void Start()
     {
-        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, speed);
+        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -speed);
     }
 }
