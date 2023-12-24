@@ -27,10 +27,10 @@ public class EnemyController : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime); // Плавно перемещаем к целевой позиции
         
-        if (Time.time > nextShotTime)
-        {
-            Shoot();
-        }
+        // if (Time.time > nextShotTime)
+        // {
+            // Shoot();
+        // }
     }
 
     void GenerateNewTargetPosition()
@@ -41,11 +41,11 @@ public class EnemyController : MonoBehaviour
         targetPosition.x = Mathf.Clamp(targetPosition.x, -500f, -100f); // Ограничиваем движение врага по горизонтали
     }
     
-    void Shoot()
-    {
-        Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
-        nextShotTime = Time.time + 1f;
-    }
+    // void Shoot()
+    // {
+        // Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
+        // nextShotTime = Time.time + 1f;
+    // }
     
     private void OnTriggerEnter(Collider other)
     {
