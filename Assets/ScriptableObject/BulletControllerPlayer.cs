@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class BulletControllerPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float speed; // Скорость пули
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, speed);
     }
 }

@@ -465,3 +465,78 @@ Received Import Request.
   path: Assets/ScriptableObject/BulletControllerPlayer.cs
   artifactKey: Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/BulletControllerPlayer.cs using Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7f692961eff8b2745f041b2d0bbee7') in 0.019276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 620.499574 seconds.
+  path: Assets/ScriptableObject/BulletControllerPlayer.cs
+  artifactKey: Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BulletControllerPlayer.cs using Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c8795efbd923472a05636f53b8ff82') in 0.030364 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.275 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 6.175500 ms (FindLiveObjects: 0.459100 ms CreateObjectMapping: 0.393900 ms MarkObjects: 4.876700 ms  DeleteObjects: 0.442400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.608 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 17.478300 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 12.680100 ms MarkObjects: 3.869100 ms  DeleteObjects: 0.508700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.966152 seconds.
+  path: Assets/Prefabs/BulletPlayer Variant.prefab
+  artifactKey: Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletPlayer Variant.prefab using Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adc7689771dfc971cb4e732bba40416') in 0.452656 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.146216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.323 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 3.992100 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.284800 ms MarkObjects: 2.869500 ms  DeleteObjects: 0.490200 ms)
+
