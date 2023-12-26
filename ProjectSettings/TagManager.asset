@@ -9,6 +9,10 @@ TagManager:
   - BulletPlayer
   - SpaceshipRed
   - SpaceshipBlue
+  - lazerShot
+  - lazerGun
+  - lazerGun1
+  - lazerShot1
   layers:
   - Default
   - TransparentFX

@@ -56,7 +56,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012964112300, guid: 8306882d88a96b64291460c8d7664f4d, type: 3}
       propertyPath: m_TagString
-      value: BulletEnemy
+      value: lazerShot1
       objectReference: {fileID: 0}
     - target: {fileID: 4000014267599398, guid: 8306882d88a96b64291460c8d7664f4d, type: 3}
       propertyPath: m_RootOrder

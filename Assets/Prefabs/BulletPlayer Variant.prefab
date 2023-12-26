@@ -62,7 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000012327391772, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_TagString
-      value: BulletPlayer
+      value: lazerShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012741561742, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
+      propertyPath: m_TagString
+      value: lazerShot
       objectReference: {fileID: 0}
     - target: {fileID: 4000013080835110, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_RootOrder

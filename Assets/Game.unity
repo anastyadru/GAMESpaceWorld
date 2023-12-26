@@ -5746,7 +5746,7 @@ GameObject:
   - component: {fileID: 1683373319}
   m_Layer: 0
   m_Name: BulletPl
-  m_TagString: Untagged
+  m_TagString: lazerGun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5821,7 +5821,7 @@ GameObject:
   - component: {fileID: 1738864795}
   m_Layer: 0
   m_Name: BulletEn
-  m_TagString: Untagged
+  m_TagString: lazerGun1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
