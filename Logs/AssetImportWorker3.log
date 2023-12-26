@@ -762,3 +762,123 @@ System memory in use after: 120.2 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3253.
 Total: 4.211500 ms (FindLiveObjects: 0.440800 ms CreateObjectMapping: 0.355600 ms MarkObjects: 2.976300 ms  DeleteObjects: 0.435400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.178 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3256.
+Total: 7.357700 ms (FindLiveObjects: 0.441700 ms CreateObjectMapping: 0.231900 ms MarkObjects: 6.206600 ms  DeleteObjects: 0.474500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6059.090199 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabd7f5db2500e9594255410e7005f6c') in 0.367448 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006177 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.149 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3260.
+Total: 4.782000 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.271700 ms MarkObjects: 3.655300 ms  DeleteObjects: 0.510400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.288 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3263.
+Total: 14.823000 ms (FindLiveObjects: 7.339900 ms CreateObjectMapping: 0.409400 ms MarkObjects: 6.560900 ms  DeleteObjects: 0.509100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.101 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3266.
+Total: 16.591200 ms (FindLiveObjects: 0.526900 ms CreateObjectMapping: 0.400200 ms MarkObjects: 15.145100 ms  DeleteObjects: 0.515200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.059564 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634421e3cdd967473b1c7b542dcb090e') in 0.229400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.137201 seconds.
+  path: Assets/Prefabs/BulletEnemy Variant.prefab
+  artifactKey: Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletEnemy Variant.prefab using Guid(2be8a859b87ccef469c046b784763d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bceec443c2730c585ad959cdf09bcf9') in 0.206801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.082949 seconds.
+  path: Assets/Prefabs/BulletPlayer Variant.prefab
+  artifactKey: Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletPlayer Variant.prefab using Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf8bd924e59bbd5a519994868f6f360') in 0.121716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243588 seconds.
+  path: Assets/Prefabs/BulletPlayer Variant.prefab
+  artifactKey: Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletPlayer Variant.prefab using Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c66feafbfb6fcf6d0fbe6c96eee6f4') in 0.094605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.092205 seconds.
+  path: Assets/Prefabs/BulletPlayer Variant.prefab
+  artifactKey: Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletPlayer Variant.prefab using Guid(f7217460f2b9da545b7a671cd9e2d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead3309b31713e531f39199ce9a83235') in 0.049446 seconds 
