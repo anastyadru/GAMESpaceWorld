@@ -12,6 +12,9 @@ public class EnemyController : MonoBehaviour
     public GameObject lazerShot1;
     public Transform lazerGun1;
     private float nextShotTime; // Время следующего выстрела
+    
+    private int currentWave = 0; // Текущая волна
+    private int[] waveSizes = { 3, 5, 4, 6, 8, 12, 8 }; // Количество противников в каждой волне
 
     void Start()
     {
