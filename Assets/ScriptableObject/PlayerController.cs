@@ -21,7 +21,19 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButton("Fire2") && Time.time > nextShotTime)
         {
-            Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+            string selectedShip = PlayerPrefs.GetString("SelectedShip"); // Получаем выбранный корабль из сохраненных данных
+            
+            if (selectedShip == "SpaceshipRed")
+            {
+                Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+            }
+            else if (selectedShip == "SpaceshipBlue")
+            {
+                Instantiate(lazerShot, lazerGun.position, transform.rotation);
+                Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, -15, 0) * transform.rotation);
+                Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, 15, 0) * transform.rotation);
+            }
+            
             nextShotTime = Time.time + 0.1f;
         }
     }
