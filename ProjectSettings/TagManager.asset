@@ -13,6 +13,7 @@ TagManager:
   - lazerGun
   - lazerGun1
   - lazerShot1
+  - Characters
   layers:
   - Default
   - TransparentFX
