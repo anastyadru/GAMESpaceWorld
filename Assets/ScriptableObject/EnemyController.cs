@@ -56,6 +56,36 @@ public class EnemyController : MonoBehaviour
         {
             Destroy(gameObject); // Уничтожаем врага
             Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
+            
+            // Проверяем, остались ли еще противники в текущей волне
+            if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+            {
+                currentWave++; // Увеличиваем номер текущей волны
+
+                // Если все волны пройдены, завершаем игру
+                if (currentWave == waveSizes.Length)
+                {
+                    Debug.Log("Game Over");
+                    // Здесь можно добавить код для завершения игры
+                    return;
+                }
+
+                // Генерируем новую волну противников
+                GenerateWave(waveSizes[currentWave]);
+            }
+        }
+    }
+    
+    private void GenerateWave(int enemyCount)
+    {
+        for (int i = 0; i < enemyCount; i++)
+        {
+            // Создаем нового противника
+            GameObject enemy = Instantiate(gameObject, transform.position, transform.rotation);
+            
+            // Устанавливаем случайную позицию для противника
+            float randomX = Random.Range(-100f, 100f);
+            enemy.transform.position += new Vector3(randomX, 0, 0);
         }
     }
 }
