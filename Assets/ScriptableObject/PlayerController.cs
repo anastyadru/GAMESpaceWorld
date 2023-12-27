@@ -23,11 +23,11 @@ public class PlayerController : MonoBehaviour
         {
             string selectedShip = PlayerPrefs.GetString("SelectedShip"); // Получаем выбранный корабль из сохраненных данных
             
-            if (selectedShip == "SpaceshipRed")
+            if (selectedShip.Contains("SpaceshipRed"))
             {
                 Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
             }
-            else if (selectedShip == "SpaceshipBlue")
+            else if (selectedShip.Contains("SpaceshipBlue"))
             {
                 Instantiate(lazerShot, lazerGun.position, transform.rotation);
                 Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, -15, 0) * transform.rotation);
