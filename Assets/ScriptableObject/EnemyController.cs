@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     public Transform lazerGun1;
     private float nextShotTime; // Время следующего выстрела
     
+    public GameObject enemyPrefab; // Объявляем переменную для префаба противника
     private int currentWave = 0; // Текущая волна
     private int[] waveSizes = { 3, 5, 4, 6, 8, 12, 8 }; // Количество противников в каждой волне
 
