@@ -82,7 +82,7 @@ public class EnemyController : MonoBehaviour
         for (int i = 0; i < enemyCount; i++)
         {
             // Создаем нового противника
-            GameObject enemy = Instantiate(enemyPrefab, transform.position, transform.rotation);
+            GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation);
             
             // Устанавливаем случайную позицию для противника
             float randomX = Random.Range(-100f, 100f);
