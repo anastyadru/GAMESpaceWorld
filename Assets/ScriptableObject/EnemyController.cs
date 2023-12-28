@@ -72,12 +72,12 @@ public class EnemyController : MonoBehaviour
                 }
 
                 // Генерируем новую волну противников
-                GenerateWave(waveSizes[currentWave]);
+                GenerateWave(waveSizes[currentWave], transform.position);
             }
         }
     }
     
-    private void GenerateWave(int enemyCount)
+    private void GenerateWave(int enemyCount, Vector3 startPosition)
     {
         for (int i = 0; i < enemyCount; i++)
         {
