@@ -19,6 +19,7 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
+        GenerateWave(waveSizes[currentWave], transform.position);
         GenerateNewTargetPosition();
     }
 
