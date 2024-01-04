@@ -5266,7 +5266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lazerShot1: {fileID: 0}
   lazerGun1: {fileID: 0}
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 9142926299949864646, guid: a978330144bc6aa45ba486fe2fed45e5, type: 3}
 --- !u!4 &1560958772
 Transform:
   m_ObjectHideFlags: 0
