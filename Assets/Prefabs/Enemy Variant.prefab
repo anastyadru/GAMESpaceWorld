@@ -60,7 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lazerShot1: {fileID: 3060985299998868527, guid: 2be8a859b87ccef469c046b784763d9f, type: 3}
   lazerGun1: {fileID: 1738864795}
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 8924356035843259065}
 --- !u!135 &1964157159
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 86e8b97b6d8d3465d851b89623a7dee3, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 86e8b97b6d8d3465d851b89623a7dee3, type: 3}
       propertyPath: m_IsActive
