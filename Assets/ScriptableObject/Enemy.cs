@@ -13,6 +13,11 @@ public class Enemy : MonoBehaviour
     public Transform lazerGun1;
     private float nextShotTime; // Время следующего выстрела
     
+    void Start()
+    {
+        GenerateNewTargetPosition();
+    }
+    
     void Update()
     {
         if (Vector3.Distance(transform.position, targetPosition) < 10f) // Если враг близок к целевой позиции
@@ -41,7 +46,4 @@ public class Enemy : MonoBehaviour
         Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
         nextShotTime = Time.time + 4f;
     }
-    
-    
-
 }
