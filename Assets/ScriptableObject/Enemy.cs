@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
         float randomX = Random.Range(-100f, 100f); // Генерируем случайное значение по оси X
         targetPosition = transform.position + new Vector3(randomX, 0, 0); // Изначально целевая позиция равна текущей позиции + случайное значение по оси X
         
-        targetPosition.x = Mathf.Clamp(targetPosition.x, -500f, -100f); // Ограничиваем движение врага по горизонтали
+        targetPosition.x = Mathf.Clamp(targetPosition.x, -150f, 150f); // Ограничиваем движение врага по горизонтали
     }
     
     void Shoot()
