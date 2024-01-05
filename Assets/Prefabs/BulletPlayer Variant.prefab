@@ -22,7 +22,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8394701399415759668, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_Mass
-      value: 50
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: -8394701399415759668, guid: 1e15d82f04b99aa4c9b28e87530510d6, type: 3}
       propertyPath: m_UseGravity

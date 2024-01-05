@@ -35,10 +35,8 @@ public class Enemy : MonoBehaviour
 
     void GenerateNewTargetPosition()
     {
-        float randomX = Random.Range(-100f, 100f); // Генерируем случайное значение по оси X
-        targetPosition = transform.position + new Vector3(randomX, 0, 0); // Изначально целевая позиция равна текущей позиции + случайное значение по оси X
-        
-        targetPosition.x = Mathf.Clamp(targetPosition.x, -150f, 150f); // Ограничиваем движение врага по горизонтали
+        float randomX = Random.Range(-150f, 150f); // Генерируем случайное значение по оси X в пределах, где должны находиться враги
+        targetPosition = new Vector3(randomX, transform.position.y, transform.position.z); // Изменяем только координату X целевой позиции, остальные координаты оставляем без изменений
     }
     
     void Shoot()
