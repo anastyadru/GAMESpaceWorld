@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
 
     void GenerateNewTargetPosition()
     {
-        float randomX = Random.Range(-50f, 500f); // Генерируем случайное значение по оси X в пределах, где должны находиться враги
+        float randomX = Random.Range(-700f, 0f); // Генерируем случайное значение по оси X в пределах, где должны находиться враги
         targetPosition = new Vector3(randomX, transform.position.y, transform.position.z); // Изменяем только координату X целевой позиции, остальные координаты оставляем без изменений
     }
     
