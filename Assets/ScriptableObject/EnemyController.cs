@@ -7,6 +7,8 @@ public class EnemyController : MonoBehaviour
     public GameObject enemyPrefab; // Объявляем переменную для префаба противника
     private int currentWave = 0; // Текущая волна
     private int[] waveSizes = { 3, 5, 4, 6, 8, 12, 8 }; // Количество противников в каждой волне
+    
+    private int remainingEnemies; // Переменная для хранения количества оставшихся противников
 
     void Start()
     {
@@ -19,17 +21,19 @@ public class EnemyController : MonoBehaviour
         {
             Destroy(gameObject); // Уничтожаем врага
             Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
-            
-            if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0) // Проверяем, остались ли еще противники в текущей волне
+
+            remainingEnemies--; // Уменьшаем количество оставшихся противников
+        
+            if (remainingEnemies == 0) // Проверяем, остались ли еще противники в текущей волне
             {
                 currentWave++; // Увеличиваем номер текущей волны
-                
+            
                 if (currentWave == waveSizes.Length) // Если все волны пройдены, завершаем игру
                 {
                     Debug.Log("Game Over"); // Здесь можно добавить код для завершения игры
                     return;
                 }
-                
+            
                 GenerateWave(waveSizes[currentWave], transform.position); // Генерируем новую волну противников
             }
         }
@@ -37,6 +41,8 @@ public class EnemyController : MonoBehaviour
     
     private void GenerateWave(int enemyCount, Vector3 startPosition)
     {
+        remainingEnemies = enemyCount; // Устанавливаем количество оставшихся противников
+        
         for (int i = 0; i < enemyCount; i++)
         {
             GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation); // Создаем нового противника
