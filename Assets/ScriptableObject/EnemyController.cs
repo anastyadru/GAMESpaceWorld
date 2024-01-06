@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("lazerShot") && other.gameObject == gameObject) // Проверяем тег объекта
+        if (other.CompareTag("lazerShot")) // Проверяем тег объекта
         {
             Destroy(gameObject); // Уничтожаем врага
             Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
