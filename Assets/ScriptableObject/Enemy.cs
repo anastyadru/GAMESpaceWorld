@@ -42,6 +42,6 @@ public class Enemy : MonoBehaviour
     void Shoot()
     {
         Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
-        nextShotTime = Time.time + 4f;
+        nextShotTime = Time.time + 5f;
     }
 }
