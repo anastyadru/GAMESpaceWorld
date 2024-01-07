@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-
+    [SerializeField] private Text HighScoreText;
+    [SerializeField] private Text ScoreText;
+    
 }
