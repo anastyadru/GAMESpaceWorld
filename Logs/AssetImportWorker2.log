@@ -74,3 +74,24 @@ Received Import Request.
   path: Assets/ScriptableObject/HealthManagerEnemy.cs
   artifactKey: Guid(e2b4238a3eb797241b103baa8ef57405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/HealthManagerEnemy.cs using Guid(e2b4238a3eb797241b103baa8ef57405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d531a63ba83cb7419bc5c873b68f0fd') in 0.055809 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.401 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 7.351600 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.187900 ms MarkObjects: 6.401300 ms  DeleteObjects: 0.458600 ms)
+
