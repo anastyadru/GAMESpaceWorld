@@ -6,16 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class HealthManagerEnemy : MonoBehaviour
 {
+    public float fill = 100f;
     public Image bar;
-    public float fill;
 
     void Start()
     {
-        fill = 100f;
+        
     }
 
     void Update()
     {
-        bar.fillAmount = fill;
+        
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "lazerShot")
+        {
+            fill -= 20;
+            bar.fillAmount = fill / 100;
+        }
     }
 }
