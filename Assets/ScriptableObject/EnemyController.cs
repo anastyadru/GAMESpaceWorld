@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
     public GameObject enemyPrefab; // Объявляем переменную для префаба противника
     private int currentWave = 0; // Текущая волна
     private int[] waveSizes = { 3, 5, 4, 6, 8, 12, 8 }; // Количество противников в каждой волне
+    private float enemyHealthMultiplier = 1.05f;
     
     private int remainingEnemies; // Переменная для хранения количества оставшихся противников
 
