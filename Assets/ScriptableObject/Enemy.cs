@@ -42,10 +42,7 @@ public class Enemy : MonoBehaviour
     
     void Shoot()
     {
-        GameObject lazerShot = Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
-        // Увеличиваем скорость снаряда на 5%
-        LazerShot lazerShotScript = lazerShot.GetComponent<LazerShot>();
-        lazerShotScript.speed *= projectileSpeedMultiplier;
+        Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
         nextShotTime = Time.time + 5f;
     }
 }
