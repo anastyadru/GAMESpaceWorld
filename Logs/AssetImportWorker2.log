@@ -308,3 +308,9 @@ Received Import Request.
   path: Assets/ScriptableObject/Enemy.cs
   artifactKey: Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/Enemy.cs using Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda5dfba9383ce13ad13b21aa3deba1f') in 2.147030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1008.880949 seconds.
+  path: Assets/ScriptableObject/Enemy.cs
+  artifactKey: Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Enemy.cs using Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e616101493d902c04ee6a6e79c976c85') in 0.441261 seconds 

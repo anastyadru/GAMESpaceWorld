@@ -49,6 +49,11 @@ public class EnemyController : MonoBehaviour
             GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation); // Создаем нового противника
             float randomX = Random.Range(-100f, 100f); // Устанавливаем случайную позицию для противника
             enemy.transform.position += new Vector3(randomX, 0, 0);
+            
+            // Увеличиваем здоровье противника на 5%
+            Enemy enemyScript = enemy.GetComponent<Enemy>();
+            enemyScript.maxHealth *= enemyHealthMultiplier;
+            enemyScript.currentHealth *= enemyHealthMultiplier;
         }
     }
 }

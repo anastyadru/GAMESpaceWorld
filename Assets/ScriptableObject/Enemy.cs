@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     private float speed = 250f; // Скорость перемещения
     private float smoothness = 3f; // Плавность движения
+    private float projectileSpeedMultiplier = 1.05f;
 
     private Vector3 targetPosition; // Целевая позиция
     
@@ -41,7 +42,10 @@ public class Enemy : MonoBehaviour
     
     void Shoot()
     {
-        Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
+        GameObject lazerShot = Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
+        // Увеличиваем скорость снаряда на 5%
+        LazerShot lazerShotScript = lazerShot.GetComponent<LazerShot>();
+        lazerShotScript.speed *= projectileSpeedMultiplier;
         nextShotTime = Time.time + 5f;
     }
 }
