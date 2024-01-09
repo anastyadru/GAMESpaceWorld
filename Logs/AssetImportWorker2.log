@@ -260,3 +260,51 @@ System memory in use after: 102.6 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3183.
 Total: 8.769300 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 3.203700 ms MarkObjects: 4.622100 ms  DeleteObjects: 0.506200 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.578 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3186.
+Total: 6.508100 ms (FindLiveObjects: 1.450700 ms CreateObjectMapping: 0.752300 ms MarkObjects: 3.790600 ms  DeleteObjects: 0.510800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.076634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.113 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3189.
+Total: 5.957500 ms (FindLiveObjects: 1.340800 ms CreateObjectMapping: 0.422800 ms MarkObjects: 3.767700 ms  DeleteObjects: 0.423300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13932.108078 seconds.
+  path: Assets/ScriptableObject/Enemy.cs
+  artifactKey: Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Enemy.cs using Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda5dfba9383ce13ad13b21aa3deba1f') in 2.147030 seconds 
