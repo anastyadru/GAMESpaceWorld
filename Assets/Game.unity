@@ -3738,6 +3738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bar: {fileID: 675644044}
+  fill: 60
 --- !u!1 &1118489909
 GameObject:
   m_ObjectHideFlags: 0

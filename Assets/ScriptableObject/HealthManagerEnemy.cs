@@ -9,4 +9,15 @@ public class HealthManagerEnemy : MonoBehaviour
     // [SerializeField] private Text HealthTextEnemy;
     
     public Image bar;
+    public float fill;
+
+    void Start()
+    {
+        fill = 100f;
+    }
+
+    void Update()
+    {
+        bar.fillAmount = fill;
+    }
 }
