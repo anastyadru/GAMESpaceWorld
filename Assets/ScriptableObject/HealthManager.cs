@@ -9,4 +9,14 @@ public class HealthManager : MonoBehaviour
     [SerializeField] private Text HealthText;
     
     public float health;
+
+	void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
 }

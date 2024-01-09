@@ -11,4 +11,14 @@ public class ScoreManager : MonoBehaviour
     
     public float score;
     public float highscore;
+
+	void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
 }

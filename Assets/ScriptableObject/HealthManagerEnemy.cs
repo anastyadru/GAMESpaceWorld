@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class HealthManagerEnemy : MonoBehaviour
 {
-    // [SerializeField] private Text HealthTextEnemy;
-    
     public Image bar;
     public float fill;
 
