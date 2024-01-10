@@ -12,7 +12,7 @@ public class HealthManager : MonoBehaviour
 
 	void Start()
     {
-        
+        HealthText.text = health.ToString();
     }
 
     void Update()
@@ -25,7 +25,7 @@ public class HealthManager : MonoBehaviour
         if (collision.gameObject.tag == "lazerShot1")
         {
             health -= 5;
-            Health.healthAmount = health / 100;
+            HealthText.text = (health / 100).ToString();
         }
     }
 }
