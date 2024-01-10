@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 170f; // Скорость перемещения игрока
+    private float speed = 230f; // Скорость перемещения игрока
     public GameObject lazerShot;
     public Transform lazerGun;
     private float nextShotTime; // Время следующего выстрела
@@ -37,13 +37,4 @@ public class PlayerController : MonoBehaviour
             // }
         }
     }
-    
-    // private void OnTriggerEnter(Collider other)
-    // {
-        // if (other.CompareTag("lazerShot1")) // Проверяем тег объекта
-        // {
-            // Destroy(gameObject); // Уничтожаем врага
-            // Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
-        // }
-    // }
 }

@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
     [SerializeField] private Text HealthText;
-    
     public float health = 100f;
 
 	void Start()
@@ -17,7 +16,10 @@ public class HealthManager : MonoBehaviour
 
     void Update()
     {
-        
+        if (health <= 0)
+        {
+            EndGame();
+        }
     }
     
     private void OnTriggerEnter(Collider other)
@@ -25,12 +27,19 @@ public class HealthManager : MonoBehaviour
         if (other.CompareTag("lazerShot1")) // Проверяем тег объекта
         {
             health -= 5;
-            HealthText.text = health.ToString();
+            UpdateHealthText();
         }
     }
     
     private void UpdateHealthText()
     {
         HealthText.text = "HEALTH: " + health.ToString();
+    }
+    
+    private void EndGame()
+    {
+        // Здесь можно добавить логику окончания игры, например, перезагрузку уровня или открытие экрана поражения.
+        // В данном примере, просто перезагружаем текущую сцену.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
