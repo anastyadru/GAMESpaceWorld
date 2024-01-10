@@ -38,12 +38,12 @@ public class PlayerController : MonoBehaviour
         }
     }
     
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("lazerShot1")) // Проверяем тег объекта
-        {
-            Destroy(gameObject); // Уничтожаем врага
-            Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
-        }
-    }
+    // private void OnTriggerEnter(Collider other)
+    // {
+        // if (other.CompareTag("lazerShot1")) // Проверяем тег объекта
+        // {
+            // Destroy(gameObject); // Уничтожаем врага
+            // Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
+        // }
+    // }
 }

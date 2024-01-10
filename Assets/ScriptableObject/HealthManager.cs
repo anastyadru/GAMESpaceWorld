@@ -20,9 +20,9 @@ public class HealthManager : MonoBehaviour
         
     }
     
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "lazerShot1")
+        if (other.CompareTag("lazerShot1")) // Проверяем тег объекта
         {
             health -= 5;
             HealthText.text = health.ToString();
