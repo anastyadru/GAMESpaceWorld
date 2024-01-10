@@ -8,7 +8,7 @@ public class HealthManager : MonoBehaviour
 {
     [SerializeField] private Text HealthText;
     
-    public float health;
+    public float health = 100f;
 
 	void Start()
     {
@@ -18,5 +18,14 @@ public class HealthManager : MonoBehaviour
     void Update()
     {
         
+    }
+    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "lazerShot1")
+        {
+            health -= 5;
+            Health.healthAmount = health / 100;
+        }
     }
 }
