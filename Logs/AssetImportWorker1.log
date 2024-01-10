@@ -74,3 +74,83 @@ Received Import Request.
   path: Assets/ScriptableObject/HealthManager.cs
   artifactKey: Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/HealthManager.cs using Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5337b78040e92898f46d066cb27c0a1a') in 0.065093 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.071652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.650 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 5.876600 ms (FindLiveObjects: 1.928500 ms CreateObjectMapping: 0.368000 ms MarkObjects: 3.109200 ms  DeleteObjects: 0.467800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.568 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3165.
+Total: 5.206300 ms (FindLiveObjects: 0.307300 ms CreateObjectMapping: 0.238700 ms MarkObjects: 4.266400 ms  DeleteObjects: 0.391000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4899.559742 seconds.
+  path: Assets/ScriptableObject/HealthManager.cs
+  artifactKey: Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/HealthManager.cs using Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65bfc7f4a4d0fa923b49af81eab4c91') in 0.012386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.363151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.275 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3168.
+Total: 5.257700 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.444400 ms MarkObjects: 4.008100 ms  DeleteObjects: 0.490900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.779 seconds
+Platform modules already initialized, skipping
