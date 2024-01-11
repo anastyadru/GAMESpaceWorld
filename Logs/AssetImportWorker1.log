@@ -578,3 +578,39 @@ System memory in use after: 106.4 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3233.
 Total: 3.920600 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.237000 ms MarkObjects: 2.966300 ms  DeleteObjects: 0.394100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1613.312325 seconds.
+  path: Assets/PyroParticles/Prefab/Materials/FireParticleGlowMaterial.mat
+  artifactKey: Guid(3eb8cc4a6fb112f418bc9ccff02be21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PyroParticles/Prefab/Materials/FireParticleGlowMaterial.mat using Guid(3eb8cc4a6fb112f418bc9ccff02be21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd50bc4543363ae127ba6f4474d3452') in 0.586889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.280111 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet1(2).prefab
+  artifactKey: Guid(8306882d88a96b64291460c8d7664f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet1(2).prefab using Guid(8306882d88a96b64291460c8d7664f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a72af0604a18dfeeaef96e2f1465b3') in 0.742014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Ammunition pack (demo)/Prefabs/Bullet1(3).prefab
+  artifactKey: Guid(1e15d82f04b99aa4c9b28e87530510d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Prefabs/Bullet1(3).prefab using Guid(1e15d82f04b99aa4c9b28e87530510d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa3ed56b0f49bea9a3783677d373b27') in 0.035597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 911.789203 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet3_diffuse1.mat
+  artifactKey: Guid(d3e1e46301f22e64991982f73f90157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet3_diffuse1.mat using Guid(d3e1e46301f22e64991982f73f90157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84324fe3d01c1e836cca7b05b488818b') in 0.099680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet3_diffuse2.mat
+  artifactKey: Guid(cef8d0b47db3b0e4f8e223613444accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet3_diffuse2.mat using Guid(cef8d0b47db3b0e4f8e223613444accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4612e7ef282d92a0410a396cbca68131') in 0.094637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004067 seconds.
+  path: Assets/Ammunition pack (demo)/Materials/Bullet7_diffuse3.mat
+  artifactKey: Guid(e513574b0605eed4e904de137c611230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/Materials/Bullet7_diffuse3.mat using Guid(e513574b0605eed4e904de137c611230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd8a2a6834d976d3e30b37a09d3f809') in 0.157008 seconds 
