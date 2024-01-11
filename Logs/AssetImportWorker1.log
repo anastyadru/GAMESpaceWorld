@@ -614,3 +614,9 @@ Received Import Request.
   path: Assets/Ammunition pack (demo)/Materials/Bullet7_diffuse3.mat
   artifactKey: Guid(e513574b0605eed4e904de137c611230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ammunition pack (demo)/Materials/Bullet7_diffuse3.mat using Guid(e513574b0605eed4e904de137c611230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd8a2a6834d976d3e30b37a09d3f809') in 0.157008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1271.179296 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257a2bf9705ecb15958337eb336abc81') in 0.786194 seconds 
