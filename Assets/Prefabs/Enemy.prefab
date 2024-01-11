@@ -24385,7 +24385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c538e81ce40df054580b06dae4f3be8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lazerShot1: {fileID: 3060985299998868527, guid: 2be8a859b87ccef469c046b784763d9f, type: 3}
+  lazerShot1: {fileID: 0}
   lazerGun1: {fileID: 7656296528031016180}
 --- !u!114 &739951082
 MonoBehaviour:

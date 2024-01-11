@@ -1758,6 +1758,67 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1001 &521632168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1193623656054736836, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: lazerShot1
+      value: 
+      objectReference: {fileID: 1607486790}
+    - target: {fileID: 3627337302967964834, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -318.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -220
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -147
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344726379302831302, guid: 4575180d6a22e05488b414802068c65d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4575180d6a22e05488b414802068c65d, type: 3}
 --- !u!1 &553763041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,6 +2077,10 @@ PrefabInstance:
       value: BulletControllerPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 1000011023395326, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011023395326, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
       propertyPath: m_TagString
       value: lazerShot
       objectReference: {fileID: 0}
@@ -2063,6 +2128,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4000014073500310, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014073500310, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014073500310, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 137000013923254932, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2104,6 +2181,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+--- !u!1 &665375480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012647698792, guid: 2ce15a1900ef14a459f78260cd05a3dc, type: 3}
+  m_PrefabInstance: {fileID: 665375476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &665375481
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665375480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.09087498
+  m_Height: 0.76017815
+  m_Direction: 2
+  m_Center: {x: 0.48134133, y: -0.039131086, z: 0.31988683}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,7 +2356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeaaf841eddecd44ab5b46f499648c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lazerShot: {fileID: 1970310043283395797, guid: f7217460f2b9da545b7a671cd9e2d75f, type: 3}
+  lazerShot: {fileID: 665375477}
   lazerGun: {fileID: 1683373319}
 --- !u!54 &709502017
 Rigidbody:
@@ -5471,6 +5567,10 @@ PrefabInstance:
       value: BulletControllerEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 1000011831654914, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011831654914, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
       propertyPath: m_TagString
       value: lazerShot1
       objectReference: {fileID: 0}
@@ -5559,6 +5659,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+--- !u!1 &1607486793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010613583170, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
+  m_PrefabInstance: {fileID: 1607486789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1607486794
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607486793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.089676544
+  m_Height: 0.72217244
+  m_Direction: 2
+  m_Center: {x: 0.0022511254, y: -0.004623307, z: 0.30112648}
 --- !u!1 &1632742617
 GameObject:
   m_ObjectHideFlags: 0
