@@ -29,6 +29,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+--- !u!136 &5518199761383141356
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6147934316776804981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.10893696
+  m_Height: 0.6312085
+  m_Direction: 1
+  m_Center: {x: 0.0042580604, y: 0.2627214, z: 0.000000047683717}
 --- !u!136 &1607486794
 CapsuleCollider:
   m_ObjectHideFlags: 0
