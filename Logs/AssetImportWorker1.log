@@ -620,3 +620,69 @@ Received Import Request.
   path: Assets/Prefabs/Enemy.prefab
   artifactKey: Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Enemy.prefab using Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257a2bf9705ecb15958337eb336abc81') in 0.786194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49555.099133 seconds.
+  path: Assets/Prefabs/BulletControllerPlayer Variant.prefab
+  artifactKey: Guid(e804b69cd4d3e6a4285c92db9ed34cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletControllerPlayer Variant.prefab using Guid(e804b69cd4d3e6a4285c92db9ed34cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328c5e9c37779b95f66a878454d01170') in 0.178276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.358067 seconds.
+  path: Assets/Prefabs/BulletControllerEnemy Variant.prefab
+  artifactKey: Guid(d9fa24887c9ea9f4888336859eb2ab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletControllerEnemy Variant.prefab using Guid(d9fa24887c9ea9f4888336859eb2ab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a172dd55b7e8d759b0c4c918aff56ab3') in 0.462853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.794890 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb9631da8c4cca0187f1dc517c5973e') in 0.216110 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.065124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.529 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.0 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3271.
+Total: 12.960800 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.493900 ms MarkObjects: 11.633600 ms  DeleteObjects: 0.409600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 355.675612 seconds.
+  path: Assets/Prefabs/BulletControllerPlayer Variant.prefab
+  artifactKey: Guid(e804b69cd4d3e6a4285c92db9ed34cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletControllerPlayer Variant.prefab using Guid(e804b69cd4d3e6a4285c92db9ed34cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028ebc4b33fb52f0e2fa00a1d8a7dbe') in 0.420470 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.848 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.0 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3275.
+Total: 5.268300 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.357800 ms MarkObjects: 2.932200 ms  DeleteObjects: 1.554700 ms)
+
