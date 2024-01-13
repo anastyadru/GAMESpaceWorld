@@ -1013,3 +1013,78 @@ System memory in use after: 120.7 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3320.
 Total: 14.563300 ms (FindLiveObjects: 9.831100 ms CreateObjectMapping: 0.382800 ms MarkObjects: 3.894600 ms  DeleteObjects: 0.451400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.277376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.703 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.2 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3323.
+Total: 4.743900 ms (FindLiveObjects: 0.915700 ms CreateObjectMapping: 0.346600 ms MarkObjects: 2.834900 ms  DeleteObjects: 0.643200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91793.393746 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed743d689c25d9fa244d91dbf72d6d88') in 0.131623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5243.505842 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0162f32f4dbed7293c06c06826656689') in 0.015822 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.115 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.3 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3326.
+Total: 6.723800 ms (FindLiveObjects: 0.437100 ms CreateObjectMapping: 0.360800 ms MarkObjects: 5.410600 ms  DeleteObjects: 0.512100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.587 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.3 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3329.
+Total: 5.139500 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.343100 ms MarkObjects: 3.833600 ms  DeleteObjects: 0.531500 ms)
+

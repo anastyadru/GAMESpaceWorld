@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
     [SerializeField] private Text HealthText;
-    public float health = 100f;
+    public float health = 10f;
 
 	void Start()
     {
@@ -38,8 +38,10 @@ public class HealthManager : MonoBehaviour
     
     private void EndGame()
     {
-        // Здесь можно добавить логику окончания игры, например, перезагрузку уровня или открытие экрана поражения.
-        // В данном примере, просто перезагружаем текущую сцену.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player.SetActive(false);
+
+        GameObject gameOverMenu = GameObject.FindGameObjectWithTag("GameOverMenu");
+        gameOverMenu.SetActive(true);
     }
 }
