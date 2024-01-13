@@ -15,6 +15,7 @@ TagManager:
   - lazerShot1
   - Characters
   - Enemies
+  - GameOverMenu
   layers:
   - Default
   - TransparentFX
