@@ -41,7 +41,7 @@ public class HealthManager : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         player.SetActive(false);
 
-        GameObject gameOverMenu = GameObject.FindGameObjectWithTag("GameOverMenu");
-        gameOverMenu.SetActive(true);
+        // GameObject gameOverMenu = GameObject.FindGameObjectWithTag("GameOverMenu");
+        // gameOverMenu.SetActive(true);
     }
 }
