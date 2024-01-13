@@ -24,16 +24,11 @@ public class BonusManager : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        // if (other.CompareTag("lazerShot")) // Проверяем тег объекта
-        // {
-            // bonus += 5;
-            // UpdateBonusText();
-        // }
         if (other.CompareTag("lazerShot")) // Проверяем тег объекта
         {
             if (other.GetComponent<Collider>().gameObject.CompareTag("Enemy")) // Проверяем тег объекта, к которому прикреплен коллайдер
             {
-                bonus += 5;
+                bonus += 2;
                 UpdateBonusText();
             }
         }
