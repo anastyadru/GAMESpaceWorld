@@ -1178,3 +1178,57 @@ Received Import Request.
   path: Assets/Game.unity
   artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b74b4d92a6e0b6eb0a1d1284901cd6') in 0.314533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1282.035531 seconds.
+  path: Assets/GameOver.unity
+  artifactKey: Guid(27bc84ba8246384429e0f8d9c5a51c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameOver.unity using Guid(27bc84ba8246384429e0f8d9c5a51c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d78d4d6bfab776b6dfab143f7f5ab8f') in 0.014718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.154759 seconds.
+  path: Assets/GameOver.unity
+  artifactKey: Guid(27bc84ba8246384429e0f8d9c5a51c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameOver.unity using Guid(27bc84ba8246384429e0f8d9c5a51c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f38b1704f1ae0f655652e7513c5be5') in 0.017702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.840569 seconds.
+  path: Assets/GameOver.unity
+  artifactKey: Guid(27bc84ba8246384429e0f8d9c5a51c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameOver.unity using Guid(27bc84ba8246384429e0f8d9c5a51c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299194a8488cd027606eda930f4d3ef9') in 0.014148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 320.309104 seconds.
+  path: Assets/Spaceship/Skins/Materials/Diffuse
+  artifactKey: Guid(a039e79184301a64eab39eb6bb42df2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Skins/Materials/Diffuse using Guid(a039e79184301a64eab39eb6bb42df2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424a53c067721c30df61c6703dc6619f') in 0.007083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.301606 seconds.
+  path: Assets/Spaceship/Skins/Materials/Diffuse/DesertSkin.mat
+  artifactKey: Guid(2de8be601d4c81a4692a632609a53700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Skins/Materials/Diffuse/DesertSkin.mat using Guid(2de8be601d4c81a4692a632609a53700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4f6fb85b71af236228fd9255fd6902') in 0.342519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Spaceship/Skins/Materials/Diffuse/TigerSkin.mat
+  artifactKey: Guid(ba763c6c04e894f4b9118c558ebb98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Skins/Materials/Diffuse/TigerSkin.mat using Guid(ba763c6c04e894f4b9118c558ebb98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a884371cb132a8bc3d4ba459f50f83c8') in 0.160410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069956 seconds.
+  path: Assets/Spaceship/Skins/Materials/Diffuse/RedSkin.mat
+  artifactKey: Guid(868877e163226414caa5b33e9a9802a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Skins/Materials/Diffuse/RedSkin.mat using Guid(868877e163226414caa5b33e9a9802a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1124261bf91a0ec9d78a0a00e4dce8ef') in 0.071776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Spaceship/Skins/Materials/Diffuse/SnowSkin.mat
+  artifactKey: Guid(90d34f7f0564b7a4a838330a7a30b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Skins/Materials/Diffuse/SnowSkin.mat using Guid(90d34f7f0564b7a4a838330a7a30b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6b5a3faef2d5a34726796040d45370') in 0.165186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001108 seconds.
+  path: Assets/Spaceship/Skins/Materials/Diffuse/StealthSkin.mat
+  artifactKey: Guid(fa8aca7c3b45b954ea6185be26c86a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship/Skins/Materials/Diffuse/StealthSkin.mat using Guid(fa8aca7c3b45b954ea6185be26c86a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb0bf5f5bf22673d76e014aafec642b') in 0.187921 seconds 
