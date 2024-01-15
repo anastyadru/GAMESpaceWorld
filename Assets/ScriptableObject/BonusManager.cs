@@ -41,17 +41,6 @@ public class BonusManager : MonoBehaviour
 
     private void UseBonus()
     {
-        // Находим всех противников на карте
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-
-        // Применяем урон к каждому противнику
-        foreach (Enemy enemy in enemies)
-        {
-            enemy.TakeDamage(250); // Предполагается, что у врага есть метод TakeDamage для получения урона
-        }
-
-        // Сбрасываем бонус
-        bonus = 0;
-        UpdateBonusText();
+        
     }
 }
