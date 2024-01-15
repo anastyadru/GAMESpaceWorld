@@ -338,6 +338,7 @@
 "Assets/ScriptableObject/ButtonNext.cs"
 "Assets/ScriptableObject/Enemy.cs"
 "Assets/ScriptableObject/EnemyController.cs"
+"Assets/ScriptableObject/GameOver.cs"
 "Assets/ScriptableObject/HealthManager.cs"
 "Assets/ScriptableObject/HealthManagerEnemy.cs"
 "Assets/ScriptableObject/MainMenu.cs"
