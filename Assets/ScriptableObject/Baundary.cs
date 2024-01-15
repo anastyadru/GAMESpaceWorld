@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class Baundary : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerExit(Collider other)
     {
-        
+        Destroy(other.gameObject);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+} 
