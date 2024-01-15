@@ -1232,3 +1232,39 @@ Received Import Request.
   path: Assets/Spaceship/Skins/Materials/Diffuse/StealthSkin.mat
   artifactKey: Guid(fa8aca7c3b45b954ea6185be26c86a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Spaceship/Skins/Materials/Diffuse/StealthSkin.mat using Guid(fa8aca7c3b45b954ea6185be26c86a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb0bf5f5bf22673d76e014aafec642b') in 0.187921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140381.641930 seconds.
+  path: Assets/PyroParticles/Readme.txt
+  artifactKey: Guid(19d985791f809cd4cb7d99e9e7f62f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PyroParticles/Readme.txt using Guid(19d985791f809cd4cb7d99e9e7f62f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd7ea0625f85e5751876cad1e3a93e1') in 0.047571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.130242 seconds.
+  path: Assets/PyroParticles/Prefab/Script/MeteorSwarmScript.cs
+  artifactKey: Guid(69a6bf343df323040a372aa4198de5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PyroParticles/Prefab/Script/MeteorSwarmScript.cs using Guid(69a6bf343df323040a372aa4198de5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae710c5d54cb5c1efd08c2757cd72c2') in 0.007133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.926674 seconds.
+  path: Assets/Shaders/Atmosphere.shader
+  artifactKey: Guid(d454de504e344e04a960a54338c35e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Atmosphere.shader using Guid(d454de504e344e04a960a54338c35e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f9cf84dd378149c387d4fff7612574') in 0.012746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.868102 seconds.
+  path: Assets/Shaders/Floor shader.shader
+  artifactKey: Guid(3b2c37306ac5f2a41a15b1f462efa4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Floor shader.shader using Guid(3b2c37306ac5f2a41a15b1f462efa4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5683d7f9295e01813b7981f3472f07f') in 0.006307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2431.523950 seconds.
+  path: Assets/Textures/Environment/Skybox/New Material.mat
+  artifactKey: Guid(9aabd2deae062a54e849a1eef5dbb846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/New Material.mat using Guid(9aabd2deae062a54e849a1eef5dbb846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f339fdd619fc1ac36d54c213b03be') in 0.078459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.071796 seconds.
+  path: Assets/Textures/Environment/Skybox/New Material.mat
+  artifactKey: Guid(9aabd2deae062a54e849a1eef5dbb846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environment/Skybox/New Material.mat using Guid(9aabd2deae062a54e849a1eef5dbb846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa42536a1b296a8e3bd60067a7966d') in 0.075489 seconds 
