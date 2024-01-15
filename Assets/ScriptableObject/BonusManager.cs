@@ -14,13 +14,13 @@ public class BonusManager : MonoBehaviour
         UpdateBonusText();
     }
     
-    // void Update()
-    // {
-        // if (bonus == 100)
-        // {
-            
-        // }
-    // }
+    void Update()
+    {
+        if (bonus == 100)
+        {
+            UseBonus();
+        }
+    }
     
     private void OnTriggerEnter(Collider other)
     {
@@ -38,9 +38,20 @@ public class BonusManager : MonoBehaviour
     {
         BonusText.text = "BONUS: " + bonus.ToString();
     }
-    
-    // private void 
-    // 
-        
-    // }
+
+    private void UseBonus()
+    {
+        // Находим всех противников на карте
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
+
+        // Применяем урон к каждому противнику
+        foreach (Enemy enemy in enemies)
+        {
+            enemy.TakeDamage(250); // Предполагается, что у врага есть метод TakeDamage для получения урона
+        }
+
+        // Сбрасываем бонус
+        bonus = 0;
+        UpdateBonusText();
+    }
 }
