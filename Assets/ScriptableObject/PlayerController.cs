@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 230f; // Скорость перемещения игрока
+    private float speed = 250f; // Скорость перемещения игрока
     public GameObject lazerShot;
     public Transform lazerGun;
     private float nextShotTime; // Время следующего выстрела

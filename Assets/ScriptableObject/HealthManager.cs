@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
     [SerializeField] private Text HealthText;
-    public float health = 10f;
+    public float health = 100f;
 
 	void Start()
     {
