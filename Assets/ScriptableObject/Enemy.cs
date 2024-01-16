@@ -14,6 +14,8 @@ public class Enemy : MonoBehaviour
     public Transform lazerGun1;
     private float nextShotTime; // Время следующего выстрела
     
+    public int health;
+    
     void Start()
     {
         GenerateNewTargetPosition();

@@ -15,7 +15,6 @@ public class ScoreManager : MonoBehaviour
 	void Start()
     {
         UpdateScoreText();
-        // UpdateHighScoreText;
     }
 
     void Update()
@@ -29,8 +28,12 @@ public class ScoreManager : MonoBehaviour
         {
             if (other.GetComponent<Collider>().gameObject.CompareTag("Enemy")) // Проверяем тег объекта, к которому прикреплен коллайдер
             {
-                score += 2;
-                UpdateScoreText();
+                Enemy enemy = other.GetComponent<Enemy>();
+                if (enemy != null)
+                {
+                    score += enemy.health;
+                    UpdateScoreText();
+                }
             }
         }
     }
@@ -38,5 +41,11 @@ public class ScoreManager : MonoBehaviour
     private void UpdateScoreText()
     {
         ScoreText.text = "SCORE: " + score.ToString();
+        
+        if (score > highscore)
+        {
+            highscore = score;
+            HighScoreText.text = "HIGHSCORE: " + highscore.ToString();
+        }
     }
 }
