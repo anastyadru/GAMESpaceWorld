@@ -36,6 +36,13 @@ public class ScoreManager : MonoBehaviour
                 {
                     score += enemy.health;
                     UpdateScoreText();
+                    
+                    if (score > highscore)
+                    {
+                        highscore = score;
+                        PlayerPrefs.SetFloat(highScoreKey, highscore);
+                        HighScoreText.text = "HIGHSCORE: " + highscore.ToString();
+                    }
                 }
             }
         }
@@ -44,11 +51,5 @@ public class ScoreManager : MonoBehaviour
     private void UpdateScoreText()
     {
         ScoreText.text = "SCORE: " + score.ToString();
-        
-        if (score > highscore)
-        {
-            highscore = score;
-            HighScoreText.text = "HIGHSCORE: " + highscore.ToString();
-        }
     }
 }
