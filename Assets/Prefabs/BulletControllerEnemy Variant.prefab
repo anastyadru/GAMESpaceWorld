@@ -62,6 +62,22 @@ PrefabInstance:
       propertyPath: m_TagString
       value: lazerShot1
       objectReference: {fileID: 0}
+    - target: {fileID: 4000011503084706, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011503084706, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011503084706, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011503084706, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014018216288, guid: 424570faa59c41248b97fd39edf5d414, type: 3}
       propertyPath: m_RootOrder
       value: 0
