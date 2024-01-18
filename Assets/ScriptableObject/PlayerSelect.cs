@@ -8,9 +8,6 @@ public class PlayerSelect : MonoBehaviour
     private GameObject[] characters;
     private int index;
 
-	public GameObject redBulletPrefab;
-    public GameObject blueBulletPrefab;
-
     private void Start()
     {
         index = PlayerPrefs.GetInt("SelectPlayer");
@@ -42,16 +39,6 @@ public class PlayerSelect : MonoBehaviour
         }
 
         characters[index].SetActive(true);
-
-		// Проверяем, какой корабль выбран и устанавливаем соответствующий тип выстрела
-        if (index == 0)
-        {
-            BulletController.bulletPrefab = redBulletPrefab;
-        }
-        else if (index == 1)
-        {
-            BulletController.bulletPrefab = blueBulletPrefab;
-        }
     }
 
     public void SelectRight()
@@ -64,15 +51,6 @@ public class PlayerSelect : MonoBehaviour
         }
 
         characters[index].SetActive(true);
-
-		if (index == 0)
-        {
-            BulletController.bulletPrefab = redBulletPrefab;
-        }
-        else if (index == 1)
-        {
-            BulletController.bulletPrefab = blueBulletPrefab;
-        }
     }
 
     public void StartScene()
