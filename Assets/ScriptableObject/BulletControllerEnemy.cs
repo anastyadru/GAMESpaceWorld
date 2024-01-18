@@ -4,10 +4,43 @@ using UnityEngine;
 
 public class BulletControllerEnemy : MonoBehaviour
 {
-    public float speed; // Скорость пули
+    public float fireRateRed = 0.1f;
+    public float fireRateBlue = 0.2f;
 
-    void Start()
+    private GameObject bulletPrefabEnemy;
+    private float nextShotTime;
+
+    private void Start()
     {
-        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -speed);
+        PlayerSelect playerSelect = FindObjectOfType<PlayerSelect>();
+        int index = PlayerPrefs.GetInt("SelectPlayer");
+
+        if (index == 0)
+        {
+            bulletPrefabEnemy = playerSelect.redBulletPrefab;
+        }
+        else if (index == 1)
+        {
+            bulletPrefabEnemy = playerSelect.blueBulletPrefab;
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButton(0) && Time.time > nextShotTime)
+        {
+            if (bulletPrefabEnemy == redBulletPrefab)
+            {
+                Instantiate(bulletPrefabEnemy, transform.position, Quaternion.identity);
+                nextShotTime = Time.time + fireRateRed;
+            }
+            else if (bulletPrefabEnemy == blueBulletPrefab)
+            {
+                Instantiate(bulletPrefabEnemy, transform.position, Quaternion.identity);
+                Instantiate(bulletPrefabEnemy, transform.position, Quaternion.Euler(0, -15, 0));
+                Instantiate(bulletPrefabEnemy, transform.position, Quaternion.Euler(0, 15, 0));
+                nextShotTime = Time.time + fireRateBlue;
+            }
+        }
     }
 }

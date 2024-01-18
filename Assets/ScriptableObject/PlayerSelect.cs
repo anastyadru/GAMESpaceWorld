@@ -5,57 +5,39 @@ using UnityEngine.SceneManagement;
 
 public class PlayerSelect : MonoBehaviour
 {
-    private GameObject[] characters;
-    private int index;
+    public GameObject redShip;
+    public GameObject blueShip;
+
+    private GameObject selectedShip;
 
     private void Start()
     {
-        index = PlayerPrefs.GetInt("SelectPlayer");
-        characters = new GameObject[transform.childCount];
+        int index = PlayerPrefs.GetInt("SelectPlayer");
 
-        for (int i = 0; i < transform.childCount; i++)
+        if (index == 0)
         {
-            characters[i] = transform.GetChild(i).gameObject;
+            selectedShip = redShip;
+        }
+        else if (index == 1)
+        {
+            selectedShip = blueShip;
         }
 
-        foreach (GameObject go in characters)
-        {
-            go.SetActive(false);
-        }
-
-        if (characters[index])
-        {
-            characters[index].SetActive(true);
-        }
+        Instantiate(selectedShip, transform.position, Quaternion.identity);
     }
 
     public void SelectLeft()
     {
-        characters[index].SetActive(false);
-        index--;
-        if (index < 0)
-        {
-            index = characters.Length - 1;
-        }
-
-        characters[index].SetActive(true);
+        PlayerPrefs.SetInt("SelectPlayer", 0);
     }
 
     public void SelectRight()
     {
-        characters[index].SetActive(false);
-        index++;
-        if (index == characters.Length)
-        {
-            index = 0;
-        }
-
-        characters[index].SetActive(true);
+        PlayerPrefs.SetInt("SelectPlayer", 1);
     }
 
     public void StartScene()
     {
-        PlayerPrefs.SetInt("SelectPlayer", index);
         SceneManager.LoadScene("Game");
     }
 }
