@@ -16,7 +16,10 @@ public class HealthManagerEnemy : MonoBehaviour
 
     void Update()
     {
-        
+        if (fill <= 0)
+        {
+            EndEnemy();
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -26,5 +29,11 @@ public class HealthManagerEnemy : MonoBehaviour
             fill -= 20;
             bar.fillAmount = fill / 100;
         }
+    }
+
+    private void EndEnemy()
+    {
+        GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
+        enemy.SetActive(false);
     }
 }
