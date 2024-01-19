@@ -46,7 +46,25 @@ public class BonusManager : MonoBehaviour
     {
         if (Input.GetButton("Fire2"))
         {
-            Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+            // Находим все объекты на сцене с тегом "Enemy"
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            // Проходимся по каждому объекту и наносим урон
+            foreach (GameObject enemy in enemies)
+            {
+                // Получаем компонент EnemyHealth из объекта противника
+                EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+
+                // Проверяем, что объект противника имеет компонент EnemyHealth
+                if (enemyHealth != null)
+                {
+                    // Вычисляем урон, умножая базовый урон на 2.5
+                    float damage = enemyHealth.baseDamage * 2.5f;
+
+                    // Наносим урон противнику
+                    enemyHealth.TakeDamage(damage);
+                }
+            }
         }
     }
 }
