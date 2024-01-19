@@ -9,6 +9,9 @@ public class BonusManager : MonoBehaviour
     [SerializeField] private Text BonusText;
     public float bonus = 0f;
     
+    public GameObject lazerShot;
+    public Transform lazerGun;
+    
     void Start()
     {
         UpdateBonusText();
@@ -41,6 +44,9 @@ public class BonusManager : MonoBehaviour
 
     private void UseBonus()
     {
-        // if (Input.GetButton("Fire2")
+        if (Input.GetButton("Fire2"))
+        {
+            Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+        }
     }
 }
