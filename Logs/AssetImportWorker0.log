@@ -416,3 +416,96 @@ Received Import Request.
   path: Assets/PageManager.cs
   artifactKey: Guid(6af9c2c4a63e1cb4eb3e644a617d1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PageManager.cs using Guid(6af9c2c4a63e1cb4eb3e644a617d1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b747442273a04a5c02f37897906e5660') in 0.388685 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.070478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.222 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 4.017600 ms (FindLiveObjects: 0.365800 ms CreateObjectMapping: 0.304300 ms MarkObjects: 2.831000 ms  DeleteObjects: 0.513600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 90295.789695 seconds.
+  path: Assets/ScriptableObject/HealthManager.cs
+  artifactKey: Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/HealthManager.cs using Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bb067b8754eed76f62625c45a3cc5a') in 0.049000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1243.268130 seconds.
+  path: Assets/ScriptableObject/BonusManager.cs
+  artifactKey: Guid(7ae9c5a0760fcc442956350296955e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BonusManager.cs using Guid(7ae9c5a0760fcc442956350296955e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e3d3fc41fba1f678e92d8025cc84fc') in 0.039279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.371631 seconds.
+  path: Assets/ScriptableObject/Baundary.cs
+  artifactKey: Guid(d86769afbea6bad40895a155de3e545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Baundary.cs using Guid(d86769afbea6bad40895a155de3e545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a11cacd21294db87cbb3b8353c14e7') in 0.016676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.549452 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d11720cc4c94d0afe82327e2332e0a') in 0.012052 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.298 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 4.424100 ms (FindLiveObjects: 0.568900 ms CreateObjectMapping: 0.346900 ms MarkObjects: 2.994900 ms  DeleteObjects: 0.510200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.690 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3224.
+Total: 4.131200 ms (FindLiveObjects: 0.401500 ms CreateObjectMapping: 0.378900 ms MarkObjects: 2.936000 ms  DeleteObjects: 0.411600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.770852 seconds.
+  path: Assets/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6c56dfeddadc4802f1fb961789bd16') in 0.016782 seconds 
