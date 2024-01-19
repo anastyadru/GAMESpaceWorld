@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
         
         transform.position = newPosition; // Применяем новую позицию игрока
 
-        if (Input.GetButton("Fire2") && Time.time > nextShotTime)
+        if (Input.GetButton("Fire1") && Time.time > nextShotTime)
         {
             string selectedShip = PlayerPrefs.GetString("SelectedShip"); // Получаем выбранный корабль из сохраненных данных
             

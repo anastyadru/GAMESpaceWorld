@@ -41,6 +41,6 @@ public class BonusManager : MonoBehaviour
 
     private void UseBonus()
     {
-        
+        // if (Input.GetButton("Fire2")
     }
 }
