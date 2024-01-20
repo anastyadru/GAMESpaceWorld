@@ -12,27 +12,25 @@ public class EnemyController : MonoBehaviour
     
     private int remainingEnemies; // Переменная для хранения количества оставшихся противников
     
-    public float maxHealth = 100f;
-    private float currentHealth;
+    public float fill = 100f;
 
-    public Image healthBar;
+    public Image bar;
 
     void Start()
     {
         GenerateWave(waveSizes[currentWave], transform.position);
-        currentHealth = maxHealth;
         UpdateHealthBar();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("lazerShot")) // Проверяем тег объекта
+        if (collision.gameObject.tag == "lazerShot")
         {
-            currentHealth -= 20;
+            fill -= 20;
             UpdateHealthBar();
             Destroy(other.gameObject);
 
-            if (currentHealth <= 0)
+            if (fill <= 0)
             {
                 Destroy(gameObject);
                 remainingEnemies--;
@@ -69,7 +67,6 @@ public class EnemyController : MonoBehaviour
 
     private void UpdateHealthBar()
     {
-        float fillAmount = currentHealth / maxHealth;
-        healthBar.fillAmount = fillAmount;
+        bar.fillAmount = fill / 100;
     }
 }
