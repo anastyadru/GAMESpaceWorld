@@ -24329,7 +24329,7 @@ GameObject:
   - component: {fileID: 7020736677043190404}
   - component: {fileID: 2728280784033118027}
   - component: {fileID: 1193623656054736836}
-  - component: {fileID: 739951082}
+  - component: {fileID: 735805956870123100}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -24403,7 +24403,7 @@ MonoBehaviour:
   lazerShot1: {fileID: 6147934316776804981, guid: d9fa24887c9ea9f4888336859eb2ab70, type: 3}
   lazerGun1: {fileID: 7656296528031016180}
   health: 0
---- !u!114 &739951082
+--- !u!114 &735805956870123100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

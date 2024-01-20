@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
@@ -11,42 +10,32 @@ public class EnemyController : MonoBehaviour
     private float enemyHealthMultiplier = 1.05f;
     
     private int remainingEnemies; // Переменная для хранения количества оставшихся противников
-    
-    public float fill = 100f;
-
-    public Image bar;
 
     void Start()
     {
         GenerateWave(waveSizes[currentWave], transform.position);
-        UpdateHealthBar();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "lazerShot")
+        if (other.CompareTag("lazerShot")) // Проверяем тег объекта
         {
-            fill -= 20;
-            UpdateHealthBar();
-            Destroy(other.gameObject);
+            Destroy(gameObject); // Уничтожаем врага
+            Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
 
-            if (fill <= 0)
+            remainingEnemies--; // Уменьшаем количество оставшихся противников
+        
+            if (remainingEnemies == 0) // Проверяем, остались ли еще противники в текущей волне
             {
-                Destroy(gameObject);
-                remainingEnemies--;
-
-                if (remainingEnemies == 0)
+                currentWave++; // Увеличиваем номер текущей волны
+            
+                if (currentWave == waveSizes.Length) // Если все волны пройдены, завершаем игру
                 {
-                    currentWave++;
-
-                    if (currentWave == waveSizes.Length)
-                    {
-                        Debug.Log("Game Over");
-                        return;
-                    }
-
-                    GenerateWave(waveSizes[currentWave], transform.position);
+                    Debug.Log("Game Over"); // Здесь можно добавить код для завершения игры
+                    return;
                 }
+            
+                GenerateWave(waveSizes[currentWave], transform.position); // Генерируем новую волну противников
             }
         }
     }
@@ -60,13 +49,6 @@ public class EnemyController : MonoBehaviour
             GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation); // Создаем нового противника
             float randomX = Random.Range(-100f, 100f); // Устанавливаем случайную позицию для противника
             enemy.transform.position += new Vector3(randomX, 0, 0);
-            HealthManagerEnemy healthManager = enemy.GetComponent<HealthManagerEnemy>();
-            healthManager.SetMaxHealth(maxHealth * Mathf.Pow(enemyHealthMultiplier, currentWave));
         }
-    }
-
-    private void UpdateHealthBar()
-    {
-        bar.fillAmount = fill / 100;
     }
 }
