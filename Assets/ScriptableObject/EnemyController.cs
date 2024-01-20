@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -20,8 +22,10 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("lazerShot")) // Проверяем тег объекта
         {
-            Destroy(gameObject); // Уничтожаем врага
             Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
+
+            HealthManagerEnemy enemyHealth = other.GetComponent<HealthManagerEnemy>(); // Получаем ссылку на скрипт урона противника
+            enemyHealth.TakeDamage(); // Вызываем метод получения урона у противника
 
             remainingEnemies--; // Уменьшаем количество оставшихся противников
         
@@ -49,6 +53,9 @@ public class EnemyController : MonoBehaviour
             GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation); // Создаем нового противника
             float randomX = Random.Range(-100f, 100f); // Устанавливаем случайную позицию для противника
             enemy.transform.position += new Vector3(randomX, 0, 0);
+            
+            HealthManagerEnemy enemyHealth = enemy.GetComponent<HealthManagerEnemy>(); // Получаем ссылку на скрипт урона противника
+            enemyHealth.bar = bar; // Передаем ссылку на полосу здоровья противника
         }
     }
 }
