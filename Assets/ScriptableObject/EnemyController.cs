@@ -62,6 +62,14 @@ public class EnemyController : MonoBehaviour
             GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation); // Создаем нового противника
             float randomX = Random.Range(-100f, 100f); // Устанавливаем случайную позицию для противника
             enemy.transform.position += new Vector3(randomX, 0, 0);
+            HealthManagerEnemy healthManager = enemy.GetComponent<HealthManagerEnemy>();
+            healthManager.SetMaxHealth(maxHealth * Mathf.Pow(enemyHealthMultiplier, currentWave));
         }
+    }
+
+    private void UpdateHealthBar()
+    {
+        float fillAmount = currentHealth / maxHealth;
+        healthBar.fillAmount = fillAmount;
     }
 }

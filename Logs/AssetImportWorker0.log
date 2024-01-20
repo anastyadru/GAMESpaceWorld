@@ -809,3 +809,9 @@ System memory in use after: 120.4 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3251.
 Total: 4.074400 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 0.316200 ms MarkObjects: 2.900300 ms  DeleteObjects: 0.461100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 36429.125880 seconds.
+  path: Assets/ScriptableObject/EnemyController.cs
+  artifactKey: Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/EnemyController.cs using Guid(e1596028b95da33498ee8f9ac2452cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dab6b9caaf87d37442b0a4e498a027') in 0.353184 seconds 
