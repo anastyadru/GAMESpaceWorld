@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class EnemyController : MonoBehaviour
     private float enemyHealthMultiplier = 1.05f;
     
     private int remainingEnemies; // Переменная для хранения количества оставшихся противников
+    
+    public float maxHealth = 100f;
+    private float currentHealth;
+
+    public Image healthBar;
 
     void Start()
     {
