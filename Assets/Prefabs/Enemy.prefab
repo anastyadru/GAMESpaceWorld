@@ -24402,7 +24402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lazerShot1: {fileID: 6147934316776804981, guid: d9fa24887c9ea9f4888336859eb2ab70, type: 3}
   lazerGun1: {fileID: 7656296528031016180}
-  health: 0
+  health: 100
 --- !u!114 &735805956870123100
 MonoBehaviour:
   m_ObjectHideFlags: 0
