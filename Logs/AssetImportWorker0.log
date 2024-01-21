@@ -212,3 +212,9 @@ System memory in use after: 103.1 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3176.
 Total: 3.899700 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.350200 ms MarkObjects: 2.743300 ms  DeleteObjects: 0.404700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 64839.643807 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dbe4f0a4f87fea6f3eb70e43c87c48') in 0.570246 seconds 
