@@ -46,7 +46,19 @@ public class BonusManager : MonoBehaviour
     {
         if (Input.GetButton("Fire2"))
         {
-         
+            // Проверяем, есть ли объект взаимодействия у пули
+            if (lazerShot != null)
+            {
+                // Получаем компонент скрипта врага
+                EnemyController enemy = lazerShot.GetComponent<EnemyController>();
+
+                // Проверяем, что враг найден и у него есть достаточно здоровья
+                if (enemy != null && enemy.fill >= 50)
+                {
+                    // Уменьшаем здоровье врага на 50
+                    enemy.fill -= 50;
+                }
+            }
         }
     }
 }
