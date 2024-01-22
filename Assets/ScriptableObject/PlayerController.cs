@@ -13,8 +13,7 @@ public class PlayerController : MonoBehaviour
     {
         float mouseX = Input.GetAxis("Mouse X"); // Текущие координаты мыши по горизонтали
 
-        Vector3 newPosition =
-            transform.position + new Vector3(mouseX * speed * Time.deltaTime, 0, 0); // Вычисляем новую позицию игрока
+        Vector3 newPosition = transform.position + new Vector3(mouseX * speed * Time.deltaTime, 0, 0); // Вычисляем новую позицию игрока
 
         newPosition.x = Mathf.Clamp(newPosition.x, -300f, 210f); // Ограничиваем движение игрока по горизонтали
 
@@ -24,8 +23,18 @@ public class PlayerController : MonoBehaviour
         {
             string selectedShip = PlayerPrefs.GetString("SelectedShip"); // Получаем выбранный корабль из сохраненных данных
             
-            Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
-            nextShotTime = Time.time + 0.1f;
+            if (selectedShip.Contains("SpaceshipRed"))
+            {
+                Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+                nextShotTime = Time.time + 0.1f;
+            }
+            else if (selectedShip.Contains("SpaceshipBlue"))
+            {
+                Instantiate(lazerShot, lazerGun.position, transform.rotation);
+                Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, -15, 0) * transform.rotation);
+                Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, 15, 0) * transform.rotation);
+                nextShotTime = Time.time + 0.2f;
+            }
         }
     }
 }

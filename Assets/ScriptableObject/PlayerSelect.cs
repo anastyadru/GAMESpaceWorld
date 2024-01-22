@@ -55,7 +55,7 @@ public class PlayerSelect : MonoBehaviour
 
     public void StartScene()
     {
-        PlayerPrefs.SetInt("SelectPlayer", index);
+        PlayerPrefs.SetString("SelectedShip", characters[index].name);
         SceneManager.LoadScene("Game");
     }
 }
