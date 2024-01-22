@@ -24,7 +24,7 @@ public class HealthManager : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("lazerShot1")) // Проверяем тег объекта
+        if (other.CompareTag("lazerShot1"))
         {
             health -= 5;
             UpdateHealthText();
