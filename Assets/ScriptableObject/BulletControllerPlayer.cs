@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletControllerPlayer : MonoBehaviour
 {
-    public float speed; // Скорость пули
+    public float speed = 100; // Скорость пули
 
     void Start()
     {
