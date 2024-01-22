@@ -254,3 +254,30 @@ System memory in use after: 103.0 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3188.
 Total: 5.765600 ms (FindLiveObjects: 1.658100 ms CreateObjectMapping: 0.491700 ms MarkObjects: 3.021600 ms  DeleteObjects: 0.460700 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 4.167400 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.304100 ms MarkObjects: 3.146000 ms  DeleteObjects: 0.411200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 510.181749 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2ff20a0ca61a3ebb26e09f7d3a0509') in 0.058072 seconds 
