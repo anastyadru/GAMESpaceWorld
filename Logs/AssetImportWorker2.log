@@ -281,3 +281,66 @@ Received Import Request.
   path: Assets/Game.unity
   artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2ff20a0ca61a3ebb26e09f7d3a0509') in 0.058072 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.357 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 10.886300 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.350200 ms MarkObjects: 9.338200 ms  DeleteObjects: 0.789300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.278 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3197.
+Total: 8.280900 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.367800 ms MarkObjects: 7.011700 ms  DeleteObjects: 0.459800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2696 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.6 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3200.
+Total: 3.908000 ms (FindLiveObjects: 0.405700 ms CreateObjectMapping: 0.349900 ms MarkObjects: 2.741200 ms  DeleteObjects: 0.408800 ms)
+
