@@ -38,16 +38,3 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
-
-// if (selectedShip.Contains("SpaceshipRed"))
-// {
-// Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
-// nextShotTime = Time.time + 0.1f;
-// }
-// else if (selectedShip.Contains("SpaceshipBlue"))
-// {
-// Instantiate(lazerShot, lazerGun.position, transform.rotation);
-// Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, -15, 0) * transform.rotation);
-// Instantiate(lazerShot, lazerGun.position, Quaternion.Euler(0, 15, 0) * transform.rotation);
-// nextShotTime = Time.time + 0.2f;
-// }
