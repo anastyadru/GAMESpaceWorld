@@ -74,3 +74,9 @@ Received Import Request.
   path: Assets/WindowManager.cs
   artifactKey: Guid(77f55a8799a01f141af9e83ab3838e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/WindowManager.cs using Guid(77f55a8799a01f141af9e83ab3838e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c136bf6bdf3afbbc11e2ddcd3ed258a') in 0.457454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25963.914324 seconds.
+  path: Assets/WindowManager.cs
+  artifactKey: Guid(77f55a8799a01f141af9e83ab3838e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WindowManager.cs using Guid(77f55a8799a01f141af9e83ab3838e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d0b5e409fa842ff2f8613b761d88c4') in 0.033256 seconds 
