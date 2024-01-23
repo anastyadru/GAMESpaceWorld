@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
             
             if (selectedShip.Contains("SpaceshipRed"))
             {
-                Instantiate(lazerShot, lazerGun.position, Quaternion.identity);
+                Instantiate(lazerShot, lazerGun.position, transform.rotation);
                 nextShotTime = Time.time + 0.1f;
             }
             else if (selectedShip.Contains("SpaceshipBlue"))
