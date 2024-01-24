@@ -60,8 +60,14 @@ public class WindowManager : MonoBehaviour
                 return FindObjectOfType<SettingsWindow>();
             case WindowID.Exit:
                 return FindObjectOfType<ExitWindow>();
-            case WindowID.Settings:
-                return FindObjectOfType<SettingsWindow>();
+            case WindowID.ChoiceLeft:
+                return FindObjectOfType<ChoiceLeftWindow>();
+            case WindowID.ChoiceRight:
+                return FindObjectOfType<ChoiceRightWindow>();
+            case WindowID.Confirm:
+                return FindObjectOfType<ConfirmWindow>();
+            case WindowID.ChoiceLeft:
+                return FindObjectOfType<ChoiceLeftWindow>();
             default:
                 return null;
         }
