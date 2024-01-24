@@ -78,10 +78,8 @@ public class WindowManager : MonoBehaviour
                 return FindObjectOfType<MainMenuWindow>();
             case WindowID.MainMenu:
                 return FindObjectOfType<MainMenuWindow>();
-            case WindowID.MainMenu:
-                return FindObjectOfType<MainMenuWindow>();
-            case WindowID.MainMenu:
-                return FindObjectOfType<MainMenuWindow>();
+            case WindowID.PlayAgain:
+                return FindObjectOfType<PlayAgainWindow>();
             default:
                 return null;
         }
