@@ -76,6 +76,12 @@ public class WindowManager : MonoBehaviour
                 return FindObjectOfType<MusicWindow>();
             case WindowID.MainMenu:
                 return FindObjectOfType<MainMenuWindow>();
+            case WindowID.MainMenu:
+                return FindObjectOfType<MainMenuWindow>();
+            case WindowID.MainMenu:
+                return FindObjectOfType<MainMenuWindow>();
+            case WindowID.MainMenu:
+                return FindObjectOfType<MainMenuWindow>();
             default:
                 return null;
         }
