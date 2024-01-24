@@ -54,10 +54,14 @@ public class WindowManager : MonoBehaviour
     {
         switch (windowID)
         {
+            case WindowID.Heroes:
+                return FindObjectOfType<HeroesWindow>();
             case WindowID.Settings:
                 return FindObjectOfType<SettingsWindow>();
-            case WindowID.Creators:
-                return FindObjectOfType<CreatorsWindow>();
+            case WindowID.Exit:
+                return FindObjectOfType<ExitWindow>();
+            case WindowID.Settings:
+                return FindObjectOfType<SettingsWindow>();
             default:
                 return null;
         }
