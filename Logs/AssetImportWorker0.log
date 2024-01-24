@@ -80,3 +80,15 @@ Received Import Request.
   path: Assets/WindowManager.cs
   artifactKey: Guid(77f55a8799a01f141af9e83ab3838e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/WindowManager.cs using Guid(77f55a8799a01f141af9e83ab3838e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d0b5e409fa842ff2f8613b761d88c4') in 0.033256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62363.944698 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(37913800d43df0146b89afa30c90c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fb51eb5fc08a6b1a272c72028a8d56') in 0.892073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.163382 seconds.
+  path: Assets/GameOverWinnings.unity
+  artifactKey: Guid(5f6c5bb17645fd348abdf9fa02981a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameOverWinnings.unity using Guid(5f6c5bb17645fd348abdf9fa02981a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cd80681ad5f392750c3c7a75bcfb70') in 0.020313 seconds 
