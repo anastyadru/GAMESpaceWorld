@@ -66,8 +66,16 @@ public class WindowManager : MonoBehaviour
                 return FindObjectOfType<ChoiceRightWindow>();
             case WindowID.Confirm:
                 return FindObjectOfType<ConfirmWindow>();
-            case WindowID.ChoiceLeft:
-                return FindObjectOfType<ChoiceLeftWindow>();
+            case WindowID.Pause:
+                return FindObjectOfType<PauseWindow>();
+            case WindowID.Continue:
+                return FindObjectOfType<ContinueWindow>();
+            case WindowID.SoundEffects:
+                return FindObjectOfType<SoundEffectsWindow>();
+            case WindowID.Music:
+                return FindObjectOfType<MusicWindow>();
+            case WindowID.MainMenu:
+                return FindObjectOfType<MainMenuWindow>();
             default:
                 return null;
         }
