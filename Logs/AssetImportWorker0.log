@@ -122,3 +122,117 @@ Received Import Request.
   path: Assets/Manager/BaseWindow.cs
   artifactKey: Guid(fb8398acddd17814b98d71a0087cf5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Manager/BaseWindow.cs using Guid(fb8398acddd17814b98d71a0087cf5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d29e09cf46cc6b56b45d7eaf384e356') in 0.009955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2950.577129 seconds.
+  path: Assets/Manager/WindowID.cs
+  artifactKey: Guid(c153f44672ac8ef4d8c7add55fde8ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/WindowID.cs using Guid(c153f44672ac8ef4d8c7add55fde8ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e342ea723deb1c835dda2b6cf0cb4dd5') in 0.007426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.430067 seconds.
+  path: Assets/Manager/HeroesWindow.cs
+  artifactKey: Guid(68023fd0da2125b43b74c3593f36649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/HeroesWindow.cs using Guid(68023fd0da2125b43b74c3593f36649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b6fe21bf83e00d79866481fb9f96e3') in 0.017576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.211307 seconds.
+  path: Assets/Manager/HeroesWindow.cs
+  artifactKey: Guid(68023fd0da2125b43b74c3593f36649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/HeroesWindow.cs using Guid(68023fd0da2125b43b74c3593f36649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f2b2565a24fa38a11e23cf5c9cf840') in 0.007584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.507361 seconds.
+  path: Assets/Manager/SettingsWindow.cs
+  artifactKey: Guid(41950b91bb57bfd4bbb2a3100b8d275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/SettingsWindow.cs using Guid(41950b91bb57bfd4bbb2a3100b8d275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab37bb26a265162d786780252c076afc') in 0.028601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.643791 seconds.
+  path: Assets/Manager/ExitWindow.cs
+  artifactKey: Guid(e193498230901cd46930307cf14d70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ExitWindow.cs using Guid(e193498230901cd46930307cf14d70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189173b68292cc5b4ba512949f52015d') in 0.017486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.128424 seconds.
+  path: Assets/Manager/ExitWindow.cs
+  artifactKey: Guid(e193498230901cd46930307cf14d70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ExitWindow.cs using Guid(e193498230901cd46930307cf14d70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ada4279a97ce4a1283906af17e1957') in 0.047745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.138022 seconds.
+  path: Assets/Manager/ChoiceLeftWindow.cs
+  artifactKey: Guid(7fc54eaece3e5664e81076309f796825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ChoiceLeftWindow.cs using Guid(7fc54eaece3e5664e81076309f796825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7e2214b695f9526ca08fa77dc8965b') in 0.018913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.061768 seconds.
+  path: Assets/Manager/ChoiceLeftWindow.cs
+  artifactKey: Guid(7fc54eaece3e5664e81076309f796825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ChoiceLeftWindow.cs using Guid(7fc54eaece3e5664e81076309f796825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18871147b01f8a30bf57de14ef16534c') in 0.008733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.130800 seconds.
+  path: Assets/Manager/ExitWindow.cs
+  artifactKey: Guid(e193498230901cd46930307cf14d70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ExitWindow.cs using Guid(e193498230901cd46930307cf14d70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3996a793689dc027fa063582b12a458d') in 0.020284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.080451 seconds.
+  path: Assets/Manager/SettingsWindow.cs
+  artifactKey: Guid(41950b91bb57bfd4bbb2a3100b8d275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/SettingsWindow.cs using Guid(41950b91bb57bfd4bbb2a3100b8d275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a905a0a418e3782bf451f6e60f063aaf') in 0.020755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.147774 seconds.
+  path: Assets/Manager/SettingsWindow.cs
+  artifactKey: Guid(41950b91bb57bfd4bbb2a3100b8d275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/SettingsWindow.cs using Guid(41950b91bb57bfd4bbb2a3100b8d275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c923ce42c88a3b6d7016c366b986ca71') in 0.046687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.677182 seconds.
+  path: Assets/Manager/ChoiceRight.cs
+  artifactKey: Guid(52412ab8ec4478b4a94cc315323ed969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ChoiceRight.cs using Guid(52412ab8ec4478b4a94cc315323ed969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c550d00d3d692e9bdbcbd5971f444d1') in 0.010416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.443067 seconds.
+  path: Assets/Manager/ChoiceRight.cs
+  artifactKey: Guid(52412ab8ec4478b4a94cc315323ed969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ChoiceRight.cs using Guid(52412ab8ec4478b4a94cc315323ed969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185aae45e4db5c95851ea278802f26f') in 0.021708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.174895 seconds.
+  path: Assets/Manager/Confirm.cs
+  artifactKey: Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/Confirm.cs using Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052da0462fddb0e37aa07b823752d855') in 0.026652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.439944 seconds.
+  path: Assets/Manager/Confirm.cs
+  artifactKey: Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/Confirm.cs using Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da29bb40ac8c0a5af99989f6496eb56') in 0.005039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.685701 seconds.
+  path: Assets/Manager/ConfirmWindow.cs
+  artifactKey: Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ConfirmWindow.cs using Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d57674d937239aa43150e016568f27f') in 0.025672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.704296 seconds.
+  path: Assets/Manager/ChoiceRightWindow.cs
+  artifactKey: Guid(52412ab8ec4478b4a94cc315323ed969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ChoiceRightWindow.cs using Guid(52412ab8ec4478b4a94cc315323ed969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb6dd542779b4bba12ffbc123969599') in 0.019039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.057128 seconds.
+  path: Assets/Manager/PauseWindow.cs
+  artifactKey: Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/PauseWindow.cs using Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa25597fd00fa2787748a8d8c88bb6b') in 0.028680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.428676 seconds.
+  path: Assets/Manager/PauseWindow.cs
+  artifactKey: Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/PauseWindow.cs using Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55f752fb0cc8580d9bf3b3749cccdc8') in 0.060471 seconds 
