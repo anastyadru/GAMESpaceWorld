@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class BaseWindow : MonoBehaviour
 {
-
+    public virtual void OnOpened() { }
+    public virtual void OnClosed() { }
 }
