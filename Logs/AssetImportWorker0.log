@@ -332,3 +332,21 @@ Received Import Request.
   path: Assets/Manager/PageManager.cs
   artifactKey: Guid(6af9c2c4a63e1cb4eb3e644a617d1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Manager/PageManager.cs using Guid(6af9c2c4a63e1cb4eb3e644a617d1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34d538998e353ac0afc5dfd88f71115') in 0.029077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5806.614727 seconds.
+  path: Assets/Manager/MenuPage.cs
+  artifactKey: Guid(43c114e9e08d11b478e73fcf1af984a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MenuPage.cs using Guid(43c114e9e08d11b478e73fcf1af984a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9b77254cce5356807b32b01094f1f4') in 0.045751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.758579 seconds.
+  path: Assets/Manager/MenuPage.cs
+  artifactKey: Guid(43c114e9e08d11b478e73fcf1af984a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MenuPage.cs using Guid(43c114e9e08d11b478e73fcf1af984a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cfc305f0bf34a6086267b2c2795d11') in 0.008980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.764701 seconds.
+  path: Assets/Manager/MenuPage.cs
+  artifactKey: Guid(43c114e9e08d11b478e73fcf1af984a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MenuPage.cs using Guid(43c114e9e08d11b478e73fcf1af984a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383e5d8acc905c2eb06f25da9e416ea6') in 0.006629 seconds 

@@ -1,0 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BasePage : MonoBehaviour
+{
+    public virtual void OnOpened(object parameters) { }
+    public virtual void OnClosed() { }
+}

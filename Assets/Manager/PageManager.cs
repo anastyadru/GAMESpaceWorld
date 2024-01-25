@@ -45,12 +45,16 @@ public class PageManager : MonoBehaviour
     {
         switch (pageID)
         {
-            case PageID.MainMenu:
-                return FindObjectOfType<MainMenuPage>();
-            case PageID.ChooseHero:
-                return FindObjectOfType<ChooseHeroPage>();
+            case PageID.Menu:
+                return FindObjectOfType<MenuPage>();
+            case PageID.Heroes:
+                return FindObjectOfType<HeroesPage>();
             case PageID.Game:
                 return FindObjectOfType<GamePage>();
+            case PageID.GameOver:
+                return FindObjectOfType<GameOverPage>();
+            case PageID.GameOverWinnigs:
+                return FindObjectOfType<GameOverWinnigsPage>();
             default:
                 return null;
         }
