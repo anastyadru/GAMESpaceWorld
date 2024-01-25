@@ -236,3 +236,99 @@ Received Import Request.
   path: Assets/Manager/PauseWindow.cs
   artifactKey: Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Manager/PauseWindow.cs using Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55f752fb0cc8580d9bf3b3749cccdc8') in 0.060471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 557.183526 seconds.
+  path: Assets/Manager/ContinueWindow.cs
+  artifactKey: Guid(25796d8a866066948824d26770018bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ContinueWindow.cs using Guid(25796d8a866066948824d26770018bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a60ba827e82906971410dd483ff2ef5') in 0.022580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.862906 seconds.
+  path: Assets/Manager/ContinueWindow.cs
+  artifactKey: Guid(25796d8a866066948824d26770018bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ContinueWindow.cs using Guid(25796d8a866066948824d26770018bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4ff164ac5823d6339fca238384447a') in 0.011082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.215555 seconds.
+  path: Assets/Manager/SoundEffectsWindow.cs
+  artifactKey: Guid(a7f11e2548e7cf24aba89f687101a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/SoundEffectsWindow.cs using Guid(a7f11e2548e7cf24aba89f687101a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698b7354ae45d3a1393835fbd90c09be') in 0.035012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.894379 seconds.
+  path: Assets/Manager/SoundEffectsWindow.cs
+  artifactKey: Guid(a7f11e2548e7cf24aba89f687101a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/SoundEffectsWindow.cs using Guid(a7f11e2548e7cf24aba89f687101a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ae7d50ec31fc13f99678d11a7a3ebc') in 0.037576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.491638 seconds.
+  path: Assets/Manager/MusicWindow.cs
+  artifactKey: Guid(873726e9aef83e54bae7fcd6d2238676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MusicWindow.cs using Guid(873726e9aef83e54bae7fcd6d2238676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30542549f2d0338cdba6fc6260c69ebb') in 0.034935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.805152 seconds.
+  path: Assets/Manager/MusicWindow.cs
+  artifactKey: Guid(873726e9aef83e54bae7fcd6d2238676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MusicWindow.cs using Guid(873726e9aef83e54bae7fcd6d2238676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5ed9be061e13b43da407e7f4b376b7') in 0.051381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.908690 seconds.
+  path: Assets/Manager/MainMenuWindow.cs
+  artifactKey: Guid(f5f8e39ccc1584943bce094a3d0562c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MainMenuWindow.cs using Guid(f5f8e39ccc1584943bce094a3d0562c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475b16e10637a7324983d7a32df3e4e9') in 0.019456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.069694 seconds.
+  path: Assets/Manager/MainMenuWindow.cs
+  artifactKey: Guid(f5f8e39ccc1584943bce094a3d0562c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MainMenuWindow.cs using Guid(f5f8e39ccc1584943bce094a3d0562c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80679e693edef090200a0c51939afc0e') in 0.042175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.785886 seconds.
+  path: Assets/Manager/ConfirmWindow.cs
+  artifactKey: Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/ConfirmWindow.cs using Guid(44463345cd6f51d4eaa8ffd5f42c478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293586aa44edf82e23a13f0356ecdc00') in 0.009005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.999861 seconds.
+  path: Assets/Manager/PauseWindow.cs
+  artifactKey: Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/PauseWindow.cs using Guid(91e8e3e6a56287a40b4557136e0189a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc2b5336ebb845988c5c4d869db42a1') in 0.005419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.841525 seconds.
+  path: Assets/Manager/PlayAgainWindow.cs
+  artifactKey: Guid(bebdf2f90a51a904c9428df11fd7b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/PlayAgainWindow.cs using Guid(bebdf2f90a51a904c9428df11fd7b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e52718b6803e696c30e0d5b1cdc3006') in 0.020722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.977291 seconds.
+  path: Assets/Manager/PlayAgainWindow.cs
+  artifactKey: Guid(bebdf2f90a51a904c9428df11fd7b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/PlayAgainWindow.cs using Guid(bebdf2f90a51a904c9428df11fd7b19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a864b0fb39816bb108d58e0d3b6733') in 0.016789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.164615 seconds.
+  path: Assets/Manager/BasePage.cs
+  artifactKey: Guid(77737b2da8639f34d935afc1323c40d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/BasePage.cs using Guid(77737b2da8639f34d935afc1323c40d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddc1bb31d2f26afff3d634a64728e03') in 0.010253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004615 seconds.
+  path: Assets/Manager/MusicWindow.cs
+  artifactKey: Guid(873726e9aef83e54bae7fcd6d2238676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/MusicWindow.cs using Guid(873726e9aef83e54bae7fcd6d2238676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbe8774c4db7be5e88c1242ebf9ba7a') in 0.008203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.052997 seconds.
+  path: Assets/Manager/BasePage.cs
+  artifactKey: Guid(77737b2da8639f34d935afc1323c40d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/BasePage.cs using Guid(77737b2da8639f34d935afc1323c40d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd545bd657c433600608f79edeaec1a') in 0.007907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.483768 seconds.
+  path: Assets/Manager/PageManager.cs
+  artifactKey: Guid(6af9c2c4a63e1cb4eb3e644a617d1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manager/PageManager.cs using Guid(6af9c2c4a63e1cb4eb3e644a617d1417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34d538998e353ac0afc5dfd88f71115') in 0.029077 seconds 
