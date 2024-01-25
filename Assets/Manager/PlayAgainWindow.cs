@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChoiceRightWindow : BaseWindow
+public class PlayAgainWindow : BaseWindow
 {
     public override void OnOpened()
     {
-        Debug.Log("ChoiceRight window opened");
+        Debug.Log("PlayAgain window opened");
     }
 
     public override void OnClosed()
     {
-        Debug.Log("ChoiceRight window closed");
+        Debug.Log("PlayAgain window closed");
     }
 }

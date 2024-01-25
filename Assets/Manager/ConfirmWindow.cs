@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConfirmWindow : MonoBehaviour
+public class ConfirmWindow : BaseWindow
 {
     public override void OnOpened()
     {

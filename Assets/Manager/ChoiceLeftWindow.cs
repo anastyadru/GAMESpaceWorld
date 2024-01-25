@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChoiceLeftWindow : MonoBehaviour
+public class ChoiceLeftWindow : BaseWindow
 {
     public override void OnOpened()
     {

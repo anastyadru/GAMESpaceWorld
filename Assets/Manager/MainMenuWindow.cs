@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChoiceRightWindow : BaseWindow
+public class MainMenuWindow : BaseWindow
 {
     public override void OnOpened()
     {
-        Debug.Log("ChoiceRight window opened");
+        Debug.Log("MainMenu window opened");
     }
 
     public override void OnClosed()
     {
-        Debug.Log("ChoiceRight window closed");
+        Debug.Log("MainMenu window closed");
     }
 }
