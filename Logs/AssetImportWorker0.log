@@ -140,3 +140,15 @@ Received Import Request.
   path: Assets/ScriptableObject/ScoreManager.cs
   artifactKey: Guid(a01f5eb81a44ada40a1ec2be5f95cf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/ScoreManager.cs using Guid(a01f5eb81a44ada40a1ec2be5f95cf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7aeee13c542b0788dbab03c0d8743f') in 0.031364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10459.735175 seconds.
+  path: Assets/ScriptableObject/Enemy.cs
+  artifactKey: Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Enemy.cs using Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edff9b4642614ac4b462cc042656a289') in 0.031083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.812093 seconds.
+  path: Assets/ScriptableObject/Enemy.cs
+  artifactKey: Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Enemy.cs using Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff813279db2b43b34c14b94e23e0bed5') in 0.009192 seconds 
