@@ -343,6 +343,7 @@
 "Assets/Manager/SoundEffectsWindow.cs"
 "Assets/Manager/WindowID.cs"
 "Assets/Manager/WindowManager.cs"
+"Assets/Pool/BulletPool.cs"
 "Assets/PyroParticles/Demo/DemoScript.cs"
 "Assets/PyroParticles/Demo/DemoScriptEditor.cs"
 "Assets/PyroParticles/Prefab/Script/FireBaseScript.cs"
