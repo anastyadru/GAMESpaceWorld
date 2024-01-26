@@ -86,3 +86,57 @@ Received Import Request.
   path: Assets/Pool/BulletPool.cs
   artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Pool/BulletPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c83a8fcfaf0a28d459183971c63f7c6') in 0.016950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 640.329697 seconds.
+  path: Assets/ScriptableObject/BulletControllerEnemy.cs
+  artifactKey: Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BulletControllerEnemy.cs using Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6559474f8ee4b58fb35aec614907879') in 0.006851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.944133 seconds.
+  path: Assets/ScriptableObject/Baundary.cs
+  artifactKey: Guid(d86769afbea6bad40895a155de3e545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/Baundary.cs using Guid(d86769afbea6bad40895a155de3e545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53db435159dde276092b60dd7aa82d6d') in 0.023536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.334422 seconds.
+  path: Assets/Pool/BulletPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/BulletPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4d89a7ce4d44f60d615a3ba49836b3') in 0.018097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.264966 seconds.
+  path: Assets/Pool/BulletEnemyPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/BulletEnemyPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72fa960b284bcc344781d7c49988111') in 0.014960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.500487 seconds.
+  path: Assets/ScriptableObject/BonusManager.cs
+  artifactKey: Guid(7ae9c5a0760fcc442956350296955e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BonusManager.cs using Guid(7ae9c5a0760fcc442956350296955e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3c07bba7d59fa45c70945145b79f90') in 0.013602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.637779 seconds.
+  path: Assets/ScriptableObject/BulletControllerPlayer.cs
+  artifactKey: Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BulletControllerPlayer.cs using Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da88a9c1c402c920f770940bf3944e3c') in 0.006087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.354231 seconds.
+  path: Assets/ScriptableObject/HealthManager.cs
+  artifactKey: Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/HealthManager.cs using Guid(e2d7d4f39f4c431489cc77280fdfac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8d23e4e0116098211939905d0dcf0') in 0.006642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.693348 seconds.
+  path: Assets/ScriptableObject/PlayerSelect.cs
+  artifactKey: Guid(0d3aeed280e3673468f64d708d4dfd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/PlayerSelect.cs using Guid(0d3aeed280e3673468f64d708d4dfd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8440184d58c571b33c5ff3df904ccc') in 0.011864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.490985 seconds.
+  path: Assets/ScriptableObject/ScoreManager.cs
+  artifactKey: Guid(a01f5eb81a44ada40a1ec2be5f95cf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/ScoreManager.cs using Guid(a01f5eb81a44ada40a1ec2be5f95cf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7aeee13c542b0788dbab03c0d8743f') in 0.031364 seconds 
