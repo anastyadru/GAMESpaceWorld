@@ -74,3 +74,15 @@ Received Import Request.
   path: Assets/Pool
   artifactKey: Guid(90f66acb40c324c48bf4740844f80a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Pool using Guid(90f66acb40c324c48bf4740844f80a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a68d042e74a98f01fec96d15d89452') in 0.012668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7075.288129 seconds.
+  path: Assets/Pool/BulletPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/BulletPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7892f93d36b9a9d7ee243d00b0438ba0') in 0.073553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.212505 seconds.
+  path: Assets/Pool/BulletPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/BulletPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c83a8fcfaf0a28d459183971c63f7c6') in 0.016950 seconds 
