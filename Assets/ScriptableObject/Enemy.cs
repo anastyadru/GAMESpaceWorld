@@ -18,8 +18,6 @@ public class Enemy : MonoBehaviour
     
     void Start()
     {
-        lazerShot1 = FindObjectOfType<lazerShot1>();
-        lazerShot1.PrePool();
         GenerateNewTargetPosition();
     }
     
@@ -46,10 +44,7 @@ public class Enemy : MonoBehaviour
     
     void Shoot()
     {
-        GameObject bullet = bulletPool.Get();
-        bullet.transform.position = lazerGun1.position;
-        bullet.SetActive(true);
-        
+        Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
         nextShotTime = Time.time + 5f;
     }
 }
