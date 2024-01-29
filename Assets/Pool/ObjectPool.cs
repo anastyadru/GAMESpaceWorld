@@ -12,9 +12,8 @@ public class ObjectPool : MonoBehaviour
     private void Start()
     {
         pooledObjects = new List<GameObject>();
-
-        // Создаем и инициализируем объекты пула
-        for (int i = 0; i < poolSize; i++)
+        
+        for (int i = 0; i < poolSize; i++) // Создаем и инициализируем объекты пула
         {
             GameObject obj = Instantiate(pooledObject);
             obj.SetActive(false);
@@ -24,8 +23,7 @@ public class ObjectPool : MonoBehaviour
 
     public GameObject Get()
     {
-        // Ищем неактивный объект в пуле и возвращаем его
-        foreach (GameObject obj in pooledObjects)
+        foreach (GameObject obj in pooledObjects) // Ищем неактивный объект в пуле и возвращаем его
         {
             if (!obj.activeInHierarchy)
             {
@@ -33,9 +31,8 @@ public class ObjectPool : MonoBehaviour
                 return obj;
             }
         }
-
-        // Если все объекты заняты, создаем новый объект и добавляем его в пул
-        GameObject newObj = Instantiate(pooledObject);
+        
+        GameObject newObj = Instantiate(pooledObject); // Если все объекты заняты, создаем новый объект и добавляем его в пул
         newObj.SetActive(true);
         pooledObjects.Add(newObj);
         return newObj;
@@ -43,8 +40,7 @@ public class ObjectPool : MonoBehaviour
 
     public void Release(GameObject obj)
     {
-        // Вызываем метод OnRelease() у объекта перед возвращением его в пул
-        IPoolable poolableObject = obj.GetComponent<IPoolable>();
+        IPoolable poolableObject = obj.GetComponent<IPoolable>(); // Вызываем метод OnRelease() у объекта перед возвращением его в пул
         if (poolableObject != null)
         {
             poolableObject.OnRelease();
