@@ -22,8 +22,7 @@ public class BulletControllerEnemy : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Вызываем метод возвращения объекта в пул
-            objectPool.Release(gameObject);
+            objectPool.Release(gameObject); // Вызываем метод возвращения объекта в пул
         }
     }
 }

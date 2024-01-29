@@ -170,3 +170,21 @@ Received Import Request.
   path: Assets/Pool/IPoolable.cs
   artifactKey: Guid(0c3969dcd47e1fa46a17e20d0c4c6210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Pool/IPoolable.cs using Guid(0c3969dcd47e1fa46a17e20d0c4c6210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbd062777708a829e68ee81f6cc8040') in 0.010592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6463.595430 seconds.
+  path: Assets/Pool/BulletEnemyPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/BulletEnemyPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde469c72adb1583e6053fa52c48244c') in 0.015020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.722930 seconds.
+  path: Assets/Pool/ObjectPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/ObjectPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0accfc7be97f9b832558d191e0c5db56') in 0.050145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.398758 seconds.
+  path: Assets/Pool/ObjectPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/ObjectPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10635757b14579f47a451c1234ead2d') in 0.007663 seconds 
