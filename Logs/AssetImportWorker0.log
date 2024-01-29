@@ -152,3 +152,9 @@ Received Import Request.
   path: Assets/ScriptableObject/Enemy.cs
   artifactKey: Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/Enemy.cs using Guid(c538e81ce40df054580b06dae4f3be8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff813279db2b43b34c14b94e23e0bed5') in 0.009192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 229370.936863 seconds.
+  path: Assets/Pool/BulletEnemyPool.cs
+  artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pool/BulletEnemyPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9ed13ebd73b6d9935d11c84f7e431d') in 0.021191 seconds 
