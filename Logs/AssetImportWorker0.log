@@ -188,3 +188,21 @@ Received Import Request.
   path: Assets/Pool/ObjectPool.cs
   artifactKey: Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Pool/ObjectPool.cs using Guid(2eaee4584316202488a1452be9bb673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10635757b14579f47a451c1234ead2d') in 0.007663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12589.258755 seconds.
+  path: Assets/Prefabs/BulletControllerEnemy Variant.prefab
+  artifactKey: Guid(d9fa24887c9ea9f4888336859eb2ab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletControllerEnemy Variant.prefab using Guid(d9fa24887c9ea9f4888336859eb2ab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de88a4834dde550760a1e62e3c339291') in 1.091442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(4575180d6a22e05488b414802068c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76519baa9f2baaeac1a6462e820100db') in 0.294641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/Prefabs/BulletControllerPlayer Variant.prefab
+  artifactKey: Guid(e804b69cd4d3e6a4285c92db9ed34cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletControllerPlayer Variant.prefab using Guid(e804b69cd4d3e6a4285c92db9ed34cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a533baedd82a18864ebafd7c389dd26') in 0.101674 seconds 
