@@ -4,47 +4,49 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    public GameObject pooledObject; // Префаб объекта пула
-    public int poolSize = 10; // Размер пула
+    private Dictionary<MonoBehaviour, Queue<MonoBehaviour>> poolDictionary = new Dictionary<MonoBehaviour, Queue<MonoBehaviour>>();
 
-    private List<GameObject> pooledObjects;
-
-    private void Start()
+    public void PrePool<T>(T prefab, int count) where T : MonoBehaviour, IPoolable
     {
-        pooledObjects = new List<GameObject>();
-        
-        for (int i = 0; i < poolSize; i++) // Создаем и инициализируем объекты пула
+        if (!poolDictionary.ContainsKey(prefab))
         {
-            GameObject obj = Instantiate(pooledObject);
-            obj.SetActive(false);
-            pooledObjects.Add(obj);
+            Queue<MonoBehaviour> objectPool = new Queue<MonoBehaviour>();
+
+            for (int i = 0; i < count; i++)
+            {
+                T obj = GameObject.Instantiate(prefab);
+                obj.gameObject.SetActive(false);
+                objectPool.Enqueue(obj);
+            }
+
+            poolDictionary.Add(prefab, objectPool);
         }
     }
 
-    public GameObject Get()
+    public T Get<T>() where T : MonoBehaviour, IPoolable
     {
-        foreach (GameObject obj in pooledObjects) // Ищем неактивный объект в пуле и возвращаем его
+        if (poolDictionary.ContainsKey(T))
         {
-            if (!obj.activeInHierarchy)
+            Queue<MonoBehaviour> objectPool = poolDictionary[T];
+
+            if (objectPool.Count > 0)
             {
-                obj.SetActive(true);
+                T obj = objectPool.Dequeue();
+                obj.gameObject.SetActive(true);
                 return obj;
             }
         }
-        
-        GameObject newObj = Instantiate(pooledObject); // Если все объекты заняты, создаем новый объект и добавляем его в пул
-        newObj.SetActive(true);
-        pooledObjects.Add(newObj);
-        return newObj;
+
+        return null;
     }
 
-    public void Release(GameObject obj)
+    public void Release<T>(T poolableObject) where T : MonoBehaviour, IPoolable
     {
-        IPoolable poolableObject = obj.GetComponent<IPoolable>(); // Вызываем метод OnRelease() у объекта перед возвращением его в пул
-        if (poolableObject != null)
+        if (poolDictionary.ContainsKey(T))
         {
+            Queue<MonoBehaviour> objectPool = poolDictionary[T];
+            objectPool.Enqueue(poolableObject);
             poolableObject.OnRelease();
         }
-        obj.SetActive(false);
     }
 }
