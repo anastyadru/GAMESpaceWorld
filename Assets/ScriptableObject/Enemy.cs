@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IPoolable
 {
     private float speed = 250f; // Скорость перемещения
     private float smoothness = 3f; // Плавность движения
@@ -15,6 +15,13 @@ public class Enemy : MonoBehaviour
     private float nextShotTime; // Время следующего выстрела
     
     public int health;
+    
+    private ObjectPool bulletPool;
+    
+    private void Awake()
+    {
+        bulletPool = FindObjectOfType<ObjectPool>();
+    }
     
     void Start()
     {
@@ -44,7 +51,15 @@ public class Enemy : MonoBehaviour
     
     void Shoot()
     {
-        Instantiate(lazerShot1, lazerGun1.position, Quaternion.identity);
+        BulletControllerEnemy bullet = bulletPool.Get<BulletControllerEnemy>();
+        bullet.transform.position = lazerGun1.position;
+        bullet.gameObject.SetActive(true);
+        
         nextShotTime = Time.time + 5f;
+    }
+    
+    public void OnRelease()
+    {
+        gameObject.SetActive(false);
     }
 }
