@@ -6,6 +6,13 @@ public class ObjectPool : MonoBehaviour
 {
     private Dictionary<MonoBehaviour, Queue<MonoBehaviour>> poolDictionary = new Dictionary<MonoBehaviour, Queue<MonoBehaviour>>();
 
+    void Start()
+    {
+        PrePool<BulletControllerPlayer>(bulletPrefabPlayer, 20);
+        PrePool<BulletControllerEnemy>(bulletPrefabEnemy, 10);
+        PrePool<Enemy>(PrefabEnemy, 10);
+    }
+
     public void PrePool<T>(T prefab, int count) where T : MonoBehaviour, IPoolable
     {
         if (!poolDictionary.ContainsKey(prefab))
