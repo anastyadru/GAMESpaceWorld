@@ -5,7 +5,6 @@ using UnityEngine;
 public class BulletControllerPlayer : MonoBehaviour, IPoolable
 {
     public float speed = 100; // Скорость пули
-    
     private ObjectPool bulletPool;
 
     private void Awake()
@@ -13,7 +12,7 @@ public class BulletControllerPlayer : MonoBehaviour, IPoolable
         bulletPool = FindObjectOfType<ObjectPool>();
     }
 
-    void Start()
+    void Update()
     {
         GetComponent<Rigidbody>().velocity = new Vector3(0, 0, speed);
     }
@@ -23,7 +22,7 @@ public class BulletControllerPlayer : MonoBehaviour, IPoolable
         if (other.CompareTag("Enemy"))
         {
             Enemy enemy = other.GetComponent<Enemy>();
-            enemy.health -= 5;
+            enemy.health -= 20;
 
             if (enemy.health <= 0)
             {
