@@ -16,14 +16,6 @@ public class Enemy : MonoBehaviour
     
     public int health;
     
-    public void OnRelease() // Сброс состояния объекта перед возвращением в пул
-    {
-        health = 0; 
-        nextShotTime = 0f;
-        targetPosition = Vector3.zero;
-        transform.position = Vector3.zero;
-    }
-    
     void Start()
     {
         GenerateNewTargetPosition();
