@@ -5,18 +5,22 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TextObject", menuName = "Localization/TextObject")]
 public class TextObject : ScriptableObject
 {
-    [SerializeField] private Dictionary<string, string> texts = new Dictionary<string, string>();
+    public Dictionary<string, string> texts = new Dictionary<string, string>();
 
-    public string GetText(string language, string key)
+    public void AddText(string language, string text)
     {
-        string text = "";
-        if (texts.TryGetValue(language, out text))
+        texts[language] = text;
+    }
+
+    public string GetText(string language)
+    {
+        if (texts.ContainsKey(language))
         {
-            return text;
+            return texts[language];
         }
         else
         {
-            Debug.LogWarning("Text not found for language: " + language);
+            Debug.LogError("Text not found for language: " + language);
             return "";
         }
     }
