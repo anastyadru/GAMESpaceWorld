@@ -20,12 +20,14 @@ public class LocalizedText : MonoBehaviour
 
     private void UpdateText()
     {
-        if (textObject != null && textComponent != null)
+        public void UpdateText()
         {
-            string language = LocalizationManager.CurrentLanguage;
-            string key = textComponent.text;
-            string translatedText = textObject.GetText(language, key);
-            textComponent.text = translatedText;
+            if (textComponent != null)
+            {
+                string language = LocalizationManager.CurrentLanguage;
+                string text = textObject.GetText(language);
+                textComponent.text = text;
+            }
         }
     }
 }
