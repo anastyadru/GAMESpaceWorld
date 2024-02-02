@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TextObject : MonoBehaviour
+[CreateAssetMenu(fileName = "TextObject", menuName = "Localization/TextObject")]
+public class TextObject : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Dictionary<string, string> texts = new Dictionary<string, string>();
 
-    // Update is called once per frame
-    void Update()
+    public string GetText(string language, string key)
     {
-        
+        string text = "";
+        if (texts.TryGetValue(language, out text))
+        {
+            return text;
+        }
+        else
+        {
+            Debug.LogWarning("Text not found for language: " + language);
+            return "";
+        }
     }
 }
