@@ -81,3 +81,9 @@ Received Import Request.
   path: Assets/Language/LocalizedText.cs
   artifactKey: Guid(ccd4daf38213da646adf833264461b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Language/LocalizedText.cs using Guid(ccd4daf38213da646adf833264461b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ba87813d1c1d40cea1f62aca2cad81') in 0.036626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4817.827669 seconds.
+  path: Assets/Language/LocalizedText.cs
+  artifactKey: Guid(ccd4daf38213da646adf833264461b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Language/LocalizedText.cs using Guid(ccd4daf38213da646adf833264461b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe02ea0deee9bef9bcd8c42da0e62bb') in 0.018687 seconds 
