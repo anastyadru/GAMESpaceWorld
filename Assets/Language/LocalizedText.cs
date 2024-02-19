@@ -20,7 +20,7 @@ public class LocalizedText : MonoBehaviour
 
     private void UpdateText()
     {
-        public void UpdateText()
+        void UpdateText()
         {
             if (textComponent != null)
             {
