@@ -386,6 +386,7 @@
 "Assets/ScriptableObject/ScoreManager.cs"
 "Assets/ScriptableObject/SliderController.cs"
 "Assets/ScriptableObject/ToggleController.cs"
+"Assets/ScriptableObject/Unity.gitignore.cs"
 -langversion:8.0
 
 /deterministic
