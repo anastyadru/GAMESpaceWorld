@@ -15,19 +15,7 @@ G:/Учеба/C#/Unity задачи/GAMESpaceWorld
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50002
+60006
 Successfully changed project path to: G:/Учеба/C#/Unity задачи/GAMESpaceWorld
 G:/Учеба/C#/Unity задачи/GAMESpaceWorld
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 4363.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/Учеба/C#/Unity задачи/GAMESpaceWorld/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics (ID=0x156)
-    Vendor:   Intel
-    VRAM:     128 MB
-    Driver:   10.18.10.5161
