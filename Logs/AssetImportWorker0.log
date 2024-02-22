@@ -74,3 +74,28 @@ Received Import Request.
   path: Assets/ScriptableObject/Unity.gitignore.cs
   artifactKey: Guid(5d09e36a82448cb4a9e0353e42622d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ScriptableObject/Unity.gitignore.cs using Guid(5d09e36a82448cb4a9e0353e42622d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec350d6112beebf69295c67fd75911a4') in 0.324899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7272.964456 seconds.
+  path: Assets/Client
+  artifactKey: Guid(dd7ca6fb27dfc6d4bad3e7955f21dc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client using Guid(dd7ca6fb27dfc6d4bad3e7955f21dc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83afdbefe775fbe5f0b9b4d4f6bd9369') in 0.017178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.607626 seconds.
+  path: Assets/Ammunition pack (demo)/AmmoPackSettings.lighting
+  artifactKey: Guid(b18b70d66a119f84ba62d06aad63d507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/AmmoPackSettings.lighting using Guid(b18b70d66a119f84ba62d06aad63d507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b93ef1bc20e6018dfaf0db14fe8076aa') in 0.039327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.934459 seconds.
+  path: Assets/Ammunition pack (demo)/AmmoPack.unity
+  artifactKey: Guid(9d934b82b1af3c14cb8eac916c70c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/AmmoPack.unity using Guid(9d934b82b1af3c14cb8eac916c70c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3936c69c085f3e51d651a9efad6479b') in 0.144821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.884732 seconds.
+  path: Assets/Fonts/Script/scriptTexttest.cs
+  artifactKey: Guid(cf58b38533854964da0284ae4f5be975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Script/scriptTexttest.cs using Guid(cf58b38533854964da0284ae4f5be975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c731b5211c31a9e4d616d9545840ce13') in 0.006979 seconds 

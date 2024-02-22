@@ -324,7 +324,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Fonts/Script/scriptTexttest.cs"
+"Assets/Client/Fonts/Script/scriptTexttest.cs"
 "Assets/Language/LocalizedText.cs"
 "Assets/Language/TextObject.cs"
 "Assets/LocalizationPackage/_Example/Script/ExampleScript.cs"
