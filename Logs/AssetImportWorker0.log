@@ -99,3 +99,21 @@ Received Import Request.
   path: Assets/Fonts/Script/scriptTexttest.cs
   artifactKey: Guid(cf58b38533854964da0284ae4f5be975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Fonts/Script/scriptTexttest.cs using Guid(cf58b38533854964da0284ae4f5be975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c731b5211c31a9e4d616d9545840ce13') in 0.006979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5262.009457 seconds.
+  path: Assets/Language/LocalizedText.cs
+  artifactKey: Guid(ccd4daf38213da646adf833264461b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Language/LocalizedText.cs using Guid(ccd4daf38213da646adf833264461b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924879844f095a0e7c155302df276a26') in 0.028396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.790815 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(03867c1b5bbe2db4699b01df65ae9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(03867c1b5bbe2db4699b01df65ae9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c766e92df1d361b0d02c91f0fcdbb4cf') in 0.015455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.176391 seconds.
+  path: Assets/Plugins/CW
+  artifactKey: Guid(4b386a00b21241a4daf293aadc55db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/CW using Guid(4b386a00b21241a4daf293aadc55db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebf19ccdc54240c3806471f0db62420') in 0.008961 seconds 
