@@ -129,3 +129,21 @@ Received Import Request.
   path: Assets/Ammunition pack (demo)/AmmoPack.unity
   artifactKey: Guid(9d934b82b1af3c14cb8eac916c70c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Ammunition pack (demo)/AmmoPack.unity using Guid(9d934b82b1af3c14cb8eac916c70c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c92ebedbd5105aecb7e7a4fa3a1230') in 0.055184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2147.757685 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8be67aff0c86570a918a80c9b72b73') in 0.085335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.861432 seconds.
+  path: Assets/GUI_Parts/Demo.unity
+  artifactKey: Guid(6c64fb8af5456eb4e8e2b952cdb31814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI_Parts/Demo.unity using Guid(6c64fb8af5456eb4e8e2b952cdb31814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d93dd17d78114c60f20b3ff329bad83') in 0.046704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.289735 seconds.
+  path: Assets/Client/Fonts/Documentation/JazzCreateAltKeys_BubbleFont.txt
+  artifactKey: Guid(7368ec3e1bbae1e4e8d761edc844acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/Fonts/Documentation/JazzCreateAltKeys_BubbleFont.txt using Guid(7368ec3e1bbae1e4e8d761edc844acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4e6773968d866952e3bdd1ce72e2c1') in 0.070373 seconds 
