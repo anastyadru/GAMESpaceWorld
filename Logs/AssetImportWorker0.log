@@ -147,3 +147,69 @@ Received Import Request.
   path: Assets/Client/Fonts/Documentation/JazzCreateAltKeys_BubbleFont.txt
   artifactKey: Guid(7368ec3e1bbae1e4e8d761edc844acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Client/Fonts/Documentation/JazzCreateAltKeys_BubbleFont.txt using Guid(7368ec3e1bbae1e4e8d761edc844acf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4e6773968d866952e3bdd1ce72e2c1') in 0.070373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12250.630931 seconds.
+  path: Assets/LocalizationPackage/_Example/Localization/German.xml
+  artifactKey: Guid(e4f8531469c7e124fb8b3e72e15ffeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Example/Localization/German.xml using Guid(e4f8531469c7e124fb8b3e72e15ffeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04c2bbce5c1c1cadbc959160fe2e768') in 0.088746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.125523 seconds.
+  path: Assets/LocalizationPackage/_Example/Localization/Greek.xml
+  artifactKey: Guid(5ed263c9750ba6f4cb6d3ac52277cd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Example/Localization/Greek.xml using Guid(5ed263c9750ba6f4cb6d3ac52277cd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10136b80813338fc42be6c14e38de02d') in 0.042242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.012253 seconds.
+  path: Assets/LocalizationPackage/_Example/Localization/Slovak.xml
+  artifactKey: Guid(e478ab7d25502d349a027c2058c4db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Example/Localization/Slovak.xml using Guid(e478ab7d25502d349a027c2058c4db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3f827acbc2e8a6a13387fdfa036b0e') in 0.030949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.471495 seconds.
+  path: Assets/LocalizationPackage/_Example/Localization/LocalizationManager_ExampleSource.txt
+  artifactKey: Guid(9b909c6d4021d4a4cbee96c2e94d7b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Example/Localization/LocalizationManager_ExampleSource.txt using Guid(9b909c6d4021d4a4cbee96c2e94d7b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6c0c0d2a6bac3c1796cfb27c6ca879') in 0.020075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.781154 seconds.
+  path: Assets/LocalizationPackage/_Example/Script/ExampleScript.cs
+  artifactKey: Guid(1be44363c697ad74eaebdab508425ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Example/Script/ExampleScript.cs using Guid(1be44363c697ad74eaebdab508425ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25910935c2524c1c49a43f0c43465c3e') in 0.052928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7901.271881 seconds.
+  path: Assets/LocalizationPackage/_Source/Localization_KEY.cs
+  artifactKey: Guid(82ffbf5729fca0f4d816929fad95ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Source/Localization_KEY.cs using Guid(82ffbf5729fca0f4d816929fad95ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9800f90822f8daa2e0ef8611873166ee') in 0.031120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.937790 seconds.
+  path: Assets/LocalizationPackage/_Source/Localization_SOURCE_Editor.cs
+  artifactKey: Guid(41ca24d42310958418db40d637adf8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Source/Localization_SOURCE_Editor.cs using Guid(41ca24d42310958418db40d637adf8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9c659e447cf78856e19bcbcb5826c8') in 0.035025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.452376 seconds.
+  path: Assets/LocalizationPackage/_Source/Localization_SOURCE_Window.cs
+  artifactKey: Guid(8348d6fe606f92d41b77143a8e7bb28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Source/Localization_SOURCE_Window.cs using Guid(8348d6fe606f92d41b77143a8e7bb28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa41231bb0ba0171dac596028d9edea') in 0.046947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8307.878246 seconds.
+  path: Assets/LocalizationPackage/_Source/Localization_SOURCE.cs
+  artifactKey: Guid(9ada2622d5512f94599af1efea587a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Source/Localization_SOURCE.cs using Guid(9ada2622d5512f94599af1efea587a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3bf9fd0a07646028594057259b04d0') in 0.062784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 365.724126 seconds.
+  path: Assets/LocalizationPackage
+  artifactKey: Guid(67eb9d9d1d709e34e923798c5c9e7232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage using Guid(67eb9d9d1d709e34e923798c5c9e7232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67205a264cf537f6494d9a0c07a28f1a') in 0.019924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.526204 seconds.
+  path: Assets/LocalizationPackage/_Example
+  artifactKey: Guid(c18e2c98d5cec14419fc060e4cef516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LocalizationPackage/_Example using Guid(c18e2c98d5cec14419fc060e4cef516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34900c5a3a6c6b01761be0c43d85710') in 0.044877 seconds 
