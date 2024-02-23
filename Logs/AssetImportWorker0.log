@@ -117,3 +117,15 @@ Received Import Request.
   path: Assets/Plugins/CW
   artifactKey: Guid(4b386a00b21241a4daf293aadc55db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Plugins/CW using Guid(4b386a00b21241a4daf293aadc55db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebf19ccdc54240c3806471f0db62420') in 0.008961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70090.650869 seconds.
+  path: Assets/ScriptableObject/BulletControllerEnemy.cs
+  artifactKey: Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/BulletControllerEnemy.cs using Guid(360fa08c2ab8d0a40b7aa4f2a3965fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fef8aa0a81e039270c0758c451ceab7') in 0.487322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4915.146482 seconds.
+  path: Assets/Ammunition pack (demo)/AmmoPack.unity
+  artifactKey: Guid(9d934b82b1af3c14cb8eac916c70c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammunition pack (demo)/AmmoPack.unity using Guid(9d934b82b1af3c14cb8eac916c70c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c92ebedbd5105aecb7e7a4fa3a1230') in 0.055184 seconds 
