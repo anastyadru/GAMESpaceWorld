@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,25 +8,20 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 250f; // Скорость перемещения игрока
+    private float speed = 250f;
     public GameObject lazerShot;
     public Transform lazerGun;
-    private float nextShotTime; // Время следующего выстрела
+    private float nextShotTime;
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X"); // Текущие координаты мыши по горизонтали
-
-        Vector3 newPosition = transform.position + new Vector3(mouseX * speed * Time.deltaTime, 0, 0); // Вычисляем новую позицию игрока
-
-        newPosition.x = Mathf.Clamp(newPosition.x, -300f, 210f); // Ограничиваем движение игрока по горизонтали
-
-        transform.position = newPosition; // Применяем новую позицию игрока
-
+        float mouseX = Input.GetAxis("Mouse X");
+        Vector3 newPosition = transform.position + new Vector3(mouseX * speed * Time.deltaTime, 0, 0);
+        newPosition.x = Mathf.Clamp(newPosition.x, -300f, 210f);
+        transform.position = newPosition;
         if (Input.GetButton("Fire1") && Time.time > nextShotTime)
         {
-            string selectedShip = PlayerPrefs.GetString("SelectedShip"); // Получаем выбранный корабль из сохраненных данных
-            
+            string selectedShip = PlayerPrefs.GetString("SelectedShip");
             if (selectedShip.Contains("SpaceshipRed"))
             {
                 Instantiate(lazerShot, lazerGun.position, transform.rotation);

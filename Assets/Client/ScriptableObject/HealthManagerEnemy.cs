@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +15,6 @@ public class HealthManagerEnemy : MonoBehaviour
     {
         fill -= 20;
         bar.fillAmount = fill / 100;
-
         if (fill <= 0)
         {
             EndEnemy();

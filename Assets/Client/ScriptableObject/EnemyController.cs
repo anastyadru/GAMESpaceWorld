@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,15 +8,14 @@ using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
-    public GameObject enemyPrefab; // Объявляем переменную для префаба противника
-    private int currentWave = 0; // Текущая волна
-    private int[] waveSizes = { 3, 5, 4, 6, 8, 12, 8 }; // Количество противников в каждой волне
+    public GameObject enemyPrefab;
+    
+    private int currentWave = 0;
+    private int[] waveSizes = { 3, 5, 4, 6, 8, 12, 8 };
+    
     private float enemyHealthMultiplier = 1.05f;
-    
-    private int remainingEnemies; // Переменная для хранения количества оставшихся противников
-    
+    private int remainingEnemies;
     public HealthManagerEnemy enemyHealth;
-    
     public Image bar;
     public float fill = 100f;
 
@@ -25,41 +26,35 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("lazerShot")) // Проверяем тег объекта
+        if (other.CompareTag("lazerShot"))
         {
-            Destroy(other.gameObject); // Уничтожаем то, с чем стоклнулись
-            
-            enemyHealth.TakeDamage(); // Вызываем метод получения урона у противника
-
-            remainingEnemies--; // Уменьшаем количество оставшихся противников
-        
-            if (remainingEnemies == 0) // Проверяем, остались ли еще противники в текущей волне
+            Destroy(other.gameObject);
+            enemyHealth.TakeDamage();
+            remainingEnemies--;
+            if (remainingEnemies == 0)
             {
-                currentWave++; // Увеличиваем номер текущей волны
-            
-                if (currentWave == waveSizes.Length) // Если все волны пройдены, завершаем игру
+                currentWave++;
+                if (currentWave == waveSizes.Length)
                 {
-                    Debug.Log("Game Over"); // Здесь можно добавить код для завершения игры
+                    Debug.Log("Game Over");
                     return;
                 }
             
-                GenerateWave(waveSizes[currentWave], transform.position); // Генерируем новую волну противников
+                GenerateWave(waveSizes[currentWave], transform.position);
             }
         }
     }
     
     private void GenerateWave(int enemyCount, Vector3 startPosition)
     {
-        remainingEnemies = enemyCount; // Устанавливаем количество оставшихся противников
-        
+        remainingEnemies = enemyCount;
         for (int i = 0; i < enemyCount; i++)
         {
-            GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation); // Создаем нового противника
-            float randomX = Random.Range(-100f, 100f); // Устанавливаем случайную позицию для противника
+            GameObject enemy = Instantiate(enemyPrefab, startPosition, transform.rotation);
+            float randomX = Random.Range(-100f, 100f);
             enemy.transform.position += new Vector3(randomX, 0, 0);
-            
             enemyHealth = enemy.GetComponent<HealthManagerEnemy>();
-            enemyHealth.bar = bar; // Передаем ссылку на полосу здоровья противника
+            enemyHealth.bar = bar;
         }
     }
 }

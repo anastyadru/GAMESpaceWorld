@@ -1,18 +1,20 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour, IPoolable
 {
-    private float speed = 250f; // Скорость перемещения
-    private float smoothness = 3f; // Плавность движения
+    private float speed = 250f;
+    private float smoothness = 3f;
     private float projectileSpeedMultiplier = 1.05f;
 
-    private Vector3 targetPosition; // Целевая позиция
+    private Vector3 targetPosition;
     
     public GameObject lazerShot1;
     public Transform lazerGun1;
-    private float nextShotTime; // Время следующего выстрела
+    private float nextShotTime;
     
     public int health;
     
@@ -30,12 +32,12 @@ public class Enemy : MonoBehaviour, IPoolable
     
     void Update()
     {
-        if (Vector3.Distance(transform.position, targetPosition) < 10f) // Если враг близок к целевой позиции
+        if (Vector3.Distance(transform.position, targetPosition) < 10f)
         {
-            GenerateNewTargetPosition(); // Генерируем новую целевую позицию
+            GenerateNewTargetPosition();
         }
 
-        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime); // Плавно перемещаем к целевой позиции
+        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothness * Time.deltaTime);
         
         if (Time.time > nextShotTime)
         {
@@ -45,8 +47,8 @@ public class Enemy : MonoBehaviour, IPoolable
 
     void GenerateNewTargetPosition()
     {
-        float randomX = Random.Range(-700f, 0f); // Генерируем случайное значение по оси X в пределах, где должны находиться враги
-        targetPosition = new Vector3(randomX, transform.position.y, transform.position.z); // Изменяем только координату X целевой позиции, остальные координаты оставляем без изменений
+        float randomX = Random.Range(-700f, 0f);
+        targetPosition = new Vector3(randomX, transform.position.y, transform.position.z);
     }
     
     void Shoot()
@@ -54,7 +56,6 @@ public class Enemy : MonoBehaviour, IPoolable
         BulletControllerEnemy bullet = bulletPool.Get<BulletControllerEnemy>();
         bullet.transform.position = lazerGun1.position;
         bullet.gameObject.SetActive(true);
-        
         nextShotTime = Time.time + 5f;
     }
     

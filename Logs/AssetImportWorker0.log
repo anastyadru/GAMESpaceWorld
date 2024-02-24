@@ -597,3 +597,15 @@ Received Import Request.
   path: Assets/Client/ScriptableObject/BulletControllerPlayer.cs
   artifactKey: Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Client/ScriptableObject/BulletControllerPlayer.cs using Guid(a23e38e6a63f5fe479d8382240762696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cc0ceefd95eaf85937beceff35ea88') in 0.022182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15231.195979 seconds.
+  path: Assets/Client/ScriptableObject/Unity.gitignore.cs
+  artifactKey: Guid(5d09e36a82448cb4a9e0353e42622d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/ScriptableObject/Unity.gitignore.cs using Guid(5d09e36a82448cb4a9e0353e42622d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154e8bcc9f0ca43ad4beb6c5095c656c') in 0.023370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 797.512538 seconds.
+  path: Assets/Client/ScriptableObject/PlayerController.cs
+  artifactKey: Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/ScriptableObject/PlayerController.cs using Guid(eeaaf841eddecd44ab5b46f499648c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6869f8a8474d2c7e695d8b350966962') in 0.019880 seconds 

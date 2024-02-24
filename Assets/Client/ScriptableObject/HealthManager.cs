@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
     [SerializeField] private Text HealthText;
+    
     public float health = 100f;
 
 	void Start()
@@ -40,7 +43,6 @@ public class HealthManager : MonoBehaviour
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         player.SetActive(false);
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
