@@ -1,10 +1,13 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletControllerEnemy : MonoBehaviour, IPoolable
 {
-    public float speed = 100; // Скорость пули
+    public float speed = 100;
+    
     private ObjectPool bulletPool;
 
     private void Awake()
@@ -23,7 +26,6 @@ public class BulletControllerEnemy : MonoBehaviour, IPoolable
         {
             Player player = other.GetComponent<Player>();
             player.health -= 5;
-
             if (player.health <= 0)
             {
                 player.OnRelease();

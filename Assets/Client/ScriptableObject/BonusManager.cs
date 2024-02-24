@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class BonusManager : MonoBehaviour
 {
     [SerializeField] private Text BonusText;
+    
     public float bonus = 0f;
     
     public GameObject lazerShot;
@@ -46,13 +49,12 @@ public class BonusManager : MonoBehaviour
     {
         if (Input.GetButton("Fire2"))
         {
-            if (lazerShot != null) // Проверяем, есть ли объект взаимодействия у пули
+            if (lazerShot != null)
             {
-                EnemyController enemy = lazerShot.GetComponent<EnemyController>(); // Получаем компонент скрипта врага
-                
-                if (enemy != null && enemy.fill >= 50) // Проверяем, что враг найден и у него есть достаточно здоровья
+                EnemyController enemy = lazerShot.GetComponent<EnemyController>();
+                if (enemy != null && enemy.fill >= 50)
                 {
-                    enemy.fill -= 50; // Уменьшаем здоровье врага на 50
+                    enemy.fill -= 50;
                 }
             }
         }
