@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,17 +15,14 @@ public class PlayerSelect : MonoBehaviour
     {
         index = PlayerPrefs.GetInt("SelectPlayer");
         characters = new GameObject[transform.childCount];
-
         for (int i = 0; i < transform.childCount; i++)
         {
             characters[i] = transform.GetChild(i).gameObject;
         }
-
         foreach (GameObject go in characters)
         {
             go.SetActive(false);
         }
-
         if (characters[index])
         {
             characters[index].SetActive(true);

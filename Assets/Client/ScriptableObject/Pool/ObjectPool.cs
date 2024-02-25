@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +20,6 @@ public class ObjectPool : MonoBehaviour
         if (!poolDictionary.ContainsKey(prefab))
         {
             Queue<MonoBehaviour> objectPool = new Queue<MonoBehaviour>();
-
             for (int i = 0; i < count; i++)
             {
                 T obj = GameObject.Instantiate(prefab);
@@ -35,7 +36,6 @@ public class ObjectPool : MonoBehaviour
         if (poolDictionary.ContainsKey(T))
         {
             Queue<MonoBehaviour> objectPool = poolDictionary[T];
-
             if (objectPool.Count > 0)
             {
                 T obj = objectPool.Dequeue();

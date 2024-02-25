@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,11 +9,11 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] private Text ScoreText;
+    
     [SerializeField] private Text HighScoreText;
     
     public float score = 0f;
     public float highscore = 0f;
-    
     private string highScoreKey = "HighScore";
 
 	void Start()
@@ -20,11 +22,6 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText();
     }
 
-    void Update()
-    {
-        
-    }
-    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("lazerShot"))
@@ -36,7 +33,6 @@ public class ScoreManager : MonoBehaviour
                 {
                     score += enemy.health;
                     UpdateScoreText();
-                    
                     if (score > highscore)
                     {
                         highscore = score;
