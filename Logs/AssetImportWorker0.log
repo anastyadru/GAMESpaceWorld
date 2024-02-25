@@ -669,3 +669,15 @@ Received Import Request.
   path: Assets/Client/ScriptableObject/Manager/MainMenuWindow.cs
   artifactKey: Guid(f5f8e39ccc1584943bce094a3d0562c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Client/ScriptableObject/Manager/MainMenuWindow.cs using Guid(f5f8e39ccc1584943bce094a3d0562c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79469ff05222e1347b69a42e7f279c7') in 0.667013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2875.341726 seconds.
+  path: Assets/Client/ScriptableObject/Manager/SoundEffectsWindow.cs
+  artifactKey: Guid(a7f11e2548e7cf24aba89f687101a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/ScriptableObject/Manager/SoundEffectsWindow.cs using Guid(a7f11e2548e7cf24aba89f687101a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77629c3cb9e1207bd953853b61bcea5') in 0.110664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.267854 seconds.
+  path: Assets/Client/ScriptableObject/Manager/GamePage.cs
+  artifactKey: Guid(ae072a630e5fea74892a99e6fd568a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/ScriptableObject/Manager/GamePage.cs using Guid(ae072a630e5fea74892a99e6fd568a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cee76488454cba809f56e7324253c9a') in 0.015501 seconds 

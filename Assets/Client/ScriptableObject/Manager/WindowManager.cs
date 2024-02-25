@@ -1,3 +1,5 @@
+// Copyright (c) 2012-2024 FuryLion Group. All Rights Reserved.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +7,7 @@ using UnityEngine;
 public class WindowManager : MonoBehaviour
 {
     private static WindowManager instance;
+    
     private Stack<Window> windowStack = new Stack<Window>();
     
     public static WindowManager Instance
@@ -20,6 +23,7 @@ public class WindowManager : MonoBehaviour
                     instance = container.AddComponent<WindowManager>();
                 }
             }
+            
             return instance;
         }
     }
