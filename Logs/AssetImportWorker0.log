@@ -693,3 +693,9 @@ Received Import Request.
   path: Assets/Client/Models
   artifactKey: Guid(eade310782ca41c4c9cdef549a04fe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Client/Models using Guid(eade310782ca41c4c9cdef549a04fe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcb2c2b0401066ceac63aaf2223959c') in 0.058573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3938.612253 seconds.
+  path: Assets/Client/Images
+  artifactKey: Guid(9dcaf8d30ccf0734cbccdee93828c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/Images using Guid(9dcaf8d30ccf0734cbccdee93828c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403d4e8cc6f15d7cc7be1e307d8cc3c6') in 0.063256 seconds 
