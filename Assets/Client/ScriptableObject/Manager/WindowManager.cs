@@ -8,7 +8,7 @@ public class WindowManager : MonoBehaviour
 {
     private static WindowManager instance;
     
-    private Stack<Window> windowStack = new Stack<Window>();
+    private Stack<BaseWindow> windowStack = new Stack<BaseWindow>();
     
     public static WindowManager Instance
     {
