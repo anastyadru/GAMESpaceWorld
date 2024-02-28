@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Localization;
 
 public class LocalizedText : MonoBehaviour
 {
@@ -20,15 +21,12 @@ public class LocalizedText : MonoBehaviour
     }
 
     private void UpdateText()
-    {
-        void UpdateText()
+    { 
+        if (textComponent != null)
         {
-            if (textComponent != null)
-            {
-                string language = LocalizationManager.CurrentLanguage;
-                string text = textObject.GetText(language);
-                textComponent.text = text;
-            }
+            string language = LocalizationManager.CurrentLanguage;
+            string text = textObject.GetText(language);
+            textComponent.text = text;
         }
     }
 }
