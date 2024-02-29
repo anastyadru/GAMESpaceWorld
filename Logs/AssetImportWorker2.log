@@ -74,3 +74,15 @@ Received Import Request.
   path: Assets/Client/Language/LocalizationPackage/_Example/ExampleScene.unity
   artifactKey: Guid(eb972a324008967489cebba282840c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Client/Language/LocalizationPackage/_Example/ExampleScene.unity using Guid(eb972a324008967489cebba282840c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6c3e73e43224abca5c2be452ee5a63') in 0.047259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62288.091297 seconds.
+  path: Assets/_gitignore.cs
+  artifactKey: Guid(6ccd8d0f13f79044aa9d9b0263c3b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_gitignore.cs using Guid(6ccd8d0f13f79044aa9d9b0263c3b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd0d1948e051d7c85442b7a25d39342') in 0.246975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.878476 seconds.
+  path: Assets/_gitignore.cs
+  artifactKey: Guid(6ccd8d0f13f79044aa9d9b0263c3b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_gitignore.cs using Guid(6ccd8d0f13f79044aa9d9b0263c3b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818c02c8d6f681f46bea23d239d97bf1') in 0.011122 seconds 
