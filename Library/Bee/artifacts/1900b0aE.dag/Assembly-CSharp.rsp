@@ -377,7 +377,6 @@
 "Assets/Client/ScriptableObject/ScoreManager.cs"
 "Assets/Client/ScriptableObject/SliderController.cs"
 "Assets/Client/ScriptableObject/ToggleController.cs"
-"Assets/Unity.gitignore.cs"
 "Assets/_gitignore.cs"
 -langversion:8.0
 
