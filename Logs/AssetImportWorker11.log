@@ -74,3 +74,9 @@ Received Import Request.
   path: Assets/_gitignore.cs
   artifactKey: Guid(6ccd8d0f13f79044aa9d9b0263c3b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/_gitignore.cs using Guid(6ccd8d0f13f79044aa9d9b0263c3b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6051bae015d7e29e50cb13a6ed47d9') in 0.086142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199620.717478 seconds.
+  path: Assets/Client/Scenes/Heroes.unity
+  artifactKey: Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Client/Scenes/Heroes.unity using Guid(c5c4901c586a3554b9ffa747102bdd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9903310c70d4a15e6ceccc1556785672') in 0.491166 seconds 
